@@ -16,6 +16,17 @@ Patent clusters and assignment signals relevant to AI-semiconductor commercializ
 | Two-phase / microjet cooling | Cooling startups / labs | Thermal | 100kW-rack cooling IP | Weak | ZutaCore / JetCool | 3 | Medium |
 | GaN integration / vertical power | Power startups | Power | Datacenter power IP | Watchlist | Empower / Navitas | 4 | Medium |
 | Crypto/ZK-FHE arithmetic units | Fabric/Cysic/Niobium | Security | Crypto-accelerator IP | Weak | Fabric Cryptography | 3 | Medium |
+| UCIe / die-to-die PHY IP | Multiple (Synopsys/Cadence/startups) | Chiplet interconnect | D2D standard IP land-grab (2023–) | Watchlist | Blue Cheetah / Baya | 4 | Medium |
+| NoC / chiplet fabric IP | Baya Systems / individuals | Chiplet fabric | Software-defined fabric IP | Likely | Baya Systems | 4 | Medium |
+| Digital in-memory compute (SRAM) | d-Matrix / academia | Inference | DIMC accuracy-safe IP | Likely | d-Matrix / Shanbhag | 4 | Medium |
+| Transformer-dataflow ASIC | Etched / individuals | Inference | Transformer-specialized silicon IP | Weak | Etched | 3 | Low-Medium |
+| Linear-drive optics (LPO/LRO) | Optics startups | Photonics | Lower-power pluggable/CPO IP | Watchlist | Nubis / incumbents | 4 | Medium |
+| Co-packaged optics / fiber attach | NVIDIA/Broadcom/startups | Photonics | CPO packaging & coupling IP (2023–) | Watchlist | Ayar / Celestial | 4 | Medium |
+| 800V HVDC / vertical power delivery | NVIDIA-ecosystem / power cos | Power | Rack-scale power architecture IP | Watchlist | Navitas / Vicor / Empower | 4 | Medium |
+| Hybrid bonding / 3D stacking | TSMC / imec / Besi | Packaging | 3D stacking pitch/yield IP | Watchlist | imec / TSMC | 4 | Medium |
+| RL/LLM for chip design (AI-EDA) | Google / NVIDIA / startups | EDA | AI-for-design method IP (2023–) | Watchlist | AlphaChip / ChipNeMo lineage | 3 | Medium |
+| Reconfigurable atom-array control | QuEra / Harvard | Quantum | Neutral-atom control IP | Watchlist | Lukin / QuEra | 3 | Low-Medium |
+| Cryogenic CMOS control ICs | Intel / SEEQC / EPFL | Quantum control | Qubit-control electronics IP | Watchlist | Charbon / SEEQC | 3 | Low-Medium |
 
 ## Monitoring Workflow
 1. Watch assignee changes (university → new LLC) for tracked researchers.
@@ -26,3 +37,4 @@ Patent clusters and assignment signals relevant to AI-semiconductor commercializ
 | Date | Refresh Type | Added | Updated | Sources |
 |------|--------------|-------|---------|---------|
 | 2026-06-09 | Full (initial) | 10 (clusters) | 0 | Public patent databases (themes; numbers TO VERIFY) |
+| 2026-06-09 | Expansion #2 | 12 (clusters) | 0 | Public patent databases; emphasis on 2023– filing activity (numbers TO VERIFY) |

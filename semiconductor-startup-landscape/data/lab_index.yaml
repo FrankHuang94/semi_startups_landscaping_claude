@@ -84,3 +84,115 @@ labs:
     area: "Nodes / packaging / photonics / RF"
     formation_potential: High
     vc_relevance: 4
+  - name: UCLA CHIPS / Silicon-Interconnect Fabric
+    type: university
+    location: "Los Angeles, US"
+    pi: ["Subramanian Iyer"]
+    area: "Heterogeneous integration / SiIF / chiplets"
+    formation_potential: Medium-High
+    vc_relevance: 4
+  - name: Georgia Tech 3D Systems (Bakir)
+    type: university
+    location: "Atlanta, US"
+    pi: ["Muhannad Bakir"]
+    area: "Heterogeneous integration / interposers / thermal"
+    formation_potential: Medium-High
+    vc_relevance: 4
+  - name: MIT RLE Photonics & Quantum-Photonics
+    type: university
+    location: "Cambridge, US"
+    pi: ["Dirk Englund", "Marin Soljacic"]
+    area: "Photonic computing / optical NN / quantum photonics"
+    formation_potential: High
+    vc_relevance: 5
+  - name: UCSB Optoelectronics+Quantum+Memristors
+    type: university
+    location: "Santa Barbara, US"
+    pi: ["John Bowers", "John Martinis", "Dmitri Strukov"]
+    area: "Lasers on Si / superconducting qubits / memristors"
+    formation_potential: High
+    vc_relevance: 5
+  - name: UIUC IMC/PIM/HLS
+    type: university
+    location: "Urbana-Champaign, US"
+    pi: ["Naresh Shanbhag", "Saugata Ghose", "Deming Chen"]
+    area: "SRAM IMC / PIM / HLS & AI-EDA"
+    formation_potential: High
+    vc_relevance: 4
+  - name: UT Austin ML-EDA & Memory
+    type: university
+    location: "Austin, US"
+    pi: ["David Z. Pan", "Mattan Erez"]
+    area: "ML-for-EDA / memory systems"
+    formation_potential: Medium-High
+    vc_relevance: 4
+  - name: Purdue Nanoelectronics & Neuromorphic
+    type: university
+    location: "West Lafayette, US"
+    pi: ["Kaushik Roy"]
+    area: "Neuromorphic / emerging-device IMC"
+    formation_potential: Medium
+    vc_relevance: 4
+  - name: University of Michigan Memristor/IMC
+    type: university
+    location: "Ann Arbor, US"
+    pi: ["Wei Lu"]
+    area: "Memristor/RRAM IMC / neuromorphic"
+    formation_potential: Medium-High
+    vc_relevance: 4
+  - name: Yale Circuit QED (RSL)
+    type: university
+    location: "New Haven, US"
+    pi: ["Robert Schoelkopf"]
+    area: "Superconducting qubits / bosonic QEC"
+    formation_potential: Medium
+    vc_relevance: 3
+  - name: Harvard Lukin Group + Architecture
+    type: university
+    location: "Cambridge, US"
+    pi: ["Mikhail Lukin", "David Brooks", "Gu-Yeon Wei"]
+    area: "Neutral-atom quantum / edge accelerators"
+    formation_potential: High
+    vc_relevance: 4
+  - name: MIT Power Electronics & GaN
+    type: university
+    location: "Cambridge, US"
+    pi: ["David Perreault", "Tomas Palacios"]
+    area: "High-density power conversion / GaN"
+    formation_potential: Medium-High
+    vc_relevance: 4
+  - name: EPFL AQUA / Cryo-CMOS
+    type: university
+    location: "Lausanne, CH"
+    pi: ["Edoardo Charbon"]
+    area: "Cryogenic CMOS / quantum control / SPADs"
+    formation_potential: Medium
+    vc_relevance: 3
+  - name: NYU Hardware Security & ML-for-HW
+    type: university
+    location: "New York, US"
+    pi: ["Siddharth Garg"]
+    area: "Hardware security / LLMs-for-HDL"
+    formation_potential: Medium
+    vc_relevance: 3
+  - name: AWS Annapurna Labs
+    type: corporate
+    location: "US/IL"
+    pi: ["—"]
+    area: "Trainium/Inferentia / Nitro / Graviton"
+    formation_potential: Medium
+    vc_relevance: 4
+  - name: AMD Research
+    type: corporate
+    location: "US"
+    pi: ["—"]
+    area: "GPU/accelerator / chiplets / interconnect"
+    formation_potential: Medium
+    vc_relevance: 4
+  - name: TSMC Corporate Research / Pathfinding
+    type: corporate
+    location: "Hsinchu, TW"
+    pi: ["—"]
+    area: "Advanced nodes / CoWoS-SoIC / COUPE photonics"
+    formation_potential: Low
+    vc_relevance: 4

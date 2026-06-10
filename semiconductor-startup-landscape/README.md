@@ -51,7 +51,7 @@ Status legend: 🟢 **Current** (≤30 days) · 🟡 **Needs refresh** (30–90 
 | [22_funding_round_tracker.md](deal_tracker/22_funding_round_tracker.md) | Funding Rounds | 18 | 2026-06-09 | 1 | 🟢 Current | High |
 | [23_exit_and_shutdown_tracker.md](deal_tracker/23_exit_and_shutdown_tracker.md) | Exits & Shutdowns | 8 | 2026-06-09 | 1 | 🟢 Current | Medium |
 | [24_strategic_investor_tracker.md](deal_tracker/24_strategic_investor_tracker.md) | Strategic Investors | 12 | 2026-06-09 | 1 | 🟢 Current | High |
-| [leading_researchers_index.md](researchers/leading_researchers_index.md) | Leading Researchers | 10 | 2026-06-09 | 1 | 🟢 Current | High |
+| [leading_researchers_index.md](researchers/leading_researchers_index.md) | Leading Researchers | 52 | 2026-06-09 | 2 | 🟢 Current | High |
 
 ---
 
@@ -160,20 +160,62 @@ Supporting docs: [INVESTMENT_THESES.md](INVESTMENT_THESES.md) · [MARKET_MAP.md]
 
 ## Master Researcher Index
 
-> Auto-generated from `data/researcher_index.yaml`. See [researchers/leading_researchers_index.md](researchers/leading_researchers_index.md) for full profiles. **VC Relevance Score: 1–5.**
+> Auto-generated from `data/researcher_index.yaml` via `scripts/build_index.py researchers`. See [researchers/leading_researchers_index.md](researchers/leading_researchers_index.md) for full profiles (organized by domain). **VC Relevance Score: 1–5.** 52 researchers across architecture, efficient ML, memory/PIM, interconnect, photonics, analog/IMC, EDA, packaging, power, and quantum.
 
-| Researcher | Institution | Research Area | Relevant Papers | Patent Activity | Startup Signals | VC Relevance | Profile |
-|------------|-------------|---------------|-----------------|-----------------|-----------------|:------------:|---------|
-| Bill Dally | Stanford / NVIDIA | Accelerator arch, interconnect | Many (ISCA/MICRO) | High | Watchlist (incumbent) | 5 | [link](researchers/leading_researchers_index.md) |
-| David Patterson | UC Berkeley / Google | RISC-V, DSAs, TPU | Many | Medium | Watchlist | 5 | [link](researchers/leading_researchers_index.md) |
-| Krste Asanović | UC Berkeley / SiFive | RISC-V, vector arch | Many | Medium | Confirmed (SiFive) | 5 | [link](researchers/leading_researchers_index.md) |
-| Song Han | MIT | Model compression, efficient inference | Deep Compression, AWQ | Medium | Likely (OmniML→NVIDIA) | 5 | [link](researchers/leading_researchers_index.md) |
-| Vivienne Sze | MIT | Energy-efficient DL hardware | Eyeriss | Medium | Watchlist | 4 | [link](researchers/leading_researchers_index.md) |
-| Onur Mutlu | ETH Zürich | PIM / near-memory | RowHammer, PIM | High | Likely (PIM spinouts) | 5 | [link](researchers/leading_researchers_index.md) |
-| Keren Bergman | Columbia | Silicon photonics | Many | High | Likely (Xscape adj.) | 5 | [link](researchers/leading_researchers_index.md) |
-| Subhasish Mitra | Stanford | 3D integration, N3XT | Many | High | Watchlist | 4 | [link](researchers/leading_researchers_index.md) |
-| Naveen Verma | Princeton | In-memory analog compute | Many | High | Confirmed (EnCharge) | 5 | [link](researchers/leading_researchers_index.md) |
-| Mark Horowitz | Stanford | Circuits, agile hardware | Many | Medium | Confirmed (legacy) | 4 | [link](researchers/leading_researchers_index.md) |
+| Researcher | Institution | Research Area | Patent Activity | Startup Signals | VC Relevance | Profile |
+|------------|-------------|---------------|-----------------|-----------------|:------------:|---------|
+| Amin Vahdat | Google | DC networking, optical circuit switching | High | Watchlist (incumbent) | 5 | [profile](researchers/leading_researchers_index.md) |
+| Azalia Mirhoseini & Anna Goldie | Stanford / industry (ex-DeepMind) | RL for chip placement (AlphaChip) | Medium | Likely | 4 | [profile](researchers/leading_researchers_index.md) |
+| Bill Dally | Stanford / NVIDIA | Accelerator arch, interconnect | High | Watchlist (incumbent) | 5 | [profile](researchers/leading_researchers_index.md) |
+| Brucek Khailany | NVIDIA | ML for EDA, agile VLSI | High | Watchlist (incumbent) | 4 | [profile](researchers/leading_researchers_index.md) |
+| Christopher Ré | Stanford / SambaNova | ML systems, SSMs, data-centric ML | Medium | Confirmed (serial) | 5 | [profile](researchers/leading_researchers_index.md) |
+| Daniel Sanchez | MIT | Scalable arch, memory hierarchy, sparse accel | Low | Watchlist | 4 | [profile](researchers/leading_researchers_index.md) |
+| David Brooks & Gu-Yeon Wei | Harvard | Energy-efficient arch, edge accel SoCs | Medium | Watchlist | 3 | [profile](researchers/leading_researchers_index.md) |
+| David Patterson | UC Berkeley / Google | RISC-V, DSAs, TPU | Medium | Watchlist | 5 | [profile](researchers/leading_researchers_index.md) |
+| David Perreault | MIT | High-density power conversion | High | Confirmed (serial) | 4 | [profile](researchers/leading_researchers_index.md) |
+| David Z. Pan | UT Austin | ML for EDA, physical design, analog automation | Medium | Likely | 4 | [profile](researchers/leading_researchers_index.md) |
+| Deming Chen | UIUC | HLS, hardware-aware ML, accelerators | Medium | Likely (Inspirit IoT) | 3 | [profile](researchers/leading_researchers_index.md) |
+| Dirk Englund | MIT | Photonic computing, quantum photonics | High | Likely | 4 | [profile](researchers/leading_researchers_index.md) |
+| Dmitri Strukov | UC Santa Barbara | Memristive devices, analog NN HW | High | Watchlist | 3 | [profile](researchers/leading_researchers_index.md) |
+| Edoardo Charbon | EPFL | Cryogenic CMOS, quantum control | High | Likely | 3 | [profile](researchers/leading_researchers_index.md) |
+| H.-S. Philip Wong | Stanford | Emerging memory, IMC, 3D | High | Likely | 5 | [profile](researchers/leading_researchers_index.md) |
+| Hadi Esmaeilzadeh | UC San Diego | Accelerators, near-data, serving systems | Medium | Likely | 4 | [profile](researchers/leading_researchers_index.md) |
+| Jason Cong | UCLA | FPGA/HLS, EDA, customized computing | High | Confirmed (serial) | 5 | [profile](researchers/leading_researchers_index.md) |
+| Jelena Vučković | Stanford | Nanophotonics, inverse design, quantum photonics | Medium | Watchlist | 4 | [profile](researchers/leading_researchers_index.md) |
+| Joel Emer | MIT / NVIDIA | Accelerator modeling, sparse tensor accel | Medium | Watchlist | 4 | [profile](researchers/leading_researchers_index.md) |
+| John Bowers | UC Santa Barbara | Lasers on silicon, photonics | High | Likely | 5 | [profile](researchers/leading_researchers_index.md) |
+| John Martinis | UC Santa Barbara (ex-Google) | Superconducting qubits | High | Confirmed (Qolab) | 4 | [profile](researchers/leading_researchers_index.md) |
+| Kaushik Roy | Purdue | Neuromorphic, emerging-device IMC | High | Watchlist | 4 | [profile](researchers/leading_researchers_index.md) |
+| Keren Bergman | Columbia | Silicon photonics, optical interconnect | High | Likely | 5 | [profile](researchers/leading_researchers_index.md) |
+| Khurram Afridi | Cornell | High-frequency power conversion | Medium | Watchlist | 3 | [profile](researchers/leading_researchers_index.md) |
+| Krste Asanović | UC Berkeley / SiFive | RISC-V, vector arch | Medium | Confirmed (SiFive) | 5 | [profile](researchers/leading_researchers_index.md) |
+| Kunle Olukotun | Stanford / SambaNova | Reconfigurable dataflow (RDA) | High | Confirmed (SambaNova) | 5 | [profile](researchers/leading_researchers_index.md) |
+| Marin Soljačić | MIT | Photonic computing, nanophotonics | Medium | Likely | 4 | [profile](researchers/leading_researchers_index.md) |
+| Mark Horowitz | Stanford | Circuits, agile hardware | High | Confirmed (legacy) | 4 | [profile](researchers/leading_researchers_index.md) |
+| Mattan Erez | UT Austin | Memory systems, accelerator memory | Medium | Watchlist | 3 | [profile](researchers/leading_researchers_index.md) |
+| Michal Lipson | Columbia | Silicon photonics, combs, programmable photonics | High | Likely | 5 | [profile](researchers/leading_researchers_index.md) |
+| Mikhail Lukin | Harvard | Neutral-atom quantum computing | High | Confirmed (QuEra) | 4 | [profile](researchers/leading_researchers_index.md) |
+| Moinuddin Qureshi | Georgia Tech | Memory systems, CXL, memory security | Medium | Watchlist | 3 | [profile](researchers/leading_researchers_index.md) |
+| Muhannad Bakir | Georgia Tech | Heterogeneous integration, interposers, thermal | High | Likely | 4 | [profile](researchers/leading_researchers_index.md) |
+| Myoungsoo Jung | KAIST / Panmnesia | CXL systems, memory disaggregation | High | Confirmed (Panmnesia) | 5 | [profile](researchers/leading_researchers_index.md) |
+| Naresh Shanbhag | UIUC | Deep in-memory architecture (DIMA) | High | Likely | 4 | [profile](researchers/leading_researchers_index.md) |
+| Naveen Verma | Princeton / EnCharge AI | Analog in-memory compute | High | Confirmed (EnCharge) | 5 | [profile](researchers/leading_researchers_index.md) |
+| Onur Mutlu | ETH Zürich | PIM / near-memory | High | Likely | 5 | [profile](researchers/leading_researchers_index.md) |
+| Ramin Farjadrad | Eliyan (ex-Marvell/Aquantia) | SerDes, die-to-die interconnect | High | Confirmed (Eliyan) | 5 | [profile](researchers/leading_researchers_index.md) |
+| Robert Schoelkopf | Yale | Circuit QED, bosonic error correction | High | Confirmed (Quantum Circuits) | 3 | [profile](researchers/leading_researchers_index.md) |
+| Saman Amarasinghe | MIT | Compilers for accelerators (Exo/TACO/Halide) | Low | Likely | 4 | [profile](researchers/leading_researchers_index.md) |
+| Saugata Ghose | UIUC | PIM, memory systems, near-data | Medium | Likely | 4 | [profile](researchers/leading_researchers_index.md) |
+| Siddharth Garg | NYU | Hardware security, LLMs for HDL | Medium | Likely | 3 | [profile](researchers/leading_researchers_index.md) |
+| Song Han | MIT / NVIDIA | Model compression, efficient inference | Medium | Likely (OmniML→NVIDIA) | 5 | [profile](researchers/leading_researchers_index.md) |
+| Subhasish Mitra | Stanford | Monolithic 3D (N3XT), CNT computing | High | Watchlist | 4 | [profile](researchers/leading_researchers_index.md) |
+| Subramanian Iyer | UCLA | Heterogeneous integration, SiIF, chiplets | High | Likely | 4 | [profile](researchers/leading_researchers_index.md) |
+| Tomás Palacios | MIT | GaN devices, wide-bandgap power, RF | High | Confirmed (Finwave) | 4 | [profile](researchers/leading_researchers_index.md) |
+| Tri Dao | Princeton / Together AI | FlashAttention, SSMs (Mamba), kernels | Low | Likely (Together) | 5 | [profile](researchers/leading_researchers_index.md) |
+| Tushar Krishna | Georgia Tech | ML interconnect, collectives, NoC | Medium | Likely | 4 | [profile](researchers/leading_researchers_index.md) |
+| Vijay Janapa Reddi | Harvard / MLCommons | MLPerf benchmarking, edge/TinyML | Low | Watchlist | 4 | [profile](researchers/leading_researchers_index.md) |
+| Vivienne Sze | MIT | Energy-efficient DL hardware | Medium | Watchlist | 4 | [profile](researchers/leading_researchers_index.md) |
+| Wei Lu | University of Michigan | Memristor/RRAM IMC | High | Confirmed (Crossbar/MemryX) | 4 | [profile](researchers/leading_researchers_index.md) |
+| Yakun Sophia Shao | UC Berkeley | Accelerator design automation, chiplets | Medium | Likely | 4 | [profile](researchers/leading_researchers_index.md) |
 
 ---
 
@@ -190,10 +232,10 @@ Supporting docs: [INVESTMENT_THESES.md](INVESTMENT_THESES.md) · [MARKET_MAP.md]
 - **Strategic investors tracked:** 12
 - **M&A deals tracked:** 10
 - **Funding rounds tracked:** 18
-- **Research labs tracked:** 12
-- **Leading researchers tracked:** 10
-- **Papers tracked:** 12
-- **Patents tracked:** 6
+- **Research labs tracked:** 25 (university + corporate)
+- **Leading researchers tracked:** 52 (across 10 domains)
+- **Papers tracked:** 34 (emphasis on 2023–2026)
+- **Patents tracked:** 22 (clusters/themes)
 - **Total disclosed funding tracked:** ~$10B+ [ESTIMATED — sum of disclosed rounds, double-counting possible]
 
 ---

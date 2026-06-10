@@ -138,8 +138,32 @@ files:
     status: current
     priority: High
   - file: researchers/leading_researchers_index.md
-    entries: 10
+    entries: 52
     last_refreshed: "2026-06-09"
-    refresh_count: 1
+    refresh_count: 2
     status: current
     priority: High
+  - file: researchers/university_labs_index.md
+    entries: 23
+    last_refreshed: "2026-06-09"
+    refresh_count: 2
+    status: current
+    priority: High
+  - file: researchers/corporate_research_labs_index.md
+    entries: 14
+    last_refreshed: "2026-06-09"
+    refresh_count: 2
+    status: current
+    priority: Medium
+  - file: researchers/paper_watchlist.md
+    entries: 34
+    last_refreshed: "2026-06-09"
+    refresh_count: 2
+    status: current
+    priority: High
+  - file: researchers/patent_watchlist.md
+    entries: 22
+    last_refreshed: "2026-06-09"
+    refresh_count: 2
+    status: current
+    priority: Medium

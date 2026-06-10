@@ -38,7 +38,32 @@ Industrial/corporate research labs that both advance the frontier and seed found
 - **Areas:** Advanced nodes, packaging, photonics, RF — pan-industry R&D
 - **Why It Matters:** Europe's semiconductor research hub; spinouts and IP across packaging/photonics/RF. **Startup Formation Potential:** High (imec.xpand fund) · **VC Relevance:** 4 · **Confidence:** High · **Last updated:** 2026-06-09
 
+### AWS — Annapurna Labs
+- **Areas:** Trainium/Inferentia AI silicon, Nitro DPUs, Graviton Arm CPUs, networking
+- **Why It Matters:** Hyperscaler custom-silicon team (ex-Annapurna startup acquired by Amazon); defines cloud AI-silicon requirements and is a top destination/source for silicon talent. **Startup Formation Potential:** Medium (alumni) · **VC Relevance:** 4 · **Confidence:** High · **Last updated:** 2026-06-09
+
+### AMD Research
+- **Areas:** GPU/accelerator architecture, chiplets/packaging, interconnect (Infinity Fabric), HBM, AI systems
+- **Why It Matters:** Chiplet/packaging pioneer; aggressive acquirer (ZT, Silo AI, Untether IP) — both an alumni source and an exit. **Startup Formation Potential:** Medium · **VC Relevance:** 4 · **Confidence:** High · **Last updated:** 2026-06-09
+
+### Apple — Silicon Engineering Groups
+- **Areas:** Low-power SoCs, NPUs (Neural Engine), custom CPU/GPU, packaging, modems
+- **Why It Matters:** Premier low-power design talent; departures seed edge/inference and analog startups. **Startup Formation Potential:** Medium (alumni) · **VC Relevance:** 3 · **Confidence:** Medium-High · **Last updated:** 2026-06-09
+
+### Tesla — Dojo / Custom Silicon
+- **Areas:** Training-tile systems (Dojo), FSD inference SoC, interconnect, packaging
+- **Why It Matters:** Vertically-integrated AI silicon + autonomy compute; talent movements are a stealth-startup signal ([01](../categories/01_training_accelerators.md)/[15](../categories/15_autonomous_robotics_and_automotive_silicon.md)). **Startup Formation Potential:** Medium (alumni) · **VC Relevance:** 3 · **Confidence:** Medium · **Last updated:** 2026-06-09
+
+### TSMC — Corporate Research / Pathfinding
+- **Areas:** Advanced nodes, CoWoS/SoIC advanced packaging, silicon photonics (COUPE), 3D integration
+- **Why It Matters:** Controls the leading-edge + packaging supply that gates AI silicon ([13](../categories/13_foundry_packaging_and_chiplet_integration.md)); ecosystem partner and constraint, not typically a founder source. **Startup Formation Potential:** Low · **VC Relevance:** 4 · **Confidence:** High · **Last updated:** 2026-06-09
+
+### Qualcomm AI Research
+- **Areas:** Efficient on-device inference, NPU architecture, model compression, edge GenAI
+- **Why It Matters:** Edge/auto inference frontier; acquirer for edge silicon ([03](../categories/03_edge_inference_chips.md)/[15](../categories/15_autonomous_robotics_and_automotive_silicon.md)). **Startup Formation Potential:** Medium (alumni) · **VC Relevance:** 3 · **Confidence:** Medium-High · **Last updated:** 2026-06-09
+
 ## Refresh Notes
 | Date | Refresh Type | Added | Updated | Sources |
 |------|--------------|-------|---------|---------|
 | 2026-06-09 | Full (initial) | 8 | 0 | Public lab/company pages, publications |
+| 2026-06-09 | Expansion #2 | 6 | 0 | Public company/research pages (2023–2025) |

@@ -72,3 +72,88 @@ papers:
     bottleneck: "Interconnect"
     signal: Likely
     vc_relevance: 5
+  # --- Expansion #2 (2023-2026 emphasis) ---
+  - title: "FlashAttention-3"
+    authors: ["Tri Dao et al."]
+    year: 2024
+    area: "Inference kernels"
+    bottleneck: "Inference cost"
+    signal: Likely
+    vc_relevance: 5
+  - title: "QServe (W4A8KV4)"
+    authors: ["Song Han group (MIT)"]
+    year: 2024
+    area: "Quantization/serving"
+    bottleneck: "Inference cost"
+    signal: Likely
+    vc_relevance: 5
+  - title: "PagedAttention / vLLM"
+    authors: ["Kwon et al. (UC Berkeley)"]
+    year: 2023
+    area: "Serving systems"
+    bottleneck: "Memory/KV"
+    signal: Watchlist
+    vc_relevance: 5
+  - title: "TPU v4 + Optical Circuit Switch"
+    authors: ["Google"]
+    year: 2023
+    area: "Architecture/interconnect"
+    bottleneck: "Interconnect"
+    signal: Watchlist
+    vc_relevance: 5
+  - title: "MTIA inference accelerator"
+    authors: ["Meta"]
+    year: 2023
+    area: "Architecture"
+    bottleneck: "Inference"
+    signal: Watchlist
+    vc_relevance: 4
+  - title: "Chiplet Cloud (LLM ASIC cost model)"
+    authors: ["University of Washington"]
+    year: 2023
+    area: "Custom ASIC economics"
+    bottleneck: "Custom ASIC"
+    signal: Likely
+    vc_relevance: 4
+  - title: "Pond (CXL memory pooling)"
+    authors: ["Microsoft Azure"]
+    year: 2023
+    area: "Memory/CXL"
+    bottleneck: "Memory"
+    signal: Likely
+    vc_relevance: 5
+  - title: "IBM analog-AI chip (PCM)"
+    authors: ["IBM Research"]
+    year: 2023
+    area: "Analog IMC"
+    bottleneck: "Energy/token"
+    signal: Watchlist
+    vc_relevance: 4
+  - title: "Single-chip photonic deep neural network"
+    authors: ["Englund et al. (MIT)"]
+    year: 2024
+    area: "Photonic compute"
+    bottleneck: "Compute energy"
+    signal: Likely
+    vc_relevance: 4
+  - title: "AlphaChip (graph placement) + extension"
+    authors: ["Mirhoseini, Goldie et al. (Google)"]
+    year: 2024
+    area: "AI-EDA"
+    bottleneck: "Design productivity"
+    signal: Likely
+    vc_relevance: 5
+  - title: "QEC below surface-code threshold (Willow)"
+    authors: ["Google Quantum"]
+    year: 2024
+    area: "Quantum"
+    bottleneck: "Quantum FT"
+    signal: Watchlist
+    vc_relevance: 4
+  - title: "Logical processor on reconfigurable atom arrays"
+    authors: ["Lukin et al. (Harvard)"]
+    year: 2023
+    area: "Quantum"
+    bottleneck: "Quantum FT"
+    signal: Likely
+    vc_relevance: 4

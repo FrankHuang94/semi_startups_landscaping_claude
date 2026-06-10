@@ -40,9 +40,62 @@ University labs most likely to produce AI-semiconductor startups, with spinout h
 - **Location:** Daejeon, KR · **PIs:** Myoungsoo Jung et al. · **Areas:** CXL systems, memory disaggregation
 - **Why It Matters:** Panmnesia origin; Korea's CXL research strength ([07](../categories/07_memory_and_storage.md)). **Spinout History:** Panmnesia (Confirmed). **Startup Formation Potential:** High · **VC Relevance:** 4 · **Confidence:** Medium-High · **Last updated:** 2026-06-09
 
-> Watch-next: Cornell/UT Austin (analog design automation), Purdue (neuromorphic/IMC), TU Delft/UNSW (qubits, cryo-CMOS), NUS/NTU and Tsinghua (compute/memory — public-awareness only).
+### UCLA — CHIPS Consortium / Silicon-Interconnect Fabric (Iyer)
+- **Location:** Los Angeles, US · **PIs:** Subramanian Iyer · **Areas:** Heterogeneous integration, silicon-interconnect fabric (SiIF), dies-on-wafer, chiplets
+- **Why It Matters:** A leading academic alternative path to chiplet integration/packaging ([13](../categories/13_foundry_packaging_and_chiplet_integration.md)/[04](../categories/04_custom_asic_and_chiplets.md)); ex-IBM Fellow leadership; industrial CHIPS consortium. **Startup Formation Potential:** Medium-High · **VC Relevance:** 4 · **Confidence:** Medium-High · **Last updated:** 2026-06-09
+
+### Georgia Tech — 3D Systems Packaging / Bakir Group
+- **Location:** Atlanta, US · **PIs:** Muhannad Bakir · **Areas:** Heterogeneous integration, glass/Si interposers, thermal-aware packaging, interconnect
+- **Why It Matters:** Complements the GT Packaging Research Center above; thermal + fine-pitch interconnect IP for AI packaging at the #3 bottleneck. **Startup Formation Potential:** Medium-High · **VC Relevance:** 4 · **Confidence:** Medium-High · **Last updated:** 2026-06-09
+
+### MIT — RLE Photonics & Quantum-Photonics (Englund / Soljačić)
+- **Location:** Cambridge, US · **PIs:** Dirk Englund, Marin Soljačić · **Areas:** Photonic computing, optical neural networks, quantum photonics
+- **Why It Matters:** Optical-compute/interconnect IP and founder lineage (Lightmatter/Lightelligence roots) ([06](../categories/06_optical_interconnect_and_cpo.md)/[14](../categories/14_quantum_neuromorphic_and_non_von_neumann.md)). **Spinout History:** Lightmatter (Harris/MIT), photonic-compute ventures. **Startup Formation Potential:** High · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-06-09
+
+### UCSB — Optoelectronics + Quantum + Memristors cluster
+- **Location:** Santa Barbara, US · **PIs:** John Bowers (photonics), John Martinis (superconducting qubits), Dmitri Strukov (memristors)
+- **Why It Matters:** Rare triple strength across laser integration ([06](../categories/06_optical_interconnect_and_cpo.md)), quantum hardware, and analog-IMC devices ([14](../categories/14_quantum_neuromorphic_and_non_von_neumann.md)). **Spinout History:** Qolab (Martinis); photonics ventures. **Startup Formation Potential:** High · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-06-09
+
+### UIUC — In-Memory Compute & PIM & HLS (Shanbhag / Ghose / Chen)
+- **Location:** Urbana-Champaign, US · **PIs:** Naresh Shanbhag, Saugata Ghose, Deming Chen
+- **Why It Matters:** Triple coverage of SRAM in-memory compute ([14](../categories/14_quantum_neuromorphic_and_non_von_neumann.md)), PIM ([07](../categories/07_memory_and_storage.md)), and HLS/AI-EDA ([12](../categories/12_eda_ip_and_design_tools.md)). **Spinout History:** Inspirit IoT (Chen). **Startup Formation Potential:** High · **VC Relevance:** 4 · **Confidence:** Medium-High · **Last updated:** 2026-06-09
+
+### UT Austin — ML-EDA & Memory Systems (Pan / Erez)
+- **Location:** Austin, US · **PIs:** David Z. Pan, Mattan Erez · **Areas:** ML-for-EDA (digital + analog), physical design, DFM; memory systems/reliability
+- **Why It Matters:** Heart of the AI-EDA thesis ([12](../categories/12_eda_ip_and_design_tools.md)) plus accelerator-memory expertise. **Startup Formation Potential:** Medium-High · **VC Relevance:** 4 · **Confidence:** Medium-High · **Last updated:** 2026-06-09
+
+### Purdue — Nanoelectronics & Neuromorphic (Roy)
+- **Location:** West Lafayette, US · **PIs:** Kaushik Roy · **Areas:** Neuromorphic, spintronic/emerging-device IMC, energy-efficient AI
+- **Why It Matters:** Major source of neuromorphic/IMC talent and IP ([14](../categories/14_quantum_neuromorphic_and_non_von_neumann.md)). **Startup Formation Potential:** Medium · **VC Relevance:** 4 · **Confidence:** Medium · **Last updated:** 2026-06-09
+
+### University of Michigan — Memristor/IMC (Lu) + Architecture
+- **Location:** Ann Arbor, US · **PIs:** Wei Lu, plus strong architecture faculty · **Areas:** Memristor/RRAM IMC, neuromorphic devices, accelerators
+- **Why It Matters:** Memristor-IMC commercialization track record (Crossbar, MemryX) ([14](../categories/14_quantum_neuromorphic_and_non_von_neumann.md)). **Spinout History:** Crossbar, MemryX (Lu). **Startup Formation Potential:** Medium-High · **VC Relevance:** 4 · **Confidence:** Medium-High · **Last updated:** 2026-06-09
+
+### Yale — Circuit QED / RSL (Schoelkopf, Devoret lineage)
+- **Location:** New Haven, US · **PIs:** Robert Schoelkopf et al. · **Areas:** Superconducting qubits, bosonic error correction
+- **Why It Matters:** Distinct fault-tolerance path; spinout Quantum Circuits Inc. ([14](../categories/14_quantum_neuromorphic_and_non_von_neumann.md)). **Spinout History:** Quantum Circuits Inc. **Startup Formation Potential:** Medium · **VC Relevance:** 3 · **Confidence:** Medium-High · **Last updated:** 2026-06-09
+
+### Harvard — Lukin Group + Architecture/Circuits (Brooks/Wei)
+- **Location:** Cambridge, US · **PIs:** Mikhail Lukin (quantum); David Brooks, Gu-Yeon Wei (architecture)
+- **Why It Matters:** Neutral-atom quantum leadership (QuEra) plus edge-accelerator architecture ([14](../categories/14_quantum_neuromorphic_and_non_von_neumann.md)/[03](../categories/03_edge_inference_chips.md)). **Spinout History:** QuEra. **Startup Formation Potential:** High · **VC Relevance:** 4 · **Confidence:** High · **Last updated:** 2026-06-09
+
+### MIT — Power Electronics & GaN (Perreault / Palacios)
+- **Location:** Cambridge, US · **PIs:** David Perreault, Tomás Palacios · **Areas:** High-density power conversion, GaN devices
+- **Why It Matters:** Datacenter power-delivery and GaN IP/talent at the rising power bottleneck ([08](../categories/08_power_semiconductors_and_power_delivery.md)/[16](../categories/16_datacenter_infrastructure_enablers.md)). **Spinout History:** Eta Devices/Eta Wireless (Perreault), Finwave (Palacios). **Startup Formation Potential:** Medium-High · **VC Relevance:** 4 · **Confidence:** Medium-High · **Last updated:** 2026-06-09
+
+### EPFL — AQUA / Cryo-CMOS (Charbon)
+- **Location:** Lausanne, CH · **PIs:** Edoardo Charbon · **Areas:** Cryogenic CMOS, quantum control electronics, SPAD imagers
+- **Why It Matters:** Cryo-CMOS control is the scaling layer for quantum (SEEQC/Intel-adjacent) ([14](../categories/14_quantum_neuromorphic_and_non_von_neumann.md)). **Startup Formation Potential:** Medium · **VC Relevance:** 3 · **Confidence:** Medium · **Last updated:** 2026-06-09
+
+### NYU — Hardware Security & ML-for-HW (Garg)
+- **Location:** New York, US · **PIs:** Siddharth Garg · **Areas:** Hardware security, LLMs-for-HDL, trustworthy ASICs
+- **Why It Matters:** AI-assisted design + hardware security crossover ([12](../categories/12_eda_ip_and_design_tools.md)/[09](../categories/09_security_crypto_and_confidential_compute.md)). **Startup Formation Potential:** Medium · **VC Relevance:** 3 · **Confidence:** Medium · **Last updated:** 2026-06-09
+
+> Watch-next (public-awareness only): Cornell (Afridi, power), TU Delft/QuTech & UNSW (qubits, cryo-CMOS), NUS/NTU, Tsinghua (Yu Wang — EDA/accelerators), KU Leuven/imec-affiliated groups, Tokyo/RIKEN (photonics, quantum).
 
 ## Refresh Notes
 | Date | Refresh Type | Added | Updated | Sources |
 |------|--------------|-------|---------|---------|
 | 2026-06-09 | Full (initial) | 9 | 0 | Public lab pages, publications |
+| 2026-06-09 | Expansion #2 | 14 | 1 | Public lab/faculty pages, publications, spinout records (2023–2025) |

@@ -1,4 +1,5 @@
 # Master researcher index. Source for README Master Researcher Index. VC relevance 1-5.
+# Grouped by domain in researchers/leading_researchers_index.md.
 researchers:
   - name: Bill Dally
     institution: "Stanford / NVIDIA"
@@ -21,6 +22,62 @@ researchers:
     startup_signal: "Confirmed (SiFive)"
     vc_relevance: 5
     file: researchers/leading_researchers_index.md
+  - name: Yakun Sophia Shao
+    institution: "UC Berkeley"
+    research_area: "Accelerator design automation, chiplets"
+    patent_activity: Medium
+    startup_signal: "Likely"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Joel Emer
+    institution: "MIT / NVIDIA"
+    research_area: "Accelerator modeling, sparse tensor accel"
+    patent_activity: Medium
+    startup_signal: "Watchlist"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Tushar Krishna
+    institution: "Georgia Tech"
+    research_area: "ML interconnect, collectives, NoC"
+    patent_activity: Medium
+    startup_signal: "Likely"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Daniel Sanchez
+    institution: "MIT"
+    research_area: "Scalable arch, memory hierarchy, sparse accel"
+    patent_activity: Low
+    startup_signal: "Watchlist"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Hadi Esmaeilzadeh
+    institution: "UC San Diego"
+    research_area: "Accelerators, near-data, serving systems"
+    patent_activity: Medium
+    startup_signal: "Likely"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: David Brooks & Gu-Yeon Wei
+    institution: "Harvard"
+    research_area: "Energy-efficient arch, edge accel SoCs"
+    patent_activity: Medium
+    startup_signal: "Watchlist"
+    vc_relevance: 3
+    file: researchers/leading_researchers_index.md
+  - name: Kunle Olukotun
+    institution: "Stanford / SambaNova"
+    research_area: "Reconfigurable dataflow (RDA)"
+    patent_activity: High
+    startup_signal: "Confirmed (SambaNova)"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: Mark Horowitz
+    institution: "Stanford"
+    research_area: "Circuits, agile hardware"
+    patent_activity: High
+    startup_signal: "Confirmed (legacy)"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
   - name: Song Han
     institution: "MIT / NVIDIA"
     research_area: "Model compression, efficient inference"
@@ -35,6 +92,34 @@ researchers:
     startup_signal: "Watchlist"
     vc_relevance: 4
     file: researchers/leading_researchers_index.md
+  - name: Tri Dao
+    institution: "Princeton / Together AI"
+    research_area: "FlashAttention, SSMs (Mamba), kernels"
+    patent_activity: Low
+    startup_signal: "Likely (Together)"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: Christopher Re
+    institution: "Stanford / SambaNova"
+    research_area: "ML systems, SSMs, data-centric ML"
+    patent_activity: Medium
+    startup_signal: "Confirmed (serial)"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: Vijay Janapa Reddi
+    institution: "Harvard / MLCommons"
+    research_area: "MLPerf benchmarking, edge/TinyML"
+    patent_activity: Low
+    startup_signal: "Watchlist"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Saman Amarasinghe
+    institution: "MIT"
+    research_area: "Compilers for accelerators (Exo/TACO/Halide)"
+    patent_activity: Low
+    startup_signal: "Likely"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
   - name: Onur Mutlu
     institution: "ETH Zurich"
     research_area: "PIM / near-memory"
@@ -42,9 +127,51 @@ researchers:
     startup_signal: "Likely"
     vc_relevance: 5
     file: researchers/leading_researchers_index.md
+  - name: Saugata Ghose
+    institution: "UIUC"
+    research_area: "PIM, memory systems, near-data"
+    patent_activity: Medium
+    startup_signal: "Likely"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Moinuddin Qureshi
+    institution: "Georgia Tech"
+    research_area: "Memory systems, CXL, memory security"
+    patent_activity: Medium
+    startup_signal: "Watchlist"
+    vc_relevance: 3
+    file: researchers/leading_researchers_index.md
+  - name: Myoungsoo Jung
+    institution: "KAIST / Panmnesia"
+    research_area: "CXL systems, memory disaggregation"
+    patent_activity: High
+    startup_signal: "Confirmed (Panmnesia)"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: Mattan Erez
+    institution: "UT Austin"
+    research_area: "Memory systems, accelerator memory"
+    patent_activity: Medium
+    startup_signal: "Watchlist"
+    vc_relevance: 3
+    file: researchers/leading_researchers_index.md
+  - name: Amin Vahdat
+    institution: "Google"
+    research_area: "DC networking, optical circuit switching"
+    patent_activity: High
+    startup_signal: "Watchlist (incumbent)"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: Ramin Farjadrad
+    institution: "Eliyan (ex-Marvell/Aquantia)"
+    research_area: "SerDes, die-to-die interconnect"
+    patent_activity: High
+    startup_signal: "Confirmed (Eliyan)"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
   - name: Keren Bergman
     institution: "Columbia"
-    research_area: "Silicon photonics"
+    research_area: "Silicon photonics, optical interconnect"
     patent_activity: High
     startup_signal: "Likely"
     vc_relevance: 5
@@ -55,6 +182,34 @@ researchers:
     patent_activity: High
     startup_signal: "Likely"
     vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: Michal Lipson
+    institution: "Columbia"
+    research_area: "Silicon photonics, combs, programmable photonics"
+    patent_activity: High
+    startup_signal: "Likely"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: Dirk Englund
+    institution: "MIT"
+    research_area: "Photonic computing, quantum photonics"
+    patent_activity: High
+    startup_signal: "Likely"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Marin Soljacic
+    institution: "MIT"
+    research_area: "Photonic computing, nanophotonics"
+    patent_activity: Medium
+    startup_signal: "Likely"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Jelena Vuckovic
+    institution: "Stanford"
+    research_area: "Nanophotonics, inverse design, quantum photonics"
+    patent_activity: Medium
+    startup_signal: "Watchlist"
+    vc_relevance: 4
     file: researchers/leading_researchers_index.md
   - name: Naveen Verma
     institution: "Princeton / EnCharge AI"
@@ -69,4 +224,144 @@ researchers:
     patent_activity: High
     startup_signal: "Likely"
     vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: Naresh Shanbhag
+    institution: "UIUC"
+    research_area: "Deep in-memory architecture (DIMA)"
+    patent_activity: High
+    startup_signal: "Likely"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Kaushik Roy
+    institution: "Purdue"
+    research_area: "Neuromorphic, emerging-device IMC"
+    patent_activity: High
+    startup_signal: "Watchlist"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Wei Lu
+    institution: "University of Michigan"
+    research_area: "Memristor/RRAM IMC"
+    patent_activity: High
+    startup_signal: "Confirmed (Crossbar/MemryX)"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Dmitri Strukov
+    institution: "UC Santa Barbara"
+    research_area: "Memristive devices, analog NN HW"
+    patent_activity: High
+    startup_signal: "Watchlist"
+    vc_relevance: 3
+    file: researchers/leading_researchers_index.md
+  - name: Brucek Khailany
+    institution: "NVIDIA"
+    research_area: "ML for EDA, agile VLSI"
+    patent_activity: High
+    startup_signal: "Watchlist (incumbent)"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Azalia Mirhoseini & Anna Goldie
+    institution: "Stanford / industry (ex-DeepMind)"
+    research_area: "RL for chip placement (AlphaChip)"
+    patent_activity: Medium
+    startup_signal: "Likely"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Jason Cong
+    institution: "UCLA"
+    research_area: "FPGA/HLS, EDA, customized computing"
+    patent_activity: High
+    startup_signal: "Confirmed (serial)"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: David Z. Pan
+    institution: "UT Austin"
+    research_area: "ML for EDA, physical design, analog automation"
+    patent_activity: Medium
+    startup_signal: "Likely"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Siddharth Garg
+    institution: "NYU"
+    research_area: "Hardware security, LLMs for HDL"
+    patent_activity: Medium
+    startup_signal: "Likely"
+    vc_relevance: 3
+    file: researchers/leading_researchers_index.md
+  - name: Deming Chen
+    institution: "UIUC"
+    research_area: "HLS, hardware-aware ML, accelerators"
+    patent_activity: Medium
+    startup_signal: "Likely (Inspirit IoT)"
+    vc_relevance: 3
+    file: researchers/leading_researchers_index.md
+  - name: Subhasish Mitra
+    institution: "Stanford"
+    research_area: "Monolithic 3D (N3XT), CNT computing"
+    patent_activity: High
+    startup_signal: "Watchlist"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Muhannad Bakir
+    institution: "Georgia Tech"
+    research_area: "Heterogeneous integration, interposers, thermal"
+    patent_activity: High
+    startup_signal: "Likely"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Subramanian Iyer
+    institution: "UCLA"
+    research_area: "Heterogeneous integration, SiIF, chiplets"
+    patent_activity: High
+    startup_signal: "Likely"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: David Perreault
+    institution: "MIT"
+    research_area: "High-density power conversion"
+    patent_activity: High
+    startup_signal: "Confirmed (serial)"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Tomas Palacios
+    institution: "MIT"
+    research_area: "GaN devices, wide-bandgap power, RF"
+    patent_activity: High
+    startup_signal: "Confirmed (Finwave)"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Khurram Afridi
+    institution: "Cornell"
+    research_area: "High-frequency power conversion"
+    patent_activity: Medium
+    startup_signal: "Watchlist"
+    vc_relevance: 3
+    file: researchers/leading_researchers_index.md
+  - name: Mikhail Lukin
+    institution: "Harvard"
+    research_area: "Neutral-atom quantum computing"
+    patent_activity: High
+    startup_signal: "Confirmed (QuEra)"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: John Martinis
+    institution: "UC Santa Barbara (ex-Google)"
+    research_area: "Superconducting qubits"
+    patent_activity: High
+    startup_signal: "Confirmed (Qolab)"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Robert Schoelkopf
+    institution: "Yale"
+    research_area: "Circuit QED, bosonic error correction"
+    patent_activity: High
+    startup_signal: "Confirmed (Quantum Circuits)"
+    vc_relevance: 3
+    file: researchers/leading_researchers_index.md
+  - name: Edoardo Charbon
+    institution: "EPFL"
+    research_area: "Cryogenic CMOS, quantum control"
+    patent_activity: High
+    startup_signal: "Likely"
+    vc_relevance: 3
     file: researchers/leading_researchers_index.md

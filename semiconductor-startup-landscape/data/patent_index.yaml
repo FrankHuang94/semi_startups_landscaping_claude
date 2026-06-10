@@ -30,3 +30,54 @@ patents:
     area: "Packaging"
     signal: Weak
     vc_relevance: 4
+  # --- Expansion #2 (2023- emphasis) ---
+  - cluster: "UCIe / die-to-die PHY IP"
+    assignee_type: "Synopsys / Cadence / startups"
+    area: "Chiplet interconnect"
+    signal: Watchlist
+    vc_relevance: 4
+  - cluster: "NoC / chiplet fabric IP"
+    assignee_type: "Baya Systems / individuals"
+    area: "Chiplet fabric"
+    signal: Likely
+    vc_relevance: 4
+  - cluster: "Digital in-memory compute (SRAM)"
+    assignee_type: "d-Matrix / academia"
+    area: "Inference"
+    signal: Likely
+    vc_relevance: 4
+  - cluster: "Linear-drive optics (LPO/LRO)"
+    assignee_type: "Optics startups"
+    area: "Photonics"
+    signal: Watchlist
+    vc_relevance: 4
+  - cluster: "Co-packaged optics / fiber attach"
+    assignee_type: "NVIDIA / Broadcom / startups"
+    area: "Photonics"
+    signal: Watchlist
+    vc_relevance: 4
+  - cluster: "800V HVDC / vertical power delivery"
+    assignee_type: "NVIDIA-ecosystem / power cos"
+    area: "Power"
+    signal: Watchlist
+    vc_relevance: 4
+  - cluster: "Hybrid bonding / 3D stacking"
+    assignee_type: "TSMC / imec / Besi"
+    area: "Packaging"
+    signal: Watchlist
+    vc_relevance: 4
+  - cluster: "RL/LLM for chip design"
+    assignee_type: "Google / NVIDIA / startups"
+    area: "EDA"
+    signal: Watchlist
+    vc_relevance: 3
+  - cluster: "Reconfigurable atom-array control"
+    assignee_type: "QuEra / Harvard"
+    area: "Quantum"
+    signal: Watchlist
+    vc_relevance: 3
+  - cluster: "Cryogenic CMOS control ICs"
+    assignee_type: "Intel / SEEQC / EPFL"
+    area: "Quantum control"
+    signal: Watchlist
+    vc_relevance: 3
