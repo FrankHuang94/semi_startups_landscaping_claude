@@ -1,0 +1,74 @@
+# Paper index. Source for researchers/paper_watchlist.md. Themes/lines of work.
+papers:
+  - title: "FlashAttention (1/2/3)"
+    authors: ["Tri Dao", "et al."]
+    area: "Inference kernels"
+    bottleneck: "Inference cost"
+    signal: Likely
+    vc_relevance: 5
+  - title: "Mamba / State Space Models"
+    authors: ["Albert Gu", "Tri Dao"]
+    area: "Model architectures"
+    bottleneck: "Architecture drift"
+    signal: Watchlist
+    vc_relevance: 5
+  - title: "AWQ / SmoothQuant"
+    authors: ["Song Han", "et al."]
+    area: "Quantization"
+    bottleneck: "Inference cost"
+    signal: Likely
+    vc_relevance: 5
+  - title: "Eyeriss"
+    authors: ["Vivienne Sze", "Yu-Hsin Chen"]
+    area: "Efficient hardware"
+    bottleneck: "Energy/op"
+    signal: Watchlist
+    vc_relevance: 4
+  - title: "Charge-domain in-memory compute"
+    authors: ["Naveen Verma", "et al."]
+    area: "Analog IMC"
+    bottleneck: "Energy/token"
+    signal: Confirmed
+    vc_relevance: 5
+  - title: "Processing-in-memory surveys"
+    authors: ["Onur Mutlu", "et al."]
+    area: "PIM"
+    bottleneck: "Memory"
+    signal: Likely
+    vc_relevance: 5
+  - title: "Photonic fabric / DWDM interconnect"
+    authors: ["Keren Bergman", "et al."]
+    area: "Photonics"
+    bottleneck: "Interconnect"
+    signal: Likely
+    vc_relevance: 5
+  - title: "Heterogeneous/QD lasers on Si"
+    authors: ["John Bowers", "et al."]
+    area: "Photonics"
+    bottleneck: "Interconnect"
+    signal: Likely
+    vc_relevance: 5
+  - title: "ChipNeMo / LLMs for chip design"
+    authors: ["NVIDIA Research"]
+    area: "AI-EDA"
+    bottleneck: "Design productivity"
+    signal: Watchlist
+    vc_relevance: 4
+  - title: "HBM-PIM"
+    authors: ["Samsung/SK hynix research"]
+    area: "Memory"
+    bottleneck: "Memory"
+    signal: Watchlist
+    vc_relevance: 4
+  - title: "Glass-core substrate"
+    authors: ["Georgia Tech PRC", "Intel"]
+    area: "Packaging"
+    bottleneck: "Packaging"
+    signal: Weak
+    vc_relevance: 4
+  - title: "Optical I/O standardization (UCIe-O)"
+    authors: ["Consortia / Ayar / Berkeley"]
+    area: "Photonics"
+    bottleneck: "Interconnect"
+    signal: Likely
+    vc_relevance: 5

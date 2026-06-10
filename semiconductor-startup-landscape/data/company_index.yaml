@@ -1,0 +1,348 @@
+# Master company index. Machine-readable source for README Master Company Index.
+# Confidence tags belong in the category files; financials here are point-in-time.
+# Schema per entry: name, category, hq, founded, stage, total_funding, lead_investors, status, primary_file
+# Build with: python scripts/build_index.py companies
+
+companies:
+  - name: Astera Labs
+    category: "05 Networking/Interconnect"
+    hq: "Santa Clara, US"
+    founded: 2017
+    stage: "Public (NASDAQ: ALAB)"
+    total_funding: "IPO 2024"
+    lead_investors: ["Sutter Hill", "Fidelity"]
+    status: Active
+    primary_file: categories/05_networking_and_interconnect.md
+  - name: Axelera AI
+    category: "03 Edge Inference"
+    hq: "Eindhoven, NL"
+    founded: 2021
+    stage: "Series B"
+    total_funding: "~$220M [TO VERIFY]"
+    lead_investors: ["Innovation Industries", "EIC Fund"]
+    status: Active
+    primary_file: categories/03_edge_inference_chips.md
+  - name: Ayar Labs
+    category: "06 Optical/CPO"
+    hq: "Santa Clara, US"
+    founded: 2015
+    stage: "Series D"
+    total_funding: "~$370M+ [TO VERIFY]"
+    lead_investors: ["Advent", "Light Street"]
+    status: Active
+    primary_file: categories/06_optical_interconnect_and_cpo.md
+  - name: Baya Systems
+    category: "04 Custom ASIC/Chiplets"
+    hq: "Santa Clara, US"
+    founded: 2022
+    stage: "Series B"
+    total_funding: "~$57M+ [TO VERIFY]"
+    lead_investors: ["Matrix Partners", "Maverick"]
+    status: Active
+    primary_file: categories/04_custom_asic_and_chiplets.md
+  - name: Blaize
+    category: "15 Automotive/Edge"
+    hq: "El Dorado Hills, US"
+    founded: 2010
+    stage: "Public (SPAC 2025)"
+    total_funding: "~$330M+ [TO VERIFY]"
+    lead_investors: ["Temasek", "Samsung"]
+    status: Active
+    primary_file: categories/15_autonomous_robotics_and_automotive_silicon.md
+  - name: Celestial AI
+    category: "06 Optical/CPO"
+    hq: "Santa Clara, US"
+    founded: 2020
+    stage: "Series C"
+    total_funding: "~$515M+ [TO VERIFY]"
+    lead_investors: ["Fidelity", "BlackRock", "Maverick"]
+    status: Active
+    primary_file: categories/06_optical_interconnect_and_cpo.md
+  - name: Cerebras Systems
+    category: "01 Training"
+    hq: "Sunnyvale, US"
+    founded: 2015
+    stage: "Pre-IPO"
+    total_funding: "~$720M+ [TO VERIFY]"
+    lead_investors: ["Benchmark", "Foundation Capital", "G42"]
+    status: Active
+    primary_file: categories/01_training_accelerators.md
+  - name: Codasip
+    category: "12 EDA/IP"
+    hq: "Brno, CZ"
+    founded: 2014
+    stage: "Series A+"
+    total_funding: "~$60M+ [TO VERIFY]"
+    lead_investors: ["Smart Eureka", "Eurazeo"]
+    status: Active
+    primary_file: categories/12_eda_ip_and_design_tools.md
+  - name: Cornelis Networks
+    category: "05 Networking"
+    hq: "Wayne, US"
+    founded: 2020
+    stage: "Series B/C"
+    total_funding: "~$130M+ [TO VERIFY]"
+    lead_investors: ["Chevron Technology Ventures", "DCVC"]
+    status: Active
+    primary_file: categories/05_networking_and_interconnect.md
+  - name: d-Matrix
+    category: "02 Inference"
+    hq: "Santa Clara, US"
+    founded: 2019
+    stage: "Series B"
+    total_funding: "~$160M+ [TO VERIFY]"
+    lead_investors: ["Temasek", "M12", "Playground Global"]
+    status: Active
+    primary_file: categories/02_inference_accelerators.md
+  - name: DeepX
+    category: "03 Edge Inference"
+    hq: "Seongnam, KR"
+    founded: 2018
+    stage: "Series C"
+    total_funding: "~$120M+ [TO VERIFY]"
+    lead_investors: ["SkyLake", "BNW"]
+    status: Active
+    primary_file: categories/03_edge_inference_chips.md
+  - name: EnCharge AI
+    category: "14 Analog/In-Memory"
+    hq: "Santa Clara, US"
+    founded: 2022
+    stage: "Series B"
+    total_funding: "~$144M+ [TO VERIFY]"
+    lead_investors: ["Tiger Global", "RTX Ventures", "In-Q-Tel"]
+    status: Active
+    primary_file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
+  - name: Empower Semiconductor
+    category: "08 Power"
+    hq: "San Jose, US"
+    founded: 2014
+    stage: "Growth"
+    total_funding: "[TO VERIFY]"
+    lead_investors: ["Sutter Hill", "Intel Capital"]
+    status: Active
+    primary_file: categories/08_power_semiconductors_and_power_delivery.md
+  - name: Enfabrica
+    category: "05 Networking"
+    hq: "Mountain View, US"
+    founded: 2020
+    stage: "Series C"
+    total_funding: "~$290M+ [TO VERIFY]"
+    lead_investors: ["NVIDIA", "Sutter Hill", "Atreides"]
+    status: Active
+    primary_file: categories/05_networking_and_interconnect.md
+  - name: Etched
+    category: "02 Inference"
+    hq: "Cupertino, US"
+    founded: 2022
+    stage: "Series A"
+    total_funding: "~$125M+ [TO VERIFY]"
+    lead_investors: ["Primary Venture Partners", "Positive Sum"]
+    status: Active
+    primary_file: categories/02_inference_accelerators.md
+  - name: Fabric Cryptography
+    category: "09 Security/Crypto"
+    hq: "San Francisco, US"
+    founded: 2022
+    stage: "Series A"
+    total_funding: "~$33M+ [TO VERIFY]"
+    lead_investors: ["Blockchain Capital", "1kx"]
+    status: Active
+    primary_file: categories/09_security_crypto_and_confidential_compute.md
+  - name: FuriosaAI
+    category: "02 Inference"
+    hq: "Seoul, KR"
+    founded: 2017
+    stage: "Series C"
+    total_funding: "~$200M+ [TO VERIFY]"
+    lead_investors: ["DSC Investment", "Naver"]
+    status: Active
+    primary_file: categories/02_inference_accelerators.md
+  - name: Graphcore
+    category: "01 Training"
+    hq: "Bristol, UK"
+    founded: 2016
+    stage: "Acquired (SoftBank, 2024)"
+    total_funding: "~$700M raised"
+    lead_investors: ["Sequoia", "BMW i Ventures"]
+    status: Acquired
+    primary_file: categories/01_training_accelerators.md
+  - name: Groq
+    category: "02 Inference"
+    hq: "Mountain View, US"
+    founded: 2016
+    stage: "Late"
+    total_funding: "~$1B+ [TO VERIFY]"
+    lead_investors: ["BlackRock", "Samsung Catalyst", "Cisco Investments"]
+    status: Active
+    primary_file: categories/02_inference_accelerators.md
+  - name: Hailo
+    category: "03 Edge Inference"
+    hq: "Tel Aviv, IL"
+    founded: 2017
+    stage: "Series C+"
+    total_funding: "~$340M+ [TO VERIFY]"
+    lead_investors: ["Poalim Equity", "Gil Agmon"]
+    status: Active
+    primary_file: categories/03_edge_inference_chips.md
+  - name: Lightmatter
+    category: "06 Optical/CPO"
+    hq: "Mountain View, US"
+    founded: 2017
+    stage: "Series D"
+    total_funding: "~$850M+ [TO VERIFY]"
+    lead_investors: ["GV", "T. Rowe Price", "Fidelity"]
+    status: Active
+    primary_file: categories/06_optical_interconnect_and_cpo.md
+  - name: MatX
+    category: "01 Training"
+    hq: "Mountain View, US"
+    founded: 2022
+    stage: "Series A"
+    total_funding: "[TO VERIFY]"
+    lead_investors: ["Spark Capital", "Homebrew"]
+    status: Active
+    primary_file: categories/01_training_accelerators.md
+  - name: Mythic
+    category: "14 Analog/Edge"
+    hq: "Austin, US"
+    founded: 2012
+    stage: "Series C (restructured)"
+    total_funding: "~$165M+ [TO VERIFY]"
+    lead_investors: ["DCVC", "Lux Capital", "SoftBank"]
+    status: Active
+    primary_file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
+  - name: Panmnesia
+    category: "07 Memory/CXL"
+    hq: "Daejeon, KR"
+    founded: 2022
+    stage: "Seed/A"
+    total_funding: "~$28M+ [TO VERIFY]"
+    lead_investors: ["Daekyo Investment", "SL Investment"]
+    status: Active
+    primary_file: categories/07_memory_and_storage.md
+  - name: Positron AI
+    category: "02 Inference"
+    hq: "Reno, US"
+    founded: 2023
+    stage: "Seed/A"
+    total_funding: "~$75M+ [TO VERIFY]"
+    lead_investors: ["Valor Equity", "Atreides", "DFJ Growth"]
+    status: Active
+    primary_file: categories/02_inference_accelerators.md
+  - name: PsiQuantum
+    category: "14 Quantum"
+    hq: "Palo Alto, US"
+    founded: 2016
+    stage: "Growth"
+    total_funding: "~$1.3B+ [TO VERIFY]"
+    lead_investors: ["BlackRock", "Temasek", "Baillie Gifford"]
+    status: Active
+    primary_file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
+  - name: Rain AI
+    category: "14 Analog/Neuromorphic"
+    hq: "San Francisco, US"
+    founded: 2017
+    stage: "Series B [TO VERIFY]"
+    total_funding: "~$60M+ [TO VERIFY]"
+    lead_investors: ["Prosperity7", "Sam Altman"]
+    status: Active
+    primary_file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
+  - name: Rebellions
+    category: "02 Inference"
+    hq: "Seongnam, KR"
+    founded: 2020
+    stage: "Series C / Unicorn"
+    total_funding: "~$325M+ [TO VERIFY]"
+    lead_investors: ["KT", "Temasek"]
+    status: Active
+    primary_file: categories/02_inference_accelerators.md
+  - name: Recogni
+    category: "15 Automotive/Inference"
+    hq: "San Jose, US"
+    founded: 2017
+    stage: "Series C"
+    total_funding: "~$150M+ [TO VERIFY]"
+    lead_investors: ["Celesta", "GreatPoint", "BMW i Ventures"]
+    status: Active
+    primary_file: categories/15_autonomous_robotics_and_automotive_silicon.md
+  - name: Rivos
+    category: "04 Custom ASIC/RISC-V"
+    hq: "Mountain View, US"
+    founded: 2021
+    stage: "Series A+"
+    total_funding: "~$250M+ [TO VERIFY]"
+    lead_investors: ["Matrix Partners", "Intel Capital", "MediaTek"]
+    status: Active
+    primary_file: categories/04_custom_asic_and_chiplets.md
+  - name: SambaNova Systems
+    category: "01 Training/Inference"
+    hq: "Palo Alto, US"
+    founded: 2017
+    stage: "Series D"
+    total_funding: "~$1.1B [TO VERIFY]"
+    lead_investors: ["SoftBank", "BlackRock", "Intel Capital"]
+    status: Active
+    primary_file: categories/01_training_accelerators.md
+  - name: Sagence AI
+    category: "14 Analog/In-Memory"
+    hq: "Santa Clara, US"
+    founded: 2018
+    stage: "Series A+"
+    total_funding: "[TO VERIFY]"
+    lead_investors: ["[TO VERIFY]"]
+    status: Active
+    primary_file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
+  - name: SiMa.ai
+    category: "03 Edge Inference"
+    hq: "San Jose, US"
+    founded: 2018
+    stage: "Series B+"
+    total_funding: "~$270M+ [TO VERIFY]"
+    lead_investors: ["Maverick", "Fidelity", "Dell Technologies Capital"]
+    status: Active
+    primary_file: categories/03_edge_inference_chips.md
+  - name: Tenstorrent
+    category: "01 Training/Inference"
+    hq: "Toronto, CA"
+    founded: 2016
+    stage: "Series D"
+    total_funding: "~$700M+ [TO VERIFY]"
+    lead_investors: ["Samsung Securities", "AFW Partners", "Hyundai"]
+    status: Active
+    primary_file: categories/01_training_accelerators.md
+  - name: UnifabriX
+    category: "07 Memory/CXL"
+    hq: "Yokneam, IL"
+    founded: 2020
+    stage: "Seed/A"
+    total_funding: "[TO VERIFY]"
+    lead_investors: ["[TO VERIFY]"]
+    status: Active
+    primary_file: categories/07_memory_and_storage.md
+  - name: Untether AI
+    category: "02 Inference"
+    hq: "Toronto, CA"
+    founded: 2018
+    stage: "Wound down (IP to AMD, 2025)"
+    total_funding: "~$150M raised"
+    lead_investors: ["Intel Capital", "Tracker", "CPPIB"]
+    status: Shut Down
+    primary_file: categories/02_inference_accelerators.md
+  - name: Ventana Micro Systems
+    category: "04 Custom ASIC/RISC-V"
+    hq: "Cupertino, US"
+    founded: 2018
+    stage: "Series C [TO VERIFY]"
+    total_funding: "[TO VERIFY]"
+    lead_investors: ["[TO VERIFY]"]
+    status: Active
+    primary_file: categories/04_custom_asic_and_chiplets.md
+  - name: Xscape Photonics
+    category: "06 Optical/CPO"
+    hq: "New York, US"
+    founded: 2022
+    stage: "Series A"
+    total_funding: "~$57M+ [TO VERIFY]"
+    lead_investors: ["IAG Capital", "Karman Ventures", "NVIDIA"]
+    status: Active
+    primary_file: categories/06_optical_interconnect_and_cpo.md

@@ -1,0 +1,92 @@
+---
+category_id: "15"
+category_name: "Autonomous, Robotics & Automotive Silicon"
+primary_datacenter_relevance: "Medium"
+vc_relevance: "Medium"
+last_refreshed: "2026-06-09"
+refresh_count: 1
+total_companies: 5
+active_companies: 5
+archived_companies: 0
+stealth_or_semi_stealth_companies: 0
+total_disclosed_funding: "~$600M+ [ESTIMATED]"
+top_investors: ["BMW i Ventures", "Celesta", "Mercedes", "Samsung"]
+key_technical_inflections: ["Physical AI / humanoids", "Centralized vehicle compute", "Energy-efficient on-vehicle inference", "Robotics perception+control SoCs"]
+key_open_questions: ["Does physical AI create new venture-scale silicon?", "Can startups pass automotive qualification gates?", "Robotics volume timing?"]
+---
+
+# 15 — Autonomous, Robotics & Automotive Silicon
+
+> Physical AI (humanoids, autonomy) is the next compute frontier; automotive is a long, design-win-gated game with Tier-1/OEM gatekeepers. Robotics is earlier and more venture-shaped. See [03](03_edge_inference_chips.md) for overlap.
+
+## 1. VC Investment Thesis
+- **Why now:** Humanoid/robotics momentum + centralized vehicle compute + energy-constrained on-vehicle inference create demand for efficient, safety-grade AI silicon.
+- **Venture-scale:** Medium — automotive cycles are long and gated; robotics is earlier and higher-variance; outcomes mostly via strategic M&A.
+- **Inflections:** Physical-AI compute, zonal/central E/E architectures, efficient perception+planning SoCs, functional-safety AI.
+- **Acquirers:** Qualcomm, NVIDIA, automotive Tier-1s (Bosch, Continental), Mobileye, NXP, Renesas. **Exit:** M&A or SPAC/IPO (Blaize precedent).
+- **Winning startup:** efficient safety-grade AI SoC + reference stack with an OEM/robotics anchor. **Non-investable:** generic auto-AI chip without qualification path or design wins.
+
+## 2. Market Context
+- **Structure:** Mobileye, NVIDIA (DRIVE/Thor), Qualcomm (Ride), Tesla (in-house), Ambarella, plus startups; robotics compute nascent.
+- **Segments:** ADAS/AV, humanoid/mobile robotics, drones, industrial autonomy.
+- **Drivers:** Autonomy levels, robotics capex, power/thermal in vehicles/robots, safety regulation.
+- **Bottlenecks:** Functional safety (ISO 26262), qualification time, power efficiency, software stacks.
+- **Competitive:** NVIDIA/Qualcomm/Mobileye dominate AV; robotics silicon contested. **Risks:** long cycles, OEM gatekeeping, AV demand timing.
+
+## 3. Startup Landscape Table
+
+| Company | HQ | Founded | Stage | Total Funding | Lead Investors | Core Product | Target Market | Differentiation | Traction | VC Relevance | Status |
+|---------|----|---------|-------|---------------|----------------|--------------|---------------|-----------------|----------|--------------|--------|
+| Recogni | US | 2017 | Series C | ~$150M+ [TO VERIFY] | Celesta, GreatPoint, BMW i | Pareto inference (log-number-system) | Auto + GenAI inference | Multiplication-free log math for efficiency | Auto + DC inference pivot | Medium-High | Active |
+| Blaize | US | 2010 | Public (SPAC '25) | ~$330M+ [TO VERIFY] | Temasek, Samsung, Mercedes | GSP graph processor | Edge/auto/defense | Graph-streaming architecture | Public; defense/edge | Medium | Active |
+| Hailo | IL | 2017 | Series C+ | ~$340M+ [TO VERIFY] | Poalim, Gil Agmon | Edge NPUs (auto) | Automotive/edge | Efficiency (see [03](03_edge_inference_chips.md)) | Auto design wins | Medium-High | Active |
+| Ambarella | US | 2004 | Public (AMBA) | (public) | (public) | CVflow AI SoCs | Auto/cameras/robotics | Low-power vision AI SoCs | Public; auto/robotics | Medium | Active |
+| indie Semiconductor | US | 2007 | Public (INDI) | (public) | (public) | Automotive mixed-signal/ADAS | Auto sensing | ADAS sensing/connectivity | Public | Low-Medium | Active |
+
+## 4. Company Profiles
+
+### Recogni
+- **Status:** Active · **HQ:** San Jose, US · **Founded:** 2017 · **Founders:** RK Anand, Gilles Backhus, Eugene Feinberg, Marc Bolitho
+- **Stage:** Series C · **Total Funding:** ~$150M+ [TO VERIFY] · **Last Round:** ~$102M Series C, 2024, co-led by Celesta & GreatPoint [TO VERIFY] · **Investors:** BMW i Ventures, Mayfield, Toyota, Bosch, Continental · **Website:** recogni.com
+- **Primary:** 15 · **Secondary:** 02 · **One-Line:** High-efficiency inference using a logarithmic number system (multiplication-free math), originally for automotive vision and now extended to GenAI datacenter inference.
+- **Tech:** log-number-system arithmetic eliminates costly multiplies → high TOPS/W; "Pareto" platform. **Differentiation:** novel math for efficiency; automotive-grade + DC pivot. **Risk:** dual-market focus, software, competition. **VC view:** Medium-High; acquirers = Tier-1s, Qualcomm. **Data quality:** Medium. **Last updated:** 2026-06-09.
+
+> Blaize (public), Hailo (see [03](03_edge_inference_chips.md)), Ambarella, indie Semiconductor at table level. Track humanoid-robotics compute startups (often stealth) at each refresh — see [../STEALTH_STARTUP_DISCOVERY.md](../STEALTH_STARTUP_DISCOVERY.md).
+
+## 5. Category-Level Investment Heatmap
+
+| Subsegment | Market Pull | Technical Difficulty | Capital Intensity | Incumbent Risk | Startup Opportunity | VC Attractiveness |
+|------------|:-----------:|:--------------------:|:-----------------:|:--------------:|:-------------------:|:-----------------:|
+| Robotics/physical-AI compute | High | High | Medium-High | Medium | Real (early) | Medium-High |
+| Automotive central compute | High | Very High | High | Very High | Narrow | Medium |
+| Efficient on-vehicle inference | High | High | Medium | High | Real | Medium |
+| ADAS sensing/mixed-signal | Medium | Medium | Medium | High | Narrow | Low-Medium |
+
+## 6. Leading Investors in This Category
+
+| Investor | Type | Relevant Portfolio | Stage | Recent Activity | Thesis Signal |
+|----------|------|--------------------|-------|-----------------|---------------|
+| BMW i / Mercedes / Toyota / Bosch | Strategic (auto) | Recogni, Blaize | B–Growth | Multi-deal | OEM validation + exit |
+| Celesta / Mayfield | VC | Recogni | B–C | Recogni | Efficient auto/AI silicon |
+| Samsung / Temasek | Strategic/Sovereign | Blaize | Growth | Blaize | Edge/auto |
+
+## 7. Leading Research and Researcher Signals
+
+| Researcher / Lab | Institution | Research Area | Why It Matters | Signal | Papers/Patents | VC Relevance | Confidence |
+|------------------|-------------|---------------|----------------|--------|----------------|:------------:|------------|
+| Robotics/embodied-AI labs | Stanford/CMU/Berkeley | Perception+control compute | Physical-AI compute requirements | Watchlist | Many | 4 | Medium |
+| Automotive efficient-DL labs | ETH/TU Munich | Efficient on-vehicle DL | Auto-grade efficiency | Watchlist | Many | 3 | Medium |
+
+## 8. Diligence Questions
+- **Technical:** TOPS/W at safety-grade; ISO 26262 path; sensor/stack integration?
+- **Market:** Robotics vs. automotive timing; physical-AI pull?
+- **Customer:** OEM/Tier-1/robotics design wins committed?
+- **Competitive:** vs. NVIDIA/Qualcomm/Mobileye?
+- **Financial:** NRE/long-cycle funding; gross margin? **Founder:** auto/robotics shipping pedigree?
+- **Exit:** Tier-1/Qualcomm acquisition logic; SPAC/IPO viability?
+
+## 9. Refresh Notes
+
+| Date | Refresh Type | Added | Updated | Archived | Key Changes | Sources |
+|------|--------------|-------|---------|----------|-------------|---------|
+| 2026-06-09 | Full (initial) | 5 | 0 | 0 | Initial build; Recogni profile; auto/robotics coverage | Company sites, trade press |

@@ -1,0 +1,74 @@
+# Founder index. Public, professional info only. Founder-market-fit notes for diligence.
+founders:
+  - name: Andrew Feldman
+    company: Cerebras Systems
+    prior: "SeaMicro (acq. AMD)"
+    category: "01 Training"
+  - name: Rodrigo Liang
+    company: SambaNova Systems
+    prior: "Oracle (SPARC), Sun"
+    category: "01 Training"
+  - name: Kunle Olukotun
+    company: SambaNova Systems
+    prior: "Stanford (Afara/Niagara)"
+    category: "01 Training"
+  - name: Jim Keller
+    company: Tenstorrent
+    prior: "AMD, Apple, Tesla, Intel"
+    category: "01/02"
+  - name: Jonathan Ross
+    company: Groq
+    prior: "Google TPU"
+    category: "02 Inference"
+  - name: Sid Sheth
+    company: d-Matrix
+    prior: "Inphi, Marvell, Broadcom"
+    category: "02 Inference"
+  - name: Gavin Uberti
+    company: Etched
+    prior: "Harvard (dropout)"
+    category: "02 Inference"
+  - name: Orr Danon
+    company: Hailo
+    prior: "IDF technology unit"
+    category: "03 Edge"
+  - name: Ramin Farjadrad
+    company: Eliyan
+    prior: "Aquantia, Marvell"
+    category: "04 Chiplets"
+  - name: Rochan Sankar
+    company: Enfabrica
+    prior: "Broadcom"
+    category: "05 Networking"
+  - name: Nicholas Harris
+    company: Lightmatter
+    prior: "MIT photonics"
+    category: "06 Optical"
+  - name: Mark Wade
+    company: Ayar Labs
+    prior: "MIT/UC Berkeley photonics"
+    category: "06 Optical"
+  - name: Dave Lazovsky
+    company: Celestial AI
+    prior: "Intermolecular"
+    category: "06 Optical"
+  - name: Myoungsoo Jung
+    company: Panmnesia
+    prior: "KAIST"
+    category: "07 Memory"
+  - name: Naveen Verma
+    company: EnCharge AI
+    prior: "Princeton"
+    category: "14 Analog IMC"
+  - name: Jeremy O'Brien
+    company: PsiQuantum
+    prior: "University of Bristol"
+    category: "14 Quantum"
+  - name: RK Anand
+    company: Recogni
+    prior: "Juniper Networks"
+    category: "15 Automotive"
+  - name: Michael Gao
+    company: Fabric Cryptography
+    prior: "—"
+    category: "09 Security"

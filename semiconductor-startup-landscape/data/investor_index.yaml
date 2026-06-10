@@ -1,0 +1,114 @@
+# Master investor index. Source for README Master Investor Index.
+investors:
+  - name: Sutter Hill Ventures
+    type: VC
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Astera Labs", "Enfabrica", "Empower Semiconductor"]
+    stage_pref: "Seed-A"
+    notes: "Deep silicon incubation track record"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Eclipse Ventures
+    type: VC
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Cerebras"]
+    stage_pref: "Seed-B"
+    notes: "Full-stack hard-tech"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Lux Capital
+    type: VC
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Mythic"]
+    stage_pref: "Seed-B"
+    notes: "Frontier hardware"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: DCVC
+    type: VC
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Cornelis Networks", "Mythic", "Agile Analog"]
+    stage_pref: "Seed-B"
+    notes: "Deep-tech/compute"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Playground Global
+    type: VC
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["d-Matrix"]
+    stage_pref: "Seed-A"
+    notes: "Hard-tech silicon"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Matrix Partners
+    type: VC
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Rivos", "Baya Systems"]
+    stage_pref: "Seed-B"
+    notes: "Compute infra/IP"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Maverick
+    type: VC/Growth
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Celestial AI", "SiMa.ai"]
+    stage_pref: "A-Growth"
+    notes: "Silicon-focused"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Atreides Management
+    type: Crossover
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Enfabrica", "Positron AI"]
+    stage_pref: "B-Growth"
+    notes: "Public/private crossover"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Temasek
+    type: Sovereign
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["d-Matrix", "Rebellions", "PsiQuantum"]
+    stage_pref: "B-Growth"
+    notes: "Patient capital"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Tiger Global
+    type: Crossover
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["EnCharge AI", "Eliyan"]
+    stage_pref: "B-Growth"
+    notes: "Growth-stage AI infra"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: NVIDIA (NVentures)
+    type: Strategic
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Enfabrica", "Xscape Photonics", "Ayar Labs"]
+    stage_pref: "A-Growth"
+    notes: "Ecosystem signal + acquirer"
+    file: deal_tracker/24_strategic_investor_tracker.md
+  - name: Intel Capital
+    type: Strategic
+    semi_focus: High
+    ai_infra_focus: Medium
+    portfolio: ["Rivos", "Eliyan", "Empower Semiconductor", "Movellus"]
+    stage_pref: "Seed-Growth"
+    notes: "Now independent fund"
+    file: deal_tracker/24_strategic_investor_tracker.md
+  - name: Samsung Catalyst Fund
+    type: Strategic
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Tenstorrent", "Groq", "Blaize", "Axelera AI", "Eliyan"]
+    stage_pref: "A-Growth"
+    notes: "Memory/foundry adjacency"
+    file: deal_tracker/24_strategic_investor_tracker.md
+  - name: Fidelity / BlackRock / T. Rowe Price
+    type: Crossover
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Cerebras", "Groq", "Lightmatter", "Celestial AI"]
+    stage_pref: "Growth/Pre-IPO"
+    notes: "Pre-IPO bridge"
+    file: deal_tracker/21_vc_investor_tracker.md

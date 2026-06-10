@@ -1,0 +1,72 @@
+# Master researcher index. Source for README Master Researcher Index. VC relevance 1-5.
+researchers:
+  - name: Bill Dally
+    institution: "Stanford / NVIDIA"
+    research_area: "Accelerator arch, interconnect"
+    patent_activity: High
+    startup_signal: "Watchlist (incumbent)"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: David Patterson
+    institution: "UC Berkeley / Google"
+    research_area: "RISC-V, DSAs, TPU"
+    patent_activity: Medium
+    startup_signal: "Watchlist"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: Krste Asanovic
+    institution: "UC Berkeley / SiFive"
+    research_area: "RISC-V, vector arch"
+    patent_activity: Medium
+    startup_signal: "Confirmed (SiFive)"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: Song Han
+    institution: "MIT / NVIDIA"
+    research_area: "Model compression, efficient inference"
+    patent_activity: Medium
+    startup_signal: "Likely (OmniML->NVIDIA)"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: Vivienne Sze
+    institution: "MIT"
+    research_area: "Energy-efficient DL hardware"
+    patent_activity: Medium
+    startup_signal: "Watchlist"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Onur Mutlu
+    institution: "ETH Zurich"
+    research_area: "PIM / near-memory"
+    patent_activity: High
+    startup_signal: "Likely"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: Keren Bergman
+    institution: "Columbia"
+    research_area: "Silicon photonics"
+    patent_activity: High
+    startup_signal: "Likely"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: John Bowers
+    institution: "UC Santa Barbara"
+    research_area: "Lasers on silicon, photonics"
+    patent_activity: High
+    startup_signal: "Likely"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: Naveen Verma
+    institution: "Princeton / EnCharge AI"
+    research_area: "Analog in-memory compute"
+    patent_activity: High
+    startup_signal: "Confirmed (EnCharge)"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: H.-S. Philip Wong
+    institution: "Stanford"
+    research_area: "Emerging memory, IMC, 3D"
+    patent_activity: High
+    startup_signal: "Likely"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md

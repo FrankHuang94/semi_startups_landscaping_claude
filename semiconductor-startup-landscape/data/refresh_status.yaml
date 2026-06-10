@@ -1,0 +1,145 @@
+# Refresh status per file. Source for README dashboard. Status computed from last_refreshed.
+# Status legend: current (<=30d), needs_refresh (30-90d), stale (>90d)
+database_created: "2026-06-09"
+last_full_refresh: "2026-06-09"
+refresh_count: 1
+
+files:
+  - file: categories/01_training_accelerators.md
+    entries: 9
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High
+  - file: categories/02_inference_accelerators.md
+    entries: 8
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High
+  - file: categories/03_edge_inference_chips.md
+    entries: 8
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: Medium
+  - file: categories/04_custom_asic_and_chiplets.md
+    entries: 7
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High
+  - file: categories/05_networking_and_interconnect.md
+    entries: 6
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High
+  - file: categories/06_optical_interconnect_and_cpo.md
+    entries: 8
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High
+  - file: categories/07_memory_and_storage.md
+    entries: 6
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High
+  - file: categories/08_power_semiconductors_and_power_delivery.md
+    entries: 6
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High
+  - file: categories/09_security_crypto_and_confidential_compute.md
+    entries: 5
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: Medium
+  - file: categories/10_rf_wireless_and_connectivity.md
+    entries: 4
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: Low
+  - file: categories/11_analog_mixed_signal_and_timing.md
+    entries: 5
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: Medium
+  - file: categories/12_eda_ip_and_design_tools.md
+    entries: 8
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High
+  - file: categories/13_foundry_packaging_and_chiplet_integration.md
+    entries: 5
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High
+  - file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
+    entries: 8
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: Medium
+  - file: categories/15_autonomous_robotics_and_automotive_silicon.md
+    entries: 5
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: Medium
+  - file: categories/16_datacenter_infrastructure_enablers.md
+    entries: 6
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High
+  - file: categories/17_emerging_research_to_startup_pipeline.md
+    entries: 6
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High
+  - file: deal_tracker/20_ma_tracker.md
+    entries: 10
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High
+  - file: deal_tracker/21_vc_investor_tracker.md
+    entries: 14
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High
+  - file: deal_tracker/22_funding_round_tracker.md
+    entries: 18
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High
+  - file: deal_tracker/23_exit_and_shutdown_tracker.md
+    entries: 8
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: Medium
+  - file: deal_tracker/24_strategic_investor_tracker.md
+    entries: 12
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High
+  - file: researchers/leading_researchers_index.md
+    entries: 10
+    last_refreshed: "2026-06-09"
+    refresh_count: 1
+    status: current
+    priority: High

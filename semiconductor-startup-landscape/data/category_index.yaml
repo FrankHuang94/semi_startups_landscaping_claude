@@ -1,0 +1,112 @@
+# Category index. Mirrors README Category Quick Reference. Used by validate_database.py.
+categories:
+  - id: "01"
+    name: "Training Accelerators"
+    vc_relevance: High
+    dc_relevance: High
+    file: categories/01_training_accelerators.md
+  - id: "02"
+    name: "Inference Accelerators"
+    vc_relevance: High
+    dc_relevance: High
+    file: categories/02_inference_accelerators.md
+  - id: "03"
+    name: "Edge Inference Chips"
+    vc_relevance: Medium
+    dc_relevance: Medium
+    file: categories/03_edge_inference_chips.md
+  - id: "04"
+    name: "Custom ASIC & Chiplets"
+    vc_relevance: High
+    dc_relevance: High
+    file: categories/04_custom_asic_and_chiplets.md
+  - id: "05"
+    name: "Networking & Interconnect"
+    vc_relevance: High
+    dc_relevance: High
+    file: categories/05_networking_and_interconnect.md
+  - id: "06"
+    name: "Optical Interconnect & CPO"
+    vc_relevance: High
+    dc_relevance: High
+    file: categories/06_optical_interconnect_and_cpo.md
+  - id: "07"
+    name: "Memory & Storage"
+    vc_relevance: High
+    dc_relevance: High
+    file: categories/07_memory_and_storage.md
+  - id: "08"
+    name: "Power Semiconductors & Power Delivery"
+    vc_relevance: High
+    dc_relevance: High
+    file: categories/08_power_semiconductors_and_power_delivery.md
+  - id: "09"
+    name: "Security, Crypto & Confidential Compute"
+    vc_relevance: Medium
+    dc_relevance: Medium
+    file: categories/09_security_crypto_and_confidential_compute.md
+  - id: "10"
+    name: "RF, Wireless & Connectivity"
+    vc_relevance: Low
+    dc_relevance: Low
+    file: categories/10_rf_wireless_and_connectivity.md
+  - id: "11"
+    name: "Analog, Mixed Signal & Timing"
+    vc_relevance: Medium
+    dc_relevance: Medium
+    file: categories/11_analog_mixed_signal_and_timing.md
+  - id: "12"
+    name: "EDA, IP & Design Tools"
+    vc_relevance: High
+    dc_relevance: Medium
+    file: categories/12_eda_ip_and_design_tools.md
+  - id: "13"
+    name: "Foundry, Packaging & Chiplet Integration"
+    vc_relevance: High
+    dc_relevance: High
+    file: categories/13_foundry_packaging_and_chiplet_integration.md
+  - id: "14"
+    name: "Quantum, Neuromorphic & Non-Von-Neumann"
+    vc_relevance: Medium
+    dc_relevance: "Low/Long-term"
+    file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
+  - id: "15"
+    name: "Autonomous, Robotics & Automotive Silicon"
+    vc_relevance: Medium
+    dc_relevance: Medium
+    file: categories/15_autonomous_robotics_and_automotive_silicon.md
+  - id: "16"
+    name: "Datacenter Infrastructure Enablers"
+    vc_relevance: High
+    dc_relevance: High
+    file: categories/16_datacenter_infrastructure_enablers.md
+  - id: "17"
+    name: "Emerging Research-to-Startup Pipeline"
+    vc_relevance: High
+    dc_relevance: High
+    file: categories/17_emerging_research_to_startup_pipeline.md
+  - id: "20"
+    name: "M&A Tracker"
+    vc_relevance: High
+    dc_relevance: "—"
+    file: deal_tracker/20_ma_tracker.md
+  - id: "21"
+    name: "VC Investor Tracker"
+    vc_relevance: High
+    dc_relevance: "—"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - id: "22"
+    name: "Funding Round Tracker"
+    vc_relevance: High
+    dc_relevance: "—"
+    file: deal_tracker/22_funding_round_tracker.md
+  - id: "23"
+    name: "Exit & Shutdown Tracker"
+    vc_relevance: Medium
+    dc_relevance: "—"
+    file: deal_tracker/23_exit_and_shutdown_tracker.md
+  - id: "24"
+    name: "Strategic Investor Tracker"
+    vc_relevance: High
+    dc_relevance: "—"
+    file: deal_tracker/24_strategic_investor_tracker.md

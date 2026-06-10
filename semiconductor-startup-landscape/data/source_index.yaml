@@ -1,0 +1,56 @@
+# Source index. Allowed public source types and confidence conventions.
+# This database uses only public, lawful, professional sources.
+
+confidence_tags:
+  - tag: "[CONFIRMED]"
+    meaning: "Backed by a reliable public source"
+  - tag: "[TO VERIFY]"
+    meaning: "Plausible but needs confirmation"
+  - tag: "[ESTIMATED]"
+    meaning: "Estimated from available public data"
+  - tag: "[UNCONFIRMED]"
+    meaning: "Reported by a low-confidence source"
+  - tag: "[NO PUBLIC DATA]"
+    meaning: "No reliable public information found"
+
+claim_attribution_types:
+  - "Company claim"
+  - "Customer-validated claim"
+  - "Investor claim"
+  - "Media-reported claim"
+  - "Analyst estimate"
+  - "Technical inference"
+
+allowed_source_types:
+  - "Company websites"
+  - "Public funding announcements / press releases"
+  - "SEC Form D filings (where applicable)"
+  - "University lab pages"
+  - "Published papers (arXiv, conference proceedings)"
+  - "Patent databases"
+  - "Conference agendas (ISSCC, ISCA, MICRO, HotChips, OFC, VLSI, DAC, MLSys)"
+  - "Public professional profiles (e.g., public LinkedIn)"
+  - "GitHub repositories"
+  - "Job postings"
+  - "Investor portfolio pages"
+  - "Accelerator demo days / cohorts"
+  - "Public incorporation/company registries (where legally accessible)"
+
+disallowed:
+  - "Private personal information"
+  - "Non-public employment information"
+  - "Confidential deal information"
+  - "Scraped private data"
+  - "Speculation presented as fact"
+
+key_public_sources:
+  - name: "Company investor/press pages"
+    use: "Funding, product, leadership"
+  - name: "arXiv / IEEE Xplore / ACM DL"
+    use: "Papers"
+  - name: "USPTO / Google Patents / WIPO"
+    use: "Patents"
+  - name: "SEC EDGAR (Form D, S-1)"
+    use: "Filings, IPOs"
+  - name: "Conference programs"
+    use: "Research/conference signals"

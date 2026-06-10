@@ -1,0 +1,32 @@
+# Patent index. Clusters/themes (numbers TO VERIFY). Source for patent_watchlist.md.
+patents:
+  - cluster: "Charge-domain / metal-cap IMC"
+    assignee_type: "Princeton -> EnCharge"
+    area: "Analog IMC"
+    signal: Likely
+    vc_relevance: 5
+  - cluster: "D2D PHY over organic substrate"
+    assignee_type: "Eliyan / individuals"
+    area: "Chiplet interconnect"
+    signal: Likely
+    vc_relevance: 5
+  - cluster: "Optical I/O chiplet / SuperNova laser"
+    assignee_type: "Ayar Labs / Berkeley"
+    area: "Photonics"
+    signal: Likely
+    vc_relevance: 5
+  - cluster: "CXL switch / fabric IP"
+    assignee_type: "KAIST -> Panmnesia"
+    area: "Memory fabric"
+    signal: Likely
+    vc_relevance: 4
+  - cluster: "HBM-PIM / near-memory"
+    assignee_type: "Samsung / SK hynix"
+    area: "Memory"
+    signal: Watchlist
+    vc_relevance: 4
+  - cluster: "Glass-core substrate processes"
+    assignee_type: "Intel / GT / SKC"
+    area: "Packaging"
+    signal: Weak
+    vc_relevance: 4

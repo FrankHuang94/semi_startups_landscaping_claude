@@ -1,0 +1,86 @@
+# Lab index (university + corporate). Source for researcher folder indexes.
+labs:
+  - name: Columbia Lightwave Research Lab
+    type: university
+    location: "New York, US"
+    pi: ["Keren Bergman"]
+    area: "Silicon photonics / optical interconnect"
+    formation_potential: High
+    vc_relevance: 5
+  - name: Princeton Verma Lab
+    type: university
+    location: "Princeton, US"
+    pi: ["Naveen Verma"]
+    area: "Analog in-memory compute"
+    formation_potential: High
+    vc_relevance: 5
+  - name: ETH Zurich SAFARI
+    type: university
+    location: "Zurich, CH"
+    pi: ["Onur Mutlu"]
+    area: "PIM / memory systems"
+    formation_potential: High
+    vc_relevance: 5
+  - name: UC Berkeley ADEPT/SLICE
+    type: university
+    location: "Berkeley, US"
+    pi: ["Krste Asanovic", "Borivoje Nikolic"]
+    area: "RISC-V / agile hardware"
+    formation_potential: High
+    vc_relevance: 5
+  - name: Stanford Wong Lab / N3XT
+    type: university
+    location: "Stanford, US"
+    pi: ["H.-S. Philip Wong", "Subhasish Mitra"]
+    area: "Emerging memory / 3D integration"
+    formation_potential: High
+    vc_relevance: 5
+  - name: UCSB Bowers Group
+    type: university
+    location: "Santa Barbara, US"
+    pi: ["John Bowers"]
+    area: "Lasers on silicon"
+    formation_potential: High
+    vc_relevance: 5
+  - name: Georgia Tech Packaging Research Center
+    type: university
+    location: "Atlanta, US"
+    pi: ["—"]
+    area: "Advanced packaging / glass substrate"
+    formation_potential: Medium-High
+    vc_relevance: 5
+  - name: MIT Han Lab / Sze Group
+    type: university
+    location: "Cambridge, US"
+    pi: ["Song Han", "Vivienne Sze"]
+    area: "Efficient inference / energy-efficient HW"
+    formation_potential: High
+    vc_relevance: 5
+  - name: KAIST CXL/memory groups
+    type: university
+    location: "Daejeon, KR"
+    pi: ["Myoungsoo Jung"]
+    area: "CXL / memory disaggregation"
+    formation_potential: High
+    vc_relevance: 4
+  - name: NVIDIA Research
+    type: corporate
+    location: "US (distributed)"
+    pi: ["Bill Dally", "Brucek Khailany"]
+    area: "Accelerators / interconnect / ML-for-EDA"
+    formation_potential: High
+    vc_relevance: 5
+  - name: Google TPU/Systems Research
+    type: corporate
+    location: "US"
+    pi: ["Norm Jouppi", "Amin Vahdat"]
+    area: "DSA / DC networking"
+    formation_potential: High
+    vc_relevance: 5
+  - name: imec
+    type: corporate
+    location: "Leuven, BE"
+    pi: ["—"]
+    area: "Nodes / packaging / photonics / RF"
+    formation_potential: High
+    vc_relevance: 4
