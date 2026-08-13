@@ -3,8 +3,8 @@ category_id: "10"
 category_name: "RF, Wireless & Connectivity"
 primary_datacenter_relevance: "Low"
 vc_relevance: "Low"
-last_refreshed: "2026-06-09"
-refresh_count: 1
+last_refreshed: "2026-08-13"
+refresh_count: 2
 total_companies: 4
 active_companies: 3
 archived_companies: 1
@@ -30,6 +30,13 @@ key_open_questions: ["Any AI-datacenter angle beyond niche?", "Does RF integrati
 - **Segments:** Handset/IoT FE, SATCOM/defense phased arrays, mmWave backhaul, automotive radar.
 - **Drivers:** 5G/6G, LEO satellite, defense, edge connectivity.
 - **Bottlenecks:** Linearity/efficiency, integration, III-V cost. **Risks:** incumbent scale, low AI-DC pull.
+
+### 2026 Update (2026-08-13)
+
+- **No material change to the category thesis.** RF/wireless remains the lowest-priority category here: incumbent-dominated, weak AI-datacenter pull, and no significant AI-adjacent financing surfaced in this refresh cycle.
+- **The one adjacency worth tracking is robotics and drones**, where secure wireless and high-accuracy positioning are being integrated into edge SoCs rather than sold as standalone RF parts (e.g. HYFIX's GPS-degraded navigation SoC — see [15](15_autonomous_robotics_and_automotive_silicon.md)). If RF startups appear on this database's radar, it will most likely be through that door.
+- **Qualcomm's datacenter pivot** (Alphawave acquisition closed; AI200 commercial in 2026) moves the most relevant RF incumbent's attention toward the datacenter — relevant mainly as an acquirer-behavior signal.
+- **Status:** priority remains **Low**. Re-verify at the next refresh rather than investing sourcing time here.
 
 ## 3. Startup Landscape Table
 
@@ -82,3 +89,4 @@ key_open_questions: ["Any AI-datacenter angle beyond niche?", "Does RF integrati
 | Date | Refresh Type | Added | Updated | Archived | Key Changes | Sources |
 |------|--------------|-------|---------|----------|-------------|---------|
 | 2026-06-09 | Full (initial) | 4 | 0 | 1 (MixComm) | Initial build; low-priority coverage | Company sites |
+| 2026-08-13 | Light review | 0 | 1 (market context) | 0 | No material AI-relevant change; noted robotics/drone SoC integration as the main adjacency and Qualcomm's datacenter pivot as an acquirer signal. Priority stays Low | Trade press |

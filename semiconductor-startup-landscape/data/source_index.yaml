@@ -54,3 +54,15 @@ key_public_sources:
     use: "Filings, IPOs"
   - name: "Conference programs"
     use: "Research/conference signals"
+
+# Refresh-specific sourcing notes
+refresh_notes:
+  - date: "2026-08-13"
+    method: "Web search against public press releases, company announcements, acquirer disclosures and trade press."
+    limitation: "Several source domains were unreachable from the research environment, so many figures rest on search-result summaries rather than primary pages. Tagged [TO VERIFY] accordingly."
+    recurring_pitfalls:
+      - "First closes and round extensions reported as full rounds (SambaNova Series F, ChipAgents Series A, Xscape Series A)."
+      - "Acquisition headlines that include milestone-contingent consideration (Celestial AI: ~$3.25B upfront vs. ~$5.5B maximum)."
+      - "Rounds 'in market' reported as closed (FuriosaAI Series D)."
+      - "Vendor performance claims (tokens/sec, TOPS/W, efficiency multiples) repeated as independent benchmarks."
+      - "Cumulative funding totals that diverge widely across trackers (PsiQuantum)."

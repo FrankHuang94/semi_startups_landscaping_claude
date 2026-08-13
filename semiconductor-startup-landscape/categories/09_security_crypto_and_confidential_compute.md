@@ -3,8 +3,8 @@ category_id: "09"
 category_name: "Security, Crypto & Confidential Compute"
 primary_datacenter_relevance: "Medium"
 vc_relevance: "Medium"
-last_refreshed: "2026-06-09"
-refresh_count: 1
+last_refreshed: "2026-08-13"
+refresh_count: 2
 total_companies: 5
 active_companies: 5
 archived_companies: 0
@@ -33,6 +33,14 @@ key_open_questions: ["Do ZK/FHE workloads scale enough to need ASICs?", "Does co
 - **Bottlenecks:** FHE 1000x overhead, ZK prover cost, software/toolchains, standards.
 - **Competitive:** GPUs currently do ZK; ASICs emerging; confidential compute is incumbent-led.
 - **Risks:** Crypto-cycle dependence, workload uncertainty, incumbent internalization.
+
+### 2026 Update — silicon reached production, demand still unproven (2026-08-13)
+
+- **Fabric Cryptography moved its VPU (Verifiable Processing Unit) toward production** and reports tens of millions of dollars of pre-orders [TO VERIFY]. Its pitch — an ISA built around the mathematical primitives underlying zero-knowledge proofs and FHE rather than a fixed-function accelerator — is the more durable formulation in a category where the target algorithms keep changing.
+- **Niobium partnered with SEMIFIVE and Samsung Foundry** to bring what it describes as the first commercially viable **FHE accelerator ASIC** to production [TO VERIFY]. Two independent teams reaching production silicon in the same window is a genuine category milestone.
+- **What has *not* changed:** paying demand. Confidential-compute revenue at scale still sits with incumbents (Intel TDX, AMD SEV-SNP, NVIDIA confidential computing), and ZK demand remains tied to the crypto cycle. The bull case now depends on regulated-AI workloads — running inference on encrypted data for healthcare, finance and government — which is a policy-driven timeline, not a technology one.
+- **Adjacent signal worth noting:** SambaNova naming a large bank as an inference partner, and the general enterprise push into regulated AI, is the demand pattern that would eventually pull FHE silicon. Track it as a leading indicator rather than assuming it.
+- **Underwriting posture:** unchanged at Medium. Fund teams whose silicon is programmable across ZK/FHE/MPC, insist on non-crypto-cycle revenue in the model, and treat 2026's production milestones as de-risking execution, not demand.
 
 ## 3. Startup Landscape Table
 
@@ -92,3 +100,4 @@ key_open_questions: ["Do ZK/FHE workloads scale enough to need ASICs?", "Does co
 | Date | Refresh Type | Added | Updated | Archived | Key Changes | Sources |
 |------|--------------|-------|---------|----------|-------------|---------|
 | 2026-06-09 | Full (initial) | 5 | 0 | 0 | Initial build; Fabric profile; ZK/FHE/confidential coverage | Company sites, trade press |
+| 2026-08-13 | Full refresh | 0 | 3 (Fabric, Niobium, market context) | 0 | Fabric's VPU moved toward production with reported pre-orders; Niobium's FHE ASIC entered production with SEMIFIVE/Samsung Foundry; noted that execution de-risked while demand did not — category stays Medium | Company releases, trade press [many TO VERIFY] |

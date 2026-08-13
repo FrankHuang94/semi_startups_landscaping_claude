@@ -3,8 +3,8 @@ category_id: "15"
 category_name: "Autonomous, Robotics & Automotive Silicon"
 primary_datacenter_relevance: "Medium"
 vc_relevance: "Medium"
-last_refreshed: "2026-06-09"
-refresh_count: 1
+last_refreshed: "2026-08-13"
+refresh_count: 2
 total_companies: 5
 active_companies: 5
 archived_companies: 0
@@ -32,6 +32,15 @@ key_open_questions: ["Does physical AI create new venture-scale silicon?", "Can 
 - **Drivers:** Autonomy levels, robotics capex, power/thermal in vehicles/robots, safety regulation.
 - **Bottlenecks:** Functional safety (ISO 26262), qualification time, power efficiency, software stacks.
 - **Competitive:** NVIDIA/Qualcomm/Mobileye dominate AV; robotics silicon contested. **Risks:** long cycles, OEM gatekeeping, AV demand timing.
+
+### 2026 Update — "physical AI" replaced "autonomous driving" as the demand story (2026-08-13)
+
+- **Arm created a Physical AI business unit** at CES in January 2026, explicitly targeting semiconductors for robotics and intelligent vehicles — the clearest signal that the IP layer expects robotics volume to matter. **GlobalFoundries acquired Synopsys's ARC processor IP** and is retargeting it at physical AI applications.
+- **Capital followed the label:** physical-AI companies raised roughly **$8.73B in disclosed equity between August 2025 and July 2026** [TO VERIFY], and investors describe edge silicon re-emerging in Q2 2026 on real-time on-device demand. Note that most of that total is robot and system companies, not silicon — the silicon share is a fraction of it, and that distinction matters when sizing this category.
+- **New silicon entrants are vertical from day one:** **HYFIX** (SoC integrating flight control, high-accuracy positioning, secure wireless and onboard intelligence for GPS-degraded drone/robotics operation) and **HrdWyr** ($13M Series A, July 2026, Ideaspring Capital, domain-specific AI SoCs). Compare with the horizontal edge-AI companies in [03](03_edge_inference_chips.md), where Hailo's distressed sale shows what horizontal positioning costs.
+- **The public proxy is thin:** **Blaize (NASDAQ: BZAI)** reported Q1 2026 revenue of $2.7M (+172% YoY, 58% gross margin) with a $22.7M net loss, raised $35M in a registered offering, announced partnerships including Nokia, and reaffirmed FY2026 revenue guidance of ~$130M — an extremely large implied ramp from a $2.7M quarter [TO VERIFY; treat as guidance].
+- **Automotive-specific players to track alongside the US/EU set:** Horizon Robotics, Black Sesame, SemiDrive, GTA Semiconductor (CN), plus Arbe and Uhnder in radar.
+- **Underwriting note:** the fundamentals of this category did not change — long cycles, OEM gatekeeping, low ASPs. What changed is that a robotics-shaped demand narrative now attracts generalist capital. Insist on the same design-in and working-capital discipline the Hailo post-mortem argues for.
 
 ## 3. Startup Landscape Table
 
@@ -90,3 +99,4 @@ key_open_questions: ["Does physical AI create new venture-scale silicon?", "Can 
 | Date | Refresh Type | Added | Updated | Archived | Key Changes | Sources |
 |------|--------------|-------|---------|----------|-------------|---------|
 | 2026-06-09 | Full (initial) | 5 | 0 | 0 | Initial build; Recogni profile; auto/robotics coverage | Company sites, trade press |
+| 2026-08-13 | Full refresh | 0 | 2 (market context, Blaize) | 0 | "Physical AI" replaced AV as the demand narrative: Arm's Physical AI business unit, GF's ARC IP retargeting, ~$8.73B into physical AI (Aug 2025–Jul 2026, mostly non-silicon); new vertical entrants HYFIX and HrdWyr; Blaize Q1 2026 results and FY guidance flagged as a stretch | Company releases, earnings, trade press [many TO VERIFY] |

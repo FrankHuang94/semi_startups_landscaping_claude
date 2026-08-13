@@ -3,8 +3,8 @@ category_id: "13"
 category_name: "Foundry, Packaging & Chiplet Integration"
 primary_datacenter_relevance: "High"
 vc_relevance: "High"
-last_refreshed: "2026-06-09"
-refresh_count: 1
+last_refreshed: "2026-08-13"
+refresh_count: 2
 total_companies: 5
 active_companies: 5
 archived_companies: 0
@@ -33,6 +33,14 @@ key_open_questions: ["Can startups win in packaging IP/materials vs. capex-heavy
 - **Bottlenecks:** CoWoS/interposer capacity, HBM stacking, substrate warpage (glass), hybrid-bonding yield, capital.
 - **Competitive:** TSMC/OSAT-dominated; startups in materials, IP, and novel approaches.
 - **Risks:** Extreme capital intensity, long qualification, incumbent control of packaging.
+
+### 2026 Update — capacity became a strategic asset (2026-08-13)
+
+- **A quantum company bought a US foundry.** **IonQ agreed to acquire SkyWater Technology for ~$1.8B (January 2026)** to control manufacturing and supply chain [TO VERIFY]. Specialty fab capacity is now something downstream players will pay public-market premiums for — a new exit path for capacity-owning businesses, and a warning that capacity access is a competitive weapon.
+- **Substrate raised $100M at a >$1B valuation, pre-revenue** (October 2025), backed by General Catalyst, Founders Fund, **In-Q-Tel**, Valor, Allen & Co and Long Journey. It is building **X-ray lithography** driven by a compact particle accelerator, targeting 2nm-class patterning and, notably, thick-wafer and high-aspect-ratio structures relevant to **advanced packaging, TSVs, 3D integration and backside power delivery**. Treat the lithography claim as unproven; treat the packaging-adjacent application as the more plausible near-term wedge.
+- **Packaging roadmap for 2026–27 (the operative constraint on everything in this database):** hybrid bonding is in volume at **9–10µm pitch** with early production at **5–7µm**; 2.5D interposers are exceeding **3x reticle size**; **glass interposers are in pilot production**; and I-Cube4/I-Cube8 are in mass production integrating four and eight HBM stacks [TO VERIFY — analyst roadmap figures].
+- **Metrology consolidated:** **Siemens acquired Canopus AI** (February 2026), an AI-driven computational metrology provider for semiconductor manufacturing — the same "AI eats the tooling layer" pattern visible in [12](12_eda_ip_and_design_tools.md).
+- **Why this matters to the rest of the database:** every accelerator, CPO and memory thesis here ultimately queues for the same advanced packaging capacity. Startups that reduce dependence on silicon interposers (Eliyan's organic-substrate D2D) or on fiber-attach labor (Lightmatter's vClick) are attacking the true bottleneck, and 2026 rewarded both.
 
 ## 3. Startup Landscape Table
 
@@ -95,3 +103,4 @@ key_open_questions: ["Can startups win in packaging IP/materials vs. capex-heavy
 | Date | Refresh Type | Added | Updated | Archived | Key Changes | Sources |
 |------|--------------|-------|---------|----------|-------------|---------|
 | 2026-06-09 | Full (initial) | 5 | 0 | 0 | Initial build; Atomic Semi profile; packaging/substrate coverage | Company sites, trade press |
+| 2026-08-13 | Full refresh | 1 (Substrate) | 2 (market context, roadmap) | 0 | IonQ→SkyWater (~$1.8B) established fab capacity as a strategic acquisition target; Substrate added ($100M A at >$1B, X-ray lithography with packaging-adjacent applications); 2026–27 packaging roadmap (hybrid bonding 9–10µm in volume, 5–7µm early, >3x reticle interposers, glass interposer pilots); Siemens→Canopus AI in metrology | Company releases, analyst roadmaps, trade press [many TO VERIFY] |

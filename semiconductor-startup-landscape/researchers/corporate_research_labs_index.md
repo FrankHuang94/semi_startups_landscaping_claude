@@ -67,3 +67,4 @@ Industrial/corporate research labs that both advance the frontier and seed found
 |------|--------------|-------|---------|---------|
 | 2026-06-09 | Full (initial) | 8 | 0 | Public lab/company pages, publications |
 | 2026-06-09 | Expansion #2 | 6 | 0 | Public company/research pages (2023–2025) |
+| 2026-08-13 | Status refresh | 0 | 3 | **NVIDIA Research** absorbed the leadership of Groq (Jonathan Ross, Sunny Madra) and Enfabrica (Rochan Sankar) through 2025 licence-and-hire deals — it is now the single largest concentration of ex-startup silicon leadership and should be treated as a *destination*, not only a source. **Google TPU** lineage produced MatX ($500M B, 2026) and, via AlphaChip, Ricursive Intelligence. **Broadcom** custom-ASIC group co-developed OpenAI's "Jalapeño" in ~9 months. Sources: company releases, public role changes |

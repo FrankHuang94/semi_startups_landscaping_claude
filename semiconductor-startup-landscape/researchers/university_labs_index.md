@@ -99,3 +99,4 @@ University labs most likely to produce AI-semiconductor startups, with spinout h
 |------|--------------|-------|---------|---------|
 | 2026-06-09 | Full (initial) | 9 | 0 | Public lab pages, publications |
 | 2026-06-09 | Expansion #2 | 14 | 1 | Public lab/faculty pages, publications, spinout records (2023–2025) |
+| 2026-08-13 | Status refresh | 0 | 2 | **QuTech / TU Delft** upgraded from watch-next to an active spinout source — **FrostByte** (2025) commercializes cryogenic control ICs, the scaling bottleneck between hundreds and thousands of qubits. Stanford/Google DeepMind AI-for-EDA lineage recorded as converted via **Ricursive Intelligence** ($300M A at ~$4B, 2026-01). Sources: public lab pages, company releases |

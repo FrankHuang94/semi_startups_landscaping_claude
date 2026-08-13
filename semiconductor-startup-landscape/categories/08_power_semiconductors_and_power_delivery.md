@@ -3,8 +3,8 @@ category_id: "08"
 category_name: "Power Semiconductors & Power Delivery"
 primary_datacenter_relevance: "High"
 vc_relevance: "High"
-last_refreshed: "2026-06-09"
-refresh_count: 1
+last_refreshed: "2026-08-13"
+refresh_count: 2
 total_companies: 6
 active_companies: 5
 archived_companies: 1
@@ -33,6 +33,16 @@ key_open_questions: ["Who wins datacenter GaN at scale?", "Does vertical power d
 - **Bottlenecks:** Device efficiency at high current, packaging/thermal, reliability, vertical integration.
 - **Competitive:** Navitas/EPC (GaN), Vicor (modules), Infineon (broad); startups in integration + datacenter GaN.
 - **Risks:** Incumbent scale, qualification cycles, capital intensity.
+
+### 2026 Update — 800VDC went from roadmap to shipping (2026-08-13)
+
+The power category's central bet — that rack power density would force an architectural change — is now a scheduled product transition rather than a forecast.
+
+- **First 800V HVDC shipments are landing in Q3 2026.** NVIDIA's **Vera Rubin** platform and Google's next-generation datacenters are reported as the first adopters, with initial infrastructure shipments beginning in the third quarter of 2026 [TO VERIFY]. Rack power targets quoted in the ecosystem: **Rubin Ultra ~450kW/rack**, with the Feynman generation projected at **600kW–1MW** [TO VERIFY — vendor/analyst figures].
+- **The incumbents have already lined up.** **Texas Instruments announced an 800V power partnership with NVIDIA in March 2026**; **STMicroelectronics** expanded its 800VDC conversion portfolio (12V and 6V architectures) in collaboration with NVIDIA; Renesas and **Navitas** positioned GaN and SiC parts into the architecture; **Vertiv** committed to a full 800VDC product line in 2026; **Delta** is shipping row-based 800V DC systems with integrated liquid cooling.
+- **What this means for startups:** the architectural window is open but narrow, and it is being filled by public incumbents with qualification track records. The defensible startup positions are the ones the incumbents cannot serve quickly — **integrated vertical power delivery at the package/board level** (Empower's territory), high-voltage vertical GaN devices, and power conversion co-designed with the accelerator rather than with the rack.
+- **Diligence emphasis shifts to qualification and allocation:** who is designed into a Rubin-class or Feynman-class rack, at what stage of qualification, and with what second-source position. In this category a design-in is worth more than a datasheet advantage, and the 2026–2027 sockets are being decided now.
+- **Cross-reference:** this transition is also the largest single driver in [16](16_datacenter_infrastructure_enablers.md); the thermal side (liquid cooling at 450kW+/rack) moves with it.
 
 ## 3. Startup Landscape Table
 
@@ -100,3 +110,4 @@ key_open_questions: ["Who wins datacenter GaN at scale?", "Does vertical power d
 | Date | Refresh Type | Added | Updated | Archived | Key Changes | Sources |
 |------|--------------|-------|---------|----------|-------------|---------|
 | 2026-06-09 | Full (initial) | 6 | 0 | 1 (GaN Systems) | Initial build; Empower profile; GaN/SiC + vertical power coverage | Company sites, public filings |
+| 2026-08-13 | Full refresh | 0 | 2 (market context, thesis emphasis) | 0 | 800VDC moved from roadmap to first shipments (Q3 2026, NVIDIA Vera Rubin / Google); TI-NVIDIA and ST 800V programs, Vertiv/Delta product lines; rack power targets (Rubin Ultra ~450kW, Feynman 600kW–1MW); diligence emphasis shifted to design-in and qualification for 2026–27 sockets | Vendor announcements, trade press [many TO VERIFY] |

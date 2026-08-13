@@ -3,8 +3,8 @@ category_id: "16"
 category_name: "Datacenter Infrastructure Enablers"
 primary_datacenter_relevance: "High"
 vc_relevance: "High"
-last_refreshed: "2026-06-09"
-refresh_count: 1
+last_refreshed: "2026-08-13"
+refresh_count: 2
 total_companies: 6
 active_companies: 6
 archived_companies: 0
@@ -33,6 +33,14 @@ key_open_questions: ["Which cooling approach wins at hyperscale?", "Do startups 
 - **Bottlenecks:** Thermal at 100kW+, power distribution, deployment/qualification speed, supply.
 - **Competitive:** Vertiv/Schneider dominate; startups win on density/efficiency + hyperscaler adoption.
 - **Risks:** Incumbent scale, long qualification, capex cyclicality.
+
+### 2026 Update — power and thermal became the binding constraint (2026-08-13)
+
+- **The 800VDC transition is shipping.** NVIDIA's Vera Rubin platform and Google's next-generation datacenters are reported as first adopters with initial infrastructure shipments in **Q3 2026**; **Vertiv** committed to a complete 800V DC line in 2026 and **Delta** is shipping row-based 800V systems with integrated liquid cooling. Rack power targets quoted in the ecosystem run to **~450kW (Rubin Ultra)** and **600kW–1MW (Feynman)** [TO VERIFY]. See [08](08_power_semiconductors_and_power_delivery.md) for the device layer.
+- **At 450kW+ per rack, liquid cooling stops being an option.** Direct-to-chip and immersion move from differentiated to mandatory, which is good for volume and bad for pricing power — and it means the durable startup positions are in the parts incumbents cannot qualify quickly (CDU control, two-phase, in-rack power conversion, telemetry).
+- **Grid interconnection and behind-the-meter power** are now the gating factor on deployment schedules, ahead of chip supply in many regions. Large capital is flowing to AI-infrastructure buildouts directly — e.g. **Firmus Grid's reported ~$2B raise (August 2026)** [TO VERIFY] — which is an adjacent market this database should track as a demand signal, not as a semiconductor investment.
+- **Rack-scale systems became a chip-company product line:** d-Matrix acquired **GigaIO's SuperNODE and FabreX**; Ayar Labs and **Wiwynn** showed a 1,024-accelerator rack-scale reference design at OFC 2026. The "enabler" layer and the "silicon" layer are merging, and integration partners (Wiwynn, Alchip, ASE, Amkor) are becoming kingmakers.
+- **Underwriting note:** this category converts an architectural transition into revenue faster than silicon does, with lower technical risk and lower gross margins. In a cycle where accelerator startups need 3+ years to revenue, the 2026–27 power/thermal socket decisions are a nearer-term, more diligenceable bet.
 
 ## 3. Startup Landscape Table
 
@@ -95,3 +103,4 @@ key_open_questions: ["Which cooling approach wins at hyperscale?", "Do startups 
 | Date | Refresh Type | Added | Updated | Archived | Key Changes | Sources |
 |------|--------------|-------|---------|----------|-------------|---------|
 | 2026-06-09 | Full (initial) | 6 | 0 | 0 | Initial build; ZutaCore/Submer profiles; cooling/power/fabric coverage | Company sites, trade press |
+| 2026-08-13 | Full refresh | 0 | 2 (market context, thesis emphasis) | 0 | 800VDC shipping from Q3 2026 (NVIDIA Vera Rubin, Google; Vertiv/Delta product lines) with 450kW–1MW rack targets making liquid cooling mandatory; grid interconnection as the gating constraint; rack-scale integration merging with silicon (d-Matrix→GigaIO, Ayar/Wiwynn 1,024-accelerator design) | Vendor announcements, trade press [many TO VERIFY] |

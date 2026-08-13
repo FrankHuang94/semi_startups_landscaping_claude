@@ -122,3 +122,28 @@ Each profile in [leading_researchers_index.md](researchers/leading_researchers_i
 3. **Watch the leading indicators.** LinkedIn role changes, patent assignees, new domains, stealth job posts, accelerator cohorts.
 4. **Build the first-call list.** Maintain a ranked outreach queue in [researchers/researcher_to_startup_signal_tracker.md](researchers/researcher_to_startup_signal_tracker.md).
 5. **Re-verify.** Signals decay; confirm at each refresh and downgrade stale ones.
+
+---
+
+## Engine Performance — 2026-08-13 Refresh
+
+The point of this engine is to be early. Measured against the initial build, it was directionally right and operationally late.
+
+**Conversions recorded this cycle:**
+
+| Watch-item at initial build | Outcome | Elapsed |
+|---|---|---|
+| AI-EDA agents (theme) + Mirhoseini & Goldie (researcher watchlist, "Likely") | **Ricursive Intelligence** — $300M Series A at ~$4B post, 2026-01-26 | Watchlist → $4B in under a year |
+| AI-EDA seed cohort | **ChipAgents** ($134M cumulative), **Architect Labs** ($24M seed), Bronco AI, Silimate | ~12 months |
+| Cryo-CMOS / quantum control (theme) | **FrostByte** — QuTech / TU Delft spinout | ~12 months |
+| *(not on the watchlist)* | **OLIX** — $312M at ~$3.3B, London, photonic tensor compute | Missed |
+
+**What this changes about the method:**
+
+1. **Score on deployed artifacts, not publication counts.** Both large conversions came from people whose work was already in production silicon — AlphaChip ran in four generations of Google TPUs before Ricursive existed. A paper that shipped beats a paper that is cited.
+2. **The entry window is pre-formation.** Ricursive was priced at ~$4B within two months of launching. For top-tier researchers, "watch for the Form D" is already too late; the relationship has to exist while they are still publishing.
+3. **Widen the geographic sweep.** The one clean miss (OLIX) was European, founded in 2024, and became the largest semiconductor venture round in European history. The lab list in this file skews US; add UK/EU/Israel/Korea labs and sovereign-program-adjacent formation.
+4. **Add a post-absorption talent sweep — new for this cycle.** 2026 dispersed an unusual amount of senior silicon talent: Groq's and Enfabrica's leadership into NVIDIA (licence-and-hire deals, typically with multi-year retention, so reachable around 2027–2029), and the Hailo, Rivos and Celestial AI teams into their acquirers. Track departures from acquirers as deliberately as departures from labs.
+5. **Record outcomes, including misses.** A watchlist without a scoreboard cannot be calibrated. Converted items are now marked Confirmed and removed from the outreach queue in [researchers/researcher_to_startup_signal_tracker.md](researchers/researcher_to_startup_signal_tracker.md) rather than left inflating it.
+
+**Where the engine should point next (from the 2026 conference cycle):** MoE data movement, chiplet-scale interconnect (UCIe-Advanced), and memory reliability/ECC co-design — see section I of [researchers/paper_watchlist.md](researchers/paper_watchlist.md).

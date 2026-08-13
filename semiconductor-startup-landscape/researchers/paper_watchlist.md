@@ -62,7 +62,7 @@ Breakthrough and commercially-urgent papers (emphasis on 2023–2026) that point
 
 | Paper / Line of Work | Authors / Lab | Year | Why It Matters for VC | Bottleneck | Signal | VC Rel | Conf |
 |----------------------|---------------|:----:|------------------------|-----------|--------|:------:|------|
-| AlphaChip (graph placement) + extension | Mirhoseini, Goldie et al. (Google) | 2021 / 2024 | Catalyzed AI-for-physical-design wave | Design productivity | Likely | 5 | High |
+| AlphaChip (graph placement) + extension | Mirhoseini, Goldie et al. (Google) | 2021 / 2024 | Catalyzed AI-for-physical-design wave; **authors founded Ricursive Intelligence — ~$300M Series A at ~$4B, 2026-01** | Design productivity | **Confirmed (Ricursive)** | 5 | High |
 | ChipNeMo (domain LLMs for chip design) | NVIDIA Research | 2023–2024 | Validates AI-for-design wedge | Design productivity | Watchlist | 4 | High |
 | VerilogEval / RTLLM (LLM-HDL benchmarks) | NVIDIA / academia | 2023–2024 | Benchmarks for generative RTL startups | Design productivity | Likely | 4 | Medium-High |
 | ML place-and-route / analog layout automation | Pan (UT Austin) | 2023–2025 | Digital+analog EDA automation | Design productivity | Likely | 4 | Medium-High |
@@ -85,6 +85,21 @@ Breakthrough and commercially-urgent papers (emphasis on 2023–2026) that point
 | Logical processor on reconfigurable atom arrays | Lukin et al. (Harvard, Nature) | 2023 | Neutral-atom logical-qubit milestone (QuEra) | Quantum FT | Likely (QuEra) | 4 | High |
 | Cryogenic CMOS control ICs | Charbon (EPFL) | 2023–2025 | Scaling layer (picks-and-shovels) for quantum | Quantum control | Likely | 3 | Medium |
 
+## I. 2026 Conference Signal (added 2026-08-13)
+
+Additions from the 2026 program cycle. Venue and author details are best-effort from public programs and tagged accordingly; verify before citing.
+
+| Paper / Line of Work | Authors / Lab | Year | Why It Matters for VC | Bottleneck | Signal | VC Rel | Conf |
+|----------------------|---------------|:----:|------------------------|-----------|--------|:------:|------|
+| Quad-chiplet AI SoC with full-chip scalable mesh over >16Gb/s UCIe-Advanced D2D | ISSCC 2026 (Session 2) [TO VERIFY authors] | 2026 | Chiplet-mesh inference at scale — direct read-through to D2D IP vendors (Eliyan, Blue Cheetah, Baya) | D2D bandwidth/energy | Watchlist | 5 | Medium |
+| AMD MI350 3D-stacked GPU disclosures | AMD (ISSCC 2026) | 2026 | Incumbent 3D-stacking economics set the bar startups must beat | Packaging/thermal | Watchlist | 4 | Medium-High |
+| "Patterns Behind Chaos: Forecasting Data Movement for Efficient Large-Scale MoE LLM Inference" | ISCA 2026 [TO VERIFY authors] | 2026 | MoE routing makes data movement, not FLOPs, the inference bottleneck — the strongest argument for memory-centric and optical architectures | Data movement | Likely | 5 | Medium |
+| "Cerberus: Cross-Layer ECC Co-Design for Robust and Efficient Memory Protection" | ISCA 2026 [TO VERIFY authors] | 2026 | Reliability at HBM/CXL scale is becoming a design constraint, not an afterthought | Memory reliability | Watchlist | 4 | Medium |
+| 3D X-DRAM proof-of-concept (DRAM cell on 3D NAND tooling) | NEO Semiconductor | 2026 | A credible non-HBM density path would reset AI memory economics | Memory capacity/cost | **Confirmed (company)** | 5 | Medium |
+| Detachable fiber-array attach for CPO (vClick) | Lightmatter | 2026 | Fiber attach and rework is the true CPO volume blocker; a product-level answer | CPO manufacturability | **Confirmed (company)** | 5 | Medium-High |
+
+> **Reading for the next cycle:** the center of gravity in 2026 programs moved to **MoE data movement, chiplet-scale interconnect (UCIe-Advanced), and memory reliability**. Expect the next formation wave from those three areas rather than from raw accelerator architecture.
+
 ## How to Use
 - Track venues: ISSCC, ISCA, MICRO, HotChips, OFC, VLSI Symposia, DAC, ASPLOS, MLSys, SOSP/OSDI, NeurIPS (systems), Nature/Science.
 - For each commercially-urgent paper, check: who are the students/postdocs, are there patents, any new-entity assignees, any role changes? Promote to [researcher_to_startup_signal_tracker.md](researcher_to_startup_signal_tracker.md) when signals converge.
@@ -94,3 +109,4 @@ Breakthrough and commercially-urgent papers (emphasis on 2023–2026) that point
 |------|--------------|-------|---------|---------|
 | 2026-06-09 | Full (initial) | 12 | 0 | Public publications, arXiv, conference programs |
 | 2026-06-09 | Expansion #2 | 22 | 12 | arXiv, ISSCC/ISCA/MICRO/ASPLOS/SOSP/OFC/Hot Chips, Nature/Science (2023–2025); venues tagged [TO VERIFY] where uncertain |
+| 2026-08-13 | 2026 cycle addition | 6 | 1 (AlphaChip → Confirmed via Ricursive) | Added section I from the 2026 program cycle: UCIe-Advanced quad-chiplet AI SoC and AMD MI350 3D stacking (ISSCC 2026); MoE data-movement forecasting and cross-layer ECC co-design (ISCA 2026); NEO 3D X-DRAM PoC; Lightmatter vClick fiber attach. Sources: public ISSCC/ISCA 2026 programs, company releases |

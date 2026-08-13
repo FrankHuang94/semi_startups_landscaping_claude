@@ -17,7 +17,7 @@ founders:
     prior: "AMD, Apple, Tesla, Intel"
     category: "01/02"
   - name: Jonathan Ross
-    company: Groq
+    company: "Groq (departed to NVIDIA, 2025-12, via the ~$20B licence-and-hire deal)"
     prior: "Google TPU"
     category: "02 Inference"
   - name: Sid Sheth
@@ -72,3 +72,35 @@ founders:
     company: Fabric Cryptography
     prior: "—"
     category: "09 Security"
+  - name: Azalia Mirhoseini
+    company: Ricursive Intelligence
+    prior: "Google DeepMind (AlphaChip), Stanford"
+    category: "12 EDA/IP"
+  - name: Anna Goldie
+    company: Ricursive Intelligence
+    prior: "Google DeepMind (AlphaChip), Stanford"
+    category: "12 EDA/IP"
+  - name: Reiner Pope
+    company: MatX
+    prior: "Google (TPU / LLM infrastructure)"
+    category: "01 Training"
+  - name: Mike Gunter
+    company: MatX
+    prior: "Google (TPU)"
+    category: "01 Training"
+  - name: Rochan Sankar
+    company: "Enfabrica (departed to NVIDIA, 2025-09, via the >$900M licence-and-hire deal)"
+    prior: "Broadcom"
+    category: "05 Networking"
+  - name: Ramin Farjadrad
+    company: Eliyan
+    prior: "Aquantia (acq. Marvell), Marvell"
+    category: "04 Custom ASIC/Chiplets"
+  - name: James Dacombe
+    company: OLIX
+    prior: "[TO VERIFY]"
+    category: "06 Optical/CPO"
+  - name: Tony Pialis
+    company: "Alphawave Semi (now leads Qualcomm's data center business)"
+    prior: "Intel, Snowbush"
+    category: "04 Custom ASIC/Chiplets"

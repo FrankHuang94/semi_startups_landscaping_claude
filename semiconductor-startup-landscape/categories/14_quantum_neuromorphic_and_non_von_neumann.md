@@ -3,8 +3,8 @@ category_id: "14"
 category_name: "Quantum, Neuromorphic & Non-Von-Neumann"
 primary_datacenter_relevance: "Low/Long-term"
 vc_relevance: "Medium"
-last_refreshed: "2026-06-09"
-refresh_count: 1
+last_refreshed: "2026-08-13"
+refresh_count: 2
 total_companies: 8
 active_companies: 8
 archived_companies: 0
@@ -33,6 +33,15 @@ key_open_questions: ["Does analog IMC cross the accuracy/software chasm?", "When
 - **Bottlenecks:** Analog accuracy/PVT + software (IMC); qubit error rates/scaling (quantum); programming models (neuromorphic).
 - **Competitive:** Digital GPUs dominate near-term; non-vN must beat them on energy/$ at acceptable accuracy.
 - **Risks:** Long timelines, capital intensity, software immaturity, binary outcomes.
+
+### 2026 Update — quantum got a funding wave and a vertical-integration move (2026-08-13)
+
+- **Q2 2026 was an exceptional quarter for quantum financing: 21 companies raised, six of them $100M or more**, spanning superconducting, spin, neutral-atom and ion-trap modalities plus the supply layer — cryogenic control electronics, qubit fabrication services, test and networking [TO VERIFY]. The capital is now spread across the *supply chain*, not just the qubit companies, which is the healthier structure for venture returns.
+- **IonQ agreed to acquire SkyWater Technology (~$1.8B, January 2026)** to own manufacturing — the first vertical-integration move of this size by a quantum company (see [13](13_foundry_packaging_and_chiplet_integration.md)). IonQ reported Q1 2026 revenue of ~$64.7M against ~$7.6M a year earlier [TO VERIFY].
+- **The cryo-electronics layer is producing spinouts:** **FrostByte**, a 2025 spin-out from **QuTech at TU Delft**, builds cryogenic ICs and control electronics operating alongside the quantum processor — the specific bottleneck between hundreds and thousands of qubits. This is exactly the "supply-layer picks and shovels" position this category's thesis favors over qubit bets.
+- **PsiQuantum** remains the capital-intensive photonic FT bet, with roughly $665M–$1.3B cited across sources [TO VERIFY — figures diverge widely; reconcile before use] and reported participation in a proposed US government investment program.
+- **Analog/in-memory compute (the near-term half of this category) is quieter.** EnCharge AI shipped **EN100** — an M.2/PCIe analog in-memory accelerator claiming 200+ TOPS in an ~8.25W envelope and ~20x perf/W versus digital alternatives — but has **no disclosed round since the ~$100M Series B**, total ~$144M plus an $18.6M DARPA grant [TO VERIFY]. No 2026 financing news surfaced for **Rain AI**, **Sagence** or **Mythic** in this refresh; treat all three as **[NO PUBLIC DATA] pending verification**, and note that silence in a category this capital-hungry is itself a signal to check on.
+- **Contrast worth holding:** digital in-memory compute (d-Matrix, ~$450M raised) and photonic compute (OLIX, $312M) both raised large rounds in this window while analog IMC did not. The market is funding *deterministic* alternatives to the von Neumann bottleneck and discounting analog-precision approaches.
 
 ## 3. Startup Landscape Table
 
@@ -106,3 +115,4 @@ key_open_questions: ["Does analog IMC cross the accuracy/software chasm?", "When
 | Date | Refresh Type | Added | Updated | Archived | Key Changes | Sources |
 |------|--------------|-------|---------|----------|-------------|---------|
 | 2026-06-09 | Full (initial) | 8 | 0 | 0 | Initial build; EnCharge/PsiQuantum profiles; IMC/quantum/neuromorphic coverage | Company sites, academic, trade press |
+| 2026-08-13 | Full refresh | 1 (FrostByte) | 3 (EnCharge, IonQ/quantum context, analog IMC status) | 0 | Q2 2026 quantum funding wave (21 raises, six ≥$100M) spread across the supply layer; IonQ→SkyWater vertical integration; FrostByte cryo-electronics spinout added; flagged that analog IMC (Rain, Sagence, Mythic) produced no verifiable 2026 financing news while digital IMC and photonic compute raised large rounds | Company releases, trade press [many TO VERIFY] |

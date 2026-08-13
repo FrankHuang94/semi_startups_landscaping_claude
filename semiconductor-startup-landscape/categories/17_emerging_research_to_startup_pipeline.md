@@ -3,12 +3,12 @@ category_id: "17"
 category_name: "Emerging Research-to-Startup Pipeline"
 primary_datacenter_relevance: "High"
 vc_relevance: "High"
-last_refreshed: "2026-06-09"
-refresh_count: 1
-total_companies: 6
-active_companies: 6
+last_refreshed: "2026-08-13"
+refresh_count: 2
+total_companies: 9
+active_companies: 9
 archived_companies: 0
-stealth_or_semi_stealth_companies: 6
+stealth_or_semi_stealth_companies: 0
 total_disclosed_funding: "N/A (pre-formation sourcing)"
 top_investors: ["Seed/deep-tech specialists", "University-affiliated funds"]
 key_technical_inflections: ["Pre-narrative bottleneck research", "Lab spinout timing", "Founder-quality researchers leaving incumbents"]
@@ -33,6 +33,16 @@ key_open_questions: ["Which lab produces the next Ayar/EnCharge?", "Which incumb
 - **Pull:** the same bottlenecks driving categories 02/05/06/07/08/12/13/14.
 - **Signal channels:** publications, patents, conference programs (ISSCC/ISCA/MICRO/HotChips/OFC/VLSI/DAC/MLSys), open-source, public role changes, Form D, accelerators.
 
+### 2026 Update — two watch-items converted, and the lag was short (2026-08-13)
+
+The value of this file is measurable only when a watch-item becomes a company. Two did, within months of the initial build.
+
+- **AI-EDA agents → Ricursive Intelligence.** The initial build listed AI-EDA agents as a "Likely" theme and carried **Azalia Mirhoseini and Anna Goldie** (AlphaChip, the RL floorplanning work used in four generations of Google TPUs) on the researcher watchlist. In January 2026 they raised a **$300M Series A at ~$4B post — less than two months after launching** — led by Lightspeed with DST, NVIDIA's NVentures, Sequoia, Felicis, Radical AI and 49 Palms. **Lag from watchlist to $4B: under a year.** The lesson is that the highest-signal researchers now price at growth-round valuations at formation, so the sourcing advantage has to be exercised *before* the company exists.
+- **Photonic compute → OLIX.** Photonics-as-compute (rather than interconnect) was a background theme; OLIX, founded in London in 2024, raised **$312M at ~$3.3B in August 2026** with **Nick McKeown** joining the board — the largest European semiconductor venture round on record.
+- **Cryo-CMOS partially converted:** **FrostByte** spun out of **QuTech at TU Delft** (2025) building cryogenic control ICs — precisely the picks-and-shovels position the theme predicted.
+- **Conference signal for the next cycle (2026 programs):** ISSCC 2026 featured a quad-chiplet AI SoC using a >16Gb/s **UCIe-Advanced** die-to-die interface for large-scale inference, alongside AMD's 3D-stacked MI350 disclosures; ISCA 2026 (Raleigh, 27 June–1 July) included **"Patterns Behind Chaos: Forecasting Data Movement for Efficient Large-Scale MoE LLM Inference"** and **"Cerberus: Cross-Layer ECC Co-Design"**. The research center of gravity has moved to **MoE data movement, chiplet-scale interconnect and memory reliability** — which is where the next formation wave should be expected.
+- **Sourcing implication:** the two conversions both came from people with a *named, deployed artifact* (AlphaChip; a photonics platform) rather than from a paper trail alone. Weight deployed-artifact authorship above publication count in the watchlist ranking.
+
 ## 3. Startup/Theme Landscape Table (watch-items)
 
 | Watch-item | Linked Category | People / Lab | Signal Type | Possible Thesis | Startup Formation Signal | VC Relevance | Status |
@@ -40,9 +50,12 @@ key_open_questions: ["Which lab produces the next Ayar/EnCharge?", "Which incumb
 | Robust analog IMC platforms | 14/02 | Princeton (Verma); Stanford (Wong) | Confirmed precedent (EnCharge) + field momentum | Energy/token inference IP | Likely | High | Active theme |
 | Optical I/O standardization wave | 06 | Columbia (Bergman); UCSB (Bowers); Berkeley | Sustained publications + ecosystem pull | Next optical-interconnect co. | Likely | High | Active theme |
 | PIM/near-memory productization | 07/14 | ETH (Mutlu); KAIST (Jung) | Repeated urgent-bottleneck papers; Panmnesia precedent | CXL/PIM fabric IP | Likely | High | Active theme |
-| AI-EDA agents | 12 | NVIDIA Research; Berkeley/Stanford agile HW | GitHub + paper momentum; seed cohort forming | AI-native verification/RTL | Likely | High | Active theme |
-| Glass/panel advanced packaging | 13 | Georgia Tech PRC | Patent clusters + reshoring funding | Packaging IP/materials co. | Weak | Medium-High | Active theme |
-| Cryo-CMOS / quantum control | 14 | Delft/UCSB; SEEQC precedent | Control-electronics commercialization | Quantum picks-and-shovels | Weak | Medium | Active theme |
+| AI-EDA agents | 12 | NVIDIA Research; Berkeley/Stanford agile HW; **Mirhoseini & Goldie (AlphaChip)** | **CONVERTED — Ricursive Intelligence, $300M A at ~$4B (2026-01)**; ChipAgents to $134M | AI-native verification/RTL | **Confirmed** | High | **Converted 2026** |
+| Glass/panel advanced packaging | 13 | Georgia Tech PRC | Patent clusters + reshoring funding; glass interposer entered pilot production (2026) | Packaging IP/materials co. | Weak→Moderate | Medium-High | Active theme |
+| Cryo-CMOS / quantum control | 14 | Delft/UCSB; SEEQC precedent | **Partially converted — FrostByte spun out of QuTech/TU Delft (2025)**; Q2 2026 quantum supply-layer funding wave | Quantum picks-and-shovels | Moderate | Medium | Active theme |
+| Photonic tensor compute (not just interconnect) | 06/02 | MIT/Oxford photonics lineage; **OLIX (McKeown on board)** | **CONVERTED — OLIX $312M B at ~$3.3B (2026-08)** | HBM-free optical inference | **Confirmed** | High | **Converted 2026** |
+| Detachable fiber attach / CPO manufacturability | 06/13 | Packaging research + Lightmatter vClick | Product launch (2026-03) solving the CPO assembly bottleneck | Photonic packaging tooling/IP | Moderate | High | Active theme |
+| Non-HBM 3D DRAM on NAND tooling | 07 | NEO Semiconductor; 3D memory research community | **PoC validated 2026-04**; strategic investment led by Stan Shih | Memory density IP licensing | Moderate | High | Active theme |
 
 ## 4. Company/Theme Profiles
 
@@ -103,3 +116,4 @@ key_open_questions: ["Which lab produces the next Ayar/EnCharge?", "Which incumb
 | Date | Refresh Type | Added | Updated | Archived | Key Changes | Sources |
 |------|--------------|-------|---------|----------|-------------|---------|
 | 2026-06-09 | Full (initial) | 6 (themes) | 0 | 0 | Initial build; theme/lab watch-items, sourcing framework | Public research, conference programs |
+| 2026-08-13 | Full refresh | 3 (photonic tensor compute, CPO fiber attach, non-HBM 3D DRAM) | 3 (AI-EDA, cryo-CMOS, glass packaging) | 0 | Two watch-items converted: AI-EDA agents → **Ricursive Intelligence** ($300M A at ~$4B, AlphaChip founders) and photonic compute → **OLIX** ($312M B at ~$3.3B); cryo-CMOS partially converted via FrostByte (QuTech/TU Delft). Added ISSCC/ISCA 2026 signal (MoE data movement, UCIe-Advanced chiplet meshes, memory ECC co-design) and a sourcing rule favoring deployed-artifact authorship | Public research, ISSCC/ISCA 2026 programs, company releases |

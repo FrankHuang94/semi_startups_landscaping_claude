@@ -45,7 +45,24 @@ A discipline for identifying early signals of future AI semiconductor startups *
 | `[ILLUSTRATIVE]` PIM spinout watch | 07/14 | ETH Zürich (Mutlu group) | Repeated PIM papers in urgent bottleneck; prior industry collaborations | Weak Signal | Near-memory accelerator IP | High | Monitor patent assignees & role changes | To Verify |
 | `[ILLUSTRATIVE]` Photonics fabric watch | 06 | Columbia (Bergman group) | Sustained CPO/photonic-fabric publications; ecosystem ties | Weak Signal | Optical interconnect fabric | High | Track grad/postdoc departures & domains | To Verify |
 | `[ILLUSTRATIVE]` Analog in-memory cluster | 14 | Multiple (Princeton-style IMC) | Field-wide commercialization momentum (EnCharge precedent) | Weak Signal | Energy/token inference IP | High | Map who is *not yet* funded | To Verify |
-| `[ILLUSTRATIVE]` AI-EDA founder watch | 12 | ML-systems + EDA crossovers | GitHub traction in RTL/verification LLM tooling | Weak Signal | AI-native verification | High | Watch repo adoption + seed rounds | To Verify |
+| `[ILLUSTRATIVE]` AI-EDA founder watch | 12 | ML-systems + EDA crossovers | GitHub traction in RTL/verification LLM tooling | Weak Signal | AI-native verification | High | Watch repo adoption + seed rounds | **Converted — see below** |
+
+### Watchlist outcomes — 2026 refresh (added 2026-08-13)
+
+Three of the method's target patterns produced companies inside twelve months. Recording outcomes matters more than adding new speculative rows, because the outcomes tell you where the method is fast enough and where it is not.
+
+| Watch pattern | What it became | Timing | What the method got right / wrong |
+|---------------|----------------|--------|-----------------------------------|
+| AI-EDA founder watch | **Ricursive Intelligence** — $300M Series A at ~$4B (2026-01-26), founded by the AlphaChip authors | Watchlist → $4B in **under a year** | **Right** on the theme; **too slow** on the person. The founders were identifiable from a Nature paper used in production TPUs — the signal was public for years and the round was priced within weeks of launch |
+| AI-EDA seed cohort | **ChipAgents** ($134M), **Architect Labs** ($24M seed), **Bronco AI**, **Silimate** (both showing production metrics at DAC 2026) | ~12 months | **Right.** GitHub/repo traction was a genuine leading indicator; the cohort is now funded and the seed window is closing |
+| Photonic compute | **OLIX** — $312M at ~$3.3B (2026-08), London, founded 2024 | Missed at formation | **Wrong geography.** The method's lab list was US-centric; the largest European semiconductor round ever came from a 2024-founded London company. Add UK/EU photonics and sovereign-fund-adjacent formation to the sweep |
+| Cryo-CMOS / quantum control | **FrostByte** — QuTech / TU Delft spinout (2025) | ~12 months | **Right.** European lab spinouts remain under-covered by US investors and are reachable at formation |
+
+**Method adjustments for the next cycle:**
+1. **Rank by deployed artifact, not publication volume.** Both large conversions came from people whose work was already running in production silicon (AlphaChip in four TPU generations; a shipping photonics platform).
+2. **Widen geography.** The 2026 misses were European. Add UK/EU/Israel/Korea lab and sovereign-program sweeps to the standing search.
+3. **Add a post-absorption talent sweep.** 2026 dispersed a lot of senior silicon talent — Groq and Enfabrica leaders into NVIDIA (typically on multi-year retention), and the Hailo, Rivos and Celestial teams into acquirers. That diaspora is the cheapest sourcing channel available right now, and the NVIDIA cohort becomes reachable around 2027–2029.
+4. **Assume pre-formation is the only entry point** for top-tier researcher companies. By launch, the round is priced.
 
 ---
 

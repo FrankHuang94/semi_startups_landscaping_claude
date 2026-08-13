@@ -79,7 +79,7 @@ Profiles of leading academic and industry researchers whose work is most relevan
 - **Institution / Role:** Stanford (Professor) / SambaNova (co-founder, Chief Technologist)
 - **Research Areas:** Reconfigurable dataflow architectures (Plasticine/RDA), parallel computing
 - **Why VC Should Track:** Confirmed academic→startup (SambaNova); dataflow lineage; group seeds reconfigurable-compute founders.
-- **Prior Startups:** Afara Websystems, SambaNova (Confirmed). **Startup Signal:** Confirmed · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-06-09
+- **Prior Startups:** Afara Websystems, SambaNova (Confirmed). **2026 status:** SambaNova raised a ~$1B Series F first close at ~$11B post-money in July 2026 led by General Atlantic, repositioned around enterprise and agentic inference. **Startup Signal:** Confirmed · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-08-13
 
 ### Mark Horowitz
 - **Institution / Role:** Stanford (Professor)
@@ -267,11 +267,13 @@ Profiles of leading academic and industry researchers whose work is most relevan
 - **Why VC Should Track:** Leads NVIDIA's ML-for-design research (ChipNeMo, generative/RL design flows) — the frontier for AI-EDA startups ([12](../categories/12_eda_ip_and_design_tools.md)).
 - **Recent/Relevant Work:** ChipNeMo (domain LLMs for chip design, 2023–2024); ML-driven design-automation (2023–2025). **Startup Signal:** Watchlist (incumbent) · **VC Relevance:** 4 · **Confidence:** High · **Last updated:** 2026-06-09
 
-### Azalia Mirhoseini & Anna Goldie
-- **Institution / Role:** Stanford / industry research (ex-Google DeepMind)
+### Azalia Mirhoseini & Anna Goldie — **CONVERTED TO STARTUP (2026)**
+- **Institution / Role:** **Co-founders, Ricursive Intelligence** (previously Stanford / Google DeepMind)
 - **Research Areas:** RL for chip floorplanning (AlphaChip), ML for systems
 - **Why VC Should Track:** Authors of the Nature chip-placement work (AlphaChip) that catalyzed the AI-for-physical-design wave; their methods underpin a generation of AI-EDA startups.
-- **Recent/Relevant Work:** "A graph placement methodology for fast chip design" (Nature 2021) + AlphaChip extension (2024). **Startup Signal:** Likely · **VC Relevance:** 4 · **Confidence:** Medium-High · **Last updated:** 2026-06-09
+- **Recent/Relevant Work:** "A graph placement methodology for fast chip design" (Nature 2021) + AlphaChip extension (2024).
+- **Outcome:** **Ricursive Intelligence raised a ~$300M Series A at roughly $4B post-money on 2026-01-26** — less than two months after launching — led by Lightspeed with DST Global, NVIDIA's NVentures, Felicis, Sequoia, Radical AI and 49 Palms. The pitch is a recursive loop: AI designs the silicon that runs the next generation of AI. This is the highest-value research-to-startup conversion recorded in this database. See [12](../categories/12_eda_ip_and_design_tools.md).
+- **Startup Signal:** **Confirmed** · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-08-13
 
 ### Jason Cong
 - **Institution / Role:** UCLA (Professor)
@@ -376,3 +378,4 @@ Profiles of leading academic and industry researchers whose work is most relevan
 |------|--------------|-------|---------|---------|
 | 2026-06-09 | Full (initial) | 10 | 0 | Public academic/institutional pages, publications |
 | 2026-06-09 | Expansion #2 | 28 | 10 | Public faculty pages, arXiv, ISSCC/ISCA/MICRO/OFC/Nature (2023–2025); founder histories from public records |
+| 2026-08-13 | Status refresh | 0 | 3 | Mirhoseini & Goldie marked **Confirmed** (Ricursive Intelligence, ~$300M A at ~$4B); Jonathan Ross reclassified as incumbent after moving to NVIDIA in the ~$20B Groq licence deal; Kunle Olukotun/SambaNova note updated for the Series F. Sources: company releases, public role changes |

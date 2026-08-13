@@ -38,3 +38,4 @@ Patent clusters and assignment signals relevant to AI-semiconductor commercializ
 |------|--------------|-------|---------|---------|
 | 2026-06-09 | Full (initial) | 10 (clusters) | 0 | Public patent databases (themes; numbers TO VERIFY) |
 | 2026-06-09 | Expansion #2 | 12 (clusters) | 0 | Public patent databases; emphasis on 2023– filing activity (numbers TO VERIFY) |
+| 2026-08-13 | Status refresh | 0 | 4 | Commercial validation attached to existing clusters: **CPO/fiber-attach** (Lightmatter vClick; Celestial AI IP acquired by Marvell), **UCIe/D2D** (Eliyan NuGear electro-optical, ISSCC 2026 UCIe-Advanced mesh), **RL/LLM-for-EDA** (AlphaChip lineage → Ricursive Intelligence), **3D DRAM** (NEO 3D X-DRAM PoC). Clusters remain thematic — specific numbers still [TO VERIFY] | Public patent databases, company releases |

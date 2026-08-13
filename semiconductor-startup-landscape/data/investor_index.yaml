@@ -112,3 +112,91 @@ investors:
     stage_pref: "Growth/Pre-IPO"
     notes: "Pre-IPO bridge"
     file: deal_tracker/21_vc_investor_tracker.md
+  - name: Jane Street
+    type: "Prop/quant"
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["MatX", "Etched"]
+    stage_pref: "B-Growth"
+    notes: "Balance-sheet capital; co-led MatX $500M B (2026)"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Situational Awareness LP
+    type: "Thesis fund"
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["MatX"]
+    stage_pref: "B-Growth"
+    notes: "AGI-compute thesis fund; co-led MatX B"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: General Atlantic
+    type: Growth
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["SambaNova"]
+    stage_pref: "Growth"
+    notes: "Led SambaNova $1B Series F at ~$11B (2026-07)"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Seligman Ventures
+    type: Growth
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Eliyan", "SambaNova"]
+    stage_pref: "B-Growth"
+    notes: "Led Eliyan $145M Series C at ~$1B (2026-07)"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Sequoia Capital
+    type: VC
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Etched", "Ricursive Intelligence"]
+    stage_pref: "A-Growth"
+    notes: "Led Etched $300M C at ~$10.3B (2026-07)"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Lightspeed Venture Partners
+    type: VC
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Ricursive Intelligence"]
+    stage_pref: "A-Growth"
+    notes: "Led Ricursive $300M A at ~$4B (2026-01)"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Innovation Industries
+    type: "VC (NL)"
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Axelera AI"]
+    stage_pref: "A-C"
+    notes: "Led Axelera >$250M (2026-02); Europe's key edge-silicon investor"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Korea National Growth Fund
+    type: Sovereign
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Rebellions"]
+    stage_pref: "Growth/Pre-IPO"
+    notes: "KRW 250B (~$178M) into Rebellions (2026-03); state K-NVIDIA program"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Qatar Investment Authority
+    type: Sovereign
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Positron AI"]
+    stage_pref: "B-Growth"
+    notes: "Gulf capital entering inference silicon directly"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Arm (strategic)
+    type: Strategic
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Positron AI", "Eliyan", "OLIX"]
+    stage_pref: "B-Growth"
+    notes: "Now an active silicon investor; Physical AI unit launched 2026-01"
+    file: deal_tracker/24_strategic_investor_tracker.md
+  - name: Marvell (corp dev)
+    type: Strategic
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["MatX", "Celestial AI (acquired)", "XConn (acquired)"]
+    stage_pref: "M&A + growth"
+    notes: "Most acquisitive AI-silicon buyer of 2026 (~$3.8B across two deals)"
+    file: deal_tracker/24_strategic_investor_tracker.md

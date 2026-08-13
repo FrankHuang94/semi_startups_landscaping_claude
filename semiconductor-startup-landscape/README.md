@@ -4,7 +4,9 @@
 
 - **Maintained by:** [Your name / team]
 - **Database Created:** 2026-06-09
-- **Last Full Refresh:** 2026-06-09
+- **Last Full Refresh:** 2026-08-13
+
+> **What changed in the 2026-08-13 refresh (headlines):** **Cerebras IPO'd** (NASDAQ: CBRS, 2026-05-14, ~$5.5B raised at ~$56B implied) on the back of a **>$20B / 750MW OpenAI contract**. **NVIDIA licensed Groq's LPU technology and hired its founder for ~$20B** (2025-12) after a similar >$900M deal for **Enfabrica** (2025-09) — a licence-and-hire structure that is now the highest-value exit path in AI silicon. **Marvell acquired Celestial AI** (~$3.25B, up to ~$5.5B) and **XConn** ($540M); **Meta acquired Rivos** (~$2B); **Qualcomm closed Alphawave** ($2.4B); **Microchip is buying Hailo out of distress**. Mega-rounds: **Etched $300M at ~$10.3B**, **SambaNova $1B at ~$11B**, **Ayar Labs ~$500M at ~$3.75B**, **MatX $500M**, **OLIX $312M at ~$3.3B** (Europe's largest), **Positron $230M**, **Eliyan $145M**, **SiFive $400M**, **Ricursive Intelligence $300M at ~$4B**. Full detail in [REFRESH_LOG.md](REFRESH_LOG.md).
 
 > ⚠️ **Data integrity note:** Every figure in this database is tagged with a confidence marker — `[CONFIRMED]`, `[TO VERIFY]`, `[ESTIMATED]`, `[UNCONFIRMED]`, or `[NO PUBLIC DATA]`. Funding amounts, valuations, customers, and headcounts move fast and are frequently mis-reported; treat all numbers as point-in-time snapshots to be re-verified at each refresh. This file is an analytical research aid, not investment advice.
 
@@ -29,29 +31,29 @@ Status legend: 🟢 **Current** (≤30 days) · 🟡 **Needs refresh** (30–90 
 
 | File | Category | Entries | Last Refreshed | Refresh Count | Status | Priority |
 |------|----------|--------:|----------------|--------------:|--------|----------|
-| [01_training_accelerators.md](categories/01_training_accelerators.md) | Training Chips | 9 | 2026-06-09 | 1 | 🟢 Current | High |
-| [02_inference_accelerators.md](categories/02_inference_accelerators.md) | Inference Chips | 8 | 2026-06-09 | 1 | 🟢 Current | High |
-| [03_edge_inference_chips.md](categories/03_edge_inference_chips.md) | Edge Inference | 8 | 2026-06-09 | 1 | 🟢 Current | Medium |
-| [04_custom_asic_and_chiplets.md](categories/04_custom_asic_and_chiplets.md) | Custom ASIC & Chiplets | 7 | 2026-06-09 | 1 | 🟢 Current | High |
-| [05_networking_and_interconnect.md](categories/05_networking_and_interconnect.md) | Networking & Interconnect | 6 | 2026-06-09 | 1 | 🟢 Current | High |
-| [06_optical_interconnect_and_cpo.md](categories/06_optical_interconnect_and_cpo.md) | Optical & CPO | 8 | 2026-06-09 | 1 | 🟢 Current | High |
-| [07_memory_and_storage.md](categories/07_memory_and_storage.md) | Memory & Storage | 6 | 2026-06-09 | 1 | 🟢 Current | High |
-| [08_power_semiconductors_and_power_delivery.md](categories/08_power_semiconductors_and_power_delivery.md) | Power | 6 | 2026-06-09 | 1 | 🟢 Current | High |
-| [09_security_crypto_and_confidential_compute.md](categories/09_security_crypto_and_confidential_compute.md) | Security & Confidential Compute | 5 | 2026-06-09 | 1 | 🟢 Current | Medium |
-| [10_rf_wireless_and_connectivity.md](categories/10_rf_wireless_and_connectivity.md) | RF & Wireless | 4 | 2026-06-09 | 1 | 🟢 Current | Low |
-| [11_analog_mixed_signal_and_timing.md](categories/11_analog_mixed_signal_and_timing.md) | Analog & Timing | 5 | 2026-06-09 | 1 | 🟢 Current | Medium |
-| [12_eda_ip_and_design_tools.md](categories/12_eda_ip_and_design_tools.md) | EDA, IP & Tools | 8 | 2026-06-09 | 1 | 🟢 Current | High |
-| [13_foundry_packaging_and_chiplet_integration.md](categories/13_foundry_packaging_and_chiplet_integration.md) | Foundry & Packaging | 5 | 2026-06-09 | 1 | 🟢 Current | High |
-| [14_quantum_neuromorphic_and_non_von_neumann.md](categories/14_quantum_neuromorphic_and_non_von_neumann.md) | Quantum & Neuromorphic | 8 | 2026-06-09 | 1 | 🟢 Current | Medium |
-| [15_autonomous_robotics_and_automotive_silicon.md](categories/15_autonomous_robotics_and_automotive_silicon.md) | Automotive & Robotics | 5 | 2026-06-09 | 1 | 🟢 Current | Medium |
-| [16_datacenter_infrastructure_enablers.md](categories/16_datacenter_infrastructure_enablers.md) | DC Infra Enablers | 6 | 2026-06-09 | 1 | 🟢 Current | High |
-| [17_emerging_research_to_startup_pipeline.md](categories/17_emerging_research_to_startup_pipeline.md) | Research-to-Startup | 6 | 2026-06-09 | 1 | 🟢 Current | High |
-| [20_ma_tracker.md](deal_tracker/20_ma_tracker.md) | M&A | 10 | 2026-06-09 | 1 | 🟢 Current | High |
-| [21_vc_investor_tracker.md](deal_tracker/21_vc_investor_tracker.md) | Investors | 14 | 2026-06-09 | 1 | 🟢 Current | High |
-| [22_funding_round_tracker.md](deal_tracker/22_funding_round_tracker.md) | Funding Rounds | 18 | 2026-06-09 | 1 | 🟢 Current | High |
-| [23_exit_and_shutdown_tracker.md](deal_tracker/23_exit_and_shutdown_tracker.md) | Exits & Shutdowns | 8 | 2026-06-09 | 1 | 🟢 Current | Medium |
-| [24_strategic_investor_tracker.md](deal_tracker/24_strategic_investor_tracker.md) | Strategic Investors | 12 | 2026-06-09 | 1 | 🟢 Current | High |
-| [leading_researchers_index.md](researchers/leading_researchers_index.md) | Leading Researchers | 52 | 2026-06-09 | 2 | 🟢 Current | High |
+| [01_training_accelerators.md](categories/01_training_accelerators.md) | Training Chips | 8 | 2026-08-13 | 2 | 🟢 Current | High |
+| [02_inference_accelerators.md](categories/02_inference_accelerators.md) | Inference Chips | 9 | 2026-08-13 | 2 | 🟢 Current | High |
+| [03_edge_inference_chips.md](categories/03_edge_inference_chips.md) | Edge Inference | 9 | 2026-08-13 | 2 | 🟢 Current | Medium |
+| [04_custom_asic_and_chiplets.md](categories/04_custom_asic_and_chiplets.md) | Custom ASIC & Chiplets | 9 | 2026-08-13 | 2 | 🟢 Current | High |
+| [05_networking_and_interconnect.md](categories/05_networking_and_interconnect.md) | Networking & Interconnect | 7 | 2026-08-13 | 2 | 🟢 Current | High |
+| [06_optical_interconnect_and_cpo.md](categories/06_optical_interconnect_and_cpo.md) | Optical & CPO | 9 | 2026-08-13 | 2 | 🟢 Current | High |
+| [07_memory_and_storage.md](categories/07_memory_and_storage.md) | Memory & Storage | 8 | 2026-08-13 | 2 | 🟢 Current | High |
+| [08_power_semiconductors_and_power_delivery.md](categories/08_power_semiconductors_and_power_delivery.md) | Power | 6 | 2026-08-13 | 2 | 🟢 Current | High |
+| [09_security_crypto_and_confidential_compute.md](categories/09_security_crypto_and_confidential_compute.md) | Security & Confidential Compute | 5 | 2026-08-13 | 2 | 🟢 Current | Medium |
+| [10_rf_wireless_and_connectivity.md](categories/10_rf_wireless_and_connectivity.md) | RF & Wireless | 4 | 2026-08-13 | 2 | 🟢 Current | Low |
+| [11_analog_mixed_signal_and_timing.md](categories/11_analog_mixed_signal_and_timing.md) | Analog & Timing | 5 | 2026-08-13 | 2 | 🟢 Current | Medium |
+| [12_eda_ip_and_design_tools.md](categories/12_eda_ip_and_design_tools.md) | EDA, IP & Tools | 13 | 2026-08-13 | 2 | 🟢 Current | High |
+| [13_foundry_packaging_and_chiplet_integration.md](categories/13_foundry_packaging_and_chiplet_integration.md) | Foundry & Packaging | 5 | 2026-08-13 | 2 | 🟢 Current | High |
+| [14_quantum_neuromorphic_and_non_von_neumann.md](categories/14_quantum_neuromorphic_and_non_von_neumann.md) | Quantum & Neuromorphic | 8 | 2026-08-13 | 2 | 🟢 Current | Medium |
+| [15_autonomous_robotics_and_automotive_silicon.md](categories/15_autonomous_robotics_and_automotive_silicon.md) | Automotive & Robotics | 5 | 2026-08-13 | 2 | 🟢 Current | Medium |
+| [16_datacenter_infrastructure_enablers.md](categories/16_datacenter_infrastructure_enablers.md) | DC Infra Enablers | 6 | 2026-08-13 | 2 | 🟢 Current | High |
+| [17_emerging_research_to_startup_pipeline.md](categories/17_emerging_research_to_startup_pipeline.md) | Research-to-Startup | 9 | 2026-08-13 | 2 | 🟢 Current | High |
+| [20_ma_tracker.md](deal_tracker/20_ma_tracker.md) | M&A | 22 | 2026-08-13 | 2 | 🟢 Current | High |
+| [21_vc_investor_tracker.md](deal_tracker/21_vc_investor_tracker.md) | Investors | 31 | 2026-08-13 | 2 | 🟢 Current | High |
+| [22_funding_round_tracker.md](deal_tracker/22_funding_round_tracker.md) | Funding Rounds | 44 | 2026-08-13 | 2 | 🟢 Current | High |
+| [23_exit_and_shutdown_tracker.md](deal_tracker/23_exit_and_shutdown_tracker.md) | Exits & Shutdowns | 18 | 2026-08-13 | 2 | 🟢 Current | Medium |
+| [24_strategic_investor_tracker.md](deal_tracker/24_strategic_investor_tracker.md) | Strategic Investors | 12 | 2026-08-13 | 2 | 🟢 Current | High |
+| [leading_researchers_index.md](researchers/leading_researchers_index.md) | Leading Researchers | 52 | 2026-08-13 | 3 | 🟢 Current | High |
 
 ---
 
@@ -92,44 +94,55 @@ Supporting docs: [INVESTMENT_THESES.md](INVESTMENT_THESES.md) · [MARKET_MAP.md]
 
 | Company | Category | HQ | Founded | Stage | Total Funding | Lead Investors | Status | Primary File |
 |---------|----------|----|---------|-------|---------------|----------------|--------|--------------|
-| Astera Labs | Networking/Interconnect | Santa Clara, US | 2017 | Public (NASDAQ: ALAB) | IPO 2024 | Sutter Hill, Fidelity | Active | [05](categories/05_networking_and_interconnect.md) |
-| Axelera AI | Edge Inference | Eindhoven, NL | 2021 | Series B | ~$220M [TO VERIFY] | Innovation Industries, EIC | Active | [03](categories/03_edge_inference_chips.md) |
-| Ayar Labs | Optical/CPO | Santa Clara, US | 2015 | Series D | ~$370M+ [TO VERIFY] | Advent, Light Street | Active | [06](categories/06_optical_interconnect_and_cpo.md) |
-| Baya Systems | Custom ASIC/Chiplets | Santa Clara, US | 2022 | Series B | ~$57M+ [TO VERIFY] | Matrix, Maverick | Active | [04](categories/04_custom_asic_and_chiplets.md) |
-| Blaize | Automotive/Edge | El Dorado Hills, US | 2010 | Public (SPAC 2025) | ~$330M+ [TO VERIFY] | Temasek, Samsung | Active | [15](categories/15_autonomous_robotics_and_automotive_silicon.md) |
-| Celestial AI | Optical/CPO | Santa Clara, US | 2020 | Series C | ~$515M+ [TO VERIFY] | Fidelity, BlackRock, Maverick | Active | [06](categories/06_optical_interconnect_and_cpo.md) |
-| Cerebras Systems | Training | Sunnyvale, US | 2015 | Late/Pre-IPO | ~$720M+ [TO VERIFY] | Benchmark, Foundation, G42 | Active | [01](categories/01_training_accelerators.md) |
-| Codasip | EDA/IP | Brno, CZ | 2014 | Series A+ | ~$60M+ [TO VERIFY] | Smart Eureka, Eurazeo | Active | [12](categories/12_eda_ip_and_design_tools.md) |
-| Cornelis Networks | Networking | Wayne, US | 2020 | Series B/C | ~$130M+ [TO VERIFY] | Chevron Tech, DCVC | Active | [05](categories/05_networking_and_interconnect.md) |
-| d-Matrix | Inference | Santa Clara, US | 2019 | Series B | ~$160M+ [TO VERIFY] | Temasek, M12, Playground | Active | [02](categories/02_inference_accelerators.md) |
-| DeepX | Edge Inference | Seongnam, KR | 2018 | Series C | ~$120M+ [TO VERIFY] | SkyLake, BNW | Active | [03](categories/03_edge_inference_chips.md) |
-| EnCharge AI | Analog/In-Memory | Santa Clara, US | 2022 | Series B | ~$144M+ [TO VERIFY] | Tiger Global, RTX, In-Q-Tel | Active | [14](categories/14_quantum_neuromorphic_and_non_von_neumann.md) |
-| Empower Semiconductor | Power | San Jose, US | 2014 | Growth | [TO VERIFY] | Sutter Hill, Intel Capital | Active | [08](categories/08_power_semiconductors_and_power_delivery.md) |
-| Enfabrica | Networking | Mountain View, US | 2020 | Series C | ~$290M+ [TO VERIFY] | NVIDIA, Sutter Hill, Atreides | Active | [05](categories/05_networking_and_interconnect.md) |
-| Etched | Inference | Cupertino, US | 2022 | Series A | ~$125M+ [TO VERIFY] | Primary Venture, Positive Sum | Active | [02](categories/02_inference_accelerators.md) |
-| Fabric Cryptography | Security/Crypto | San Francisco, US | 2022 | Series A | ~$33M+ [TO VERIFY] | Blockchain Capital, 1kx | Active | [09](categories/09_security_crypto_and_confidential_compute.md) |
-| FuriosaAI | Inference/Training | Seoul, KR | 2017 | Series C | ~$200M+ [TO VERIFY] | DSC, Naver | Active | [02](categories/02_inference_accelerators.md) |
-| Graphcore | Training | Bristol, UK | 2016 | Acquired (SoftBank, 2024) | ~$700M raised | Sequoia, BMW i | Acquired | [01](categories/01_training_accelerators.md) |
-| Groq | Inference | Mountain View, US | 2016 | Late | ~$1B+ [TO VERIFY] | BlackRock, Samsung, Cisco | Active | [02](categories/02_inference_accelerators.md) |
-| Hailo | Edge Inference | Tel Aviv, IL | 2017 | Series C+ | ~$340M+ [TO VERIFY] | Poalim, Gil Agmon | Active | [03](categories/03_edge_inference_chips.md) |
-| Lightmatter | Optical/CPO | Mountain View, US | 2017 | Series D | ~$850M+ [TO VERIFY] | GV, T. Rowe Price, Fidelity | Active | [06](categories/06_optical_interconnect_and_cpo.md) |
-| MatX | Training | Mountain View, US | 2022 | Series A | [TO VERIFY] | Spark, Homebrew | Active | [01](categories/01_training_accelerators.md) |
-| Mythic | Analog/Edge | Austin, US | 2012 | Restructured/Series C | ~$165M+ [TO VERIFY] | DCVC, Lux, SoftBank | Active | [14](categories/14_quantum_neuromorphic_and_non_von_neumann.md) |
-| Panmnesia | Memory/CXL | Daejeon, KR | 2022 | Seed/A | ~$28M+ [TO VERIFY] | Daekyo, SL Investment | Active | [07](categories/07_memory_and_storage.md) |
-| Positron | Inference | Reno, US | 2023 | Seed/A | ~$75M+ [TO VERIFY] | Valor, Atreides, DFJ Growth | Active | [02](categories/02_inference_accelerators.md) |
-| PsiQuantum | Quantum | Palo Alto, US | 2016 | Growth | ~$1.3B+ [TO VERIFY] | BlackRock, Temasek, Baillie Gifford | Active | [14](categories/14_quantum_neuromorphic_and_non_von_neumann.md) |
-| Rain AI | Analog/Neuromorphic | San Francisco, US | 2017 | Series B [TO VERIFY] | ~$60M+ [TO VERIFY] | Prosperity7, Sam Altman | Active | [14](categories/14_quantum_neuromorphic_and_non_von_neumann.md) |
-| Rebellions | Inference | Seongnam, KR | 2020 | Series C / Unicorn | ~$325M+ [TO VERIFY] | KT, Temasek, Lighthouse | Active | [02](categories/02_inference_accelerators.md) |
-| Recogni | Automotive/Inference | San Jose, US | 2017 | Series C | ~$150M+ [TO VERIFY] | Celesta, GreatPoint, BMW i | Active | [15](categories/15_autonomous_robotics_and_automotive_silicon.md) |
-| Rivos | Custom ASIC/RISC-V | Mountain View, US | 2021 | Series A+ | ~$250M+ [TO VERIFY] | Matrix, Intel Capital, MediaTek | Active | [04](categories/04_custom_asic_and_chiplets.md) |
-| SambaNova Systems | Training/Inference | Palo Alto, US | 2017 | Series D | ~$1.1B [TO VERIFY] | SoftBank, BlackRock, Intel Cap | Active | [01](categories/01_training_accelerators.md) |
-| Sagence AI | Analog/In-Memory | Santa Clara, US | 2018 | Series A+ | [TO VERIFY] | [TO VERIFY] | Active | [14](categories/14_quantum_neuromorphic_and_non_von_neumann.md) |
-| SiMa.ai | Edge Inference | San Jose, US | 2018 | Series B+ | ~$270M+ [TO VERIFY] | Maverick, Fidelity, Dell | Active | [03](categories/03_edge_inference_chips.md) |
-| Tenstorrent | Training/Inference | Toronto, CA | 2016 | Series D | ~$700M+ [TO VERIFY] | Samsung, Hyundai, Fidelity, AFW | Active | [01](categories/01_training_accelerators.md) |
-| UnifabriX | Memory/CXL | Yokneam, IL | 2020 | Seed/A | [TO VERIFY] | [TO VERIFY] | Active | [07](categories/07_memory_and_storage.md) |
-| Untether AI | Inference | Toronto, CA | 2018 | Wound down (IP→AMD, 2025) | ~$150M raised | Intel Cap, Tracker, CPPIB | Shut Down | [02](categories/02_inference_accelerators.md) |
-| Xscape Photonics | Optical/CPO | New York, US | 2022 | Series A | ~$57M+ [TO VERIFY] | IAG Capital, Karman, NVIDIA | Active | [06](categories/06_optical_interconnect_and_cpo.md) |
-| Ventana Micro Systems | Custom ASIC/RISC-V | Cupertino, US | 2018 | Series C [TO VERIFY] | [TO VERIFY] | [TO VERIFY] | Active | [04](categories/04_custom_asic_and_chiplets.md) |
+| AheadComputing | 04 Custom ASIC/Chiplets (RISC-V IP) | Portland, US | 2024 | Seed 2 | ~$30M+ [TO VERIFY] | Eclipse Ventures, Toyota Ventures, Cambium | Active | categories/04_custom_asic_and_chiplets.md |
+| Alphawave Semi | 04 Custom ASIC/Chiplets (IP) | Toronto/London | 2017 | Acquired (Qualcomm, closed ~Q4 2025) | ~$2.4B exit | Public (LSE) | Acquired | categories/04_custom_asic_and_chiplets.md |
+| Astera Labs | 05 Networking/Interconnect | Santa Clara, US | 2017 | Public (NASDAQ: ALAB) | IPO 2024 | Sutter Hill, Fidelity | Active | categories/05_networking_and_interconnect.md |
+| Axelera AI | 03 Edge Inference | Eindhoven, NL | 2021 | Series C [TO VERIFY] | ~$450M [TO VERIFY] | Innovation Industries, BlackRock, Samsung Catalyst | Active | categories/03_edge_inference_chips.md |
+| Ayar Labs | 06 Optical/CPO | Santa Clara, US | 2015 | Series E | ~$870M [TO VERIFY] | Neuberger Berman [TO VERIFY], Advent, Light Street | Active | categories/06_optical_interconnect_and_cpo.md |
+| Baya Systems | 04 Custom ASIC/Chiplets | Santa Clara, US | 2022 | Series B | ~$57M+ [TO VERIFY] | Matrix Partners, Maverick | Active | categories/04_custom_asic_and_chiplets.md |
+| Blaize | 15 Automotive/Edge | El Dorado Hills, US | 2010 | Public (SPAC 2025) | ~$330M+ [TO VERIFY] | Temasek, Samsung | Active | categories/15_autonomous_robotics_and_automotive_silicon.md |
+| Celestial AI | 06 Optical/CPO | Santa Clara, US | 2020 | Acquired (Marvell, closed 2026-02) | ~$594M raised; ~$3.25B-$5.5B exit | Fidelity, BlackRock, Maverick | Acquired | categories/06_optical_interconnect_and_cpo.md |
+| Cerebras Systems | 01 Training | Sunnyvale, US | 2015 | Public (NASDAQ: CBRS, 2026-05) | ~$720M private + ~$5.5B IPO | Benchmark, Foundation Capital, G42 | Active | categories/01_training_accelerators.md |
+| ChipAgents | 12 EDA/IP (agentic verification) | Santa Barbara, US | 2023 | Series A + ext. (2026-07) | ~$134M [TO VERIFY] | Micron, MediaTek | Active | categories/12_eda_ip_and_design_tools.md |
+| Codasip | 12 EDA/IP | Brno, CZ | 2014 | Series A+ | ~$60M+ [TO VERIFY] | Smart Eureka, Eurazeo | Active | categories/12_eda_ip_and_design_tools.md |
+| Cornelis Networks | 05 Networking | Wayne, US | 2020 | Series B/C | ~$130M+ [TO VERIFY] | Chevron Technology Ventures, DCVC | Active | categories/05_networking_and_interconnect.md |
+| d-Matrix | 02 Inference | Santa Clara, US | 2019 | Series C | ~$450M [TO VERIFY] | Temasek, M12, Playground Global | Active | categories/02_inference_accelerators.md |
+| DeepX | 03 Edge Inference | Seongnam, KR | 2018 | Series C | ~$120M+ [TO VERIFY] | SkyLake, BNW | Active | categories/03_edge_inference_chips.md |
+| EdgeCortix | 03 Edge Inference | Tokyo, JP | 2019 | Series B (2025-11) | >$110M [TO VERIFY] | [TO VERIFY] | Active | categories/03_edge_inference_chips.md |
+| Eliyan | 04 Custom ASIC/Chiplets | Santa Clara, US | 2021 | Series C (2026-07) | ~$295M [TO VERIFY] | Seligman Ventures, Cisco Investments, Lumentum | Active | categories/04_custom_asic_and_chiplets.md |
+| Empower Semiconductor | 08 Power | San Jose, US | 2014 | Growth | [TO VERIFY] | Sutter Hill, Intel Capital | Active | categories/08_power_semiconductors_and_power_delivery.md |
+| EnCharge AI | 14 Analog/In-Memory | Santa Clara, US | 2022 | Series B | ~$144M+ [TO VERIFY] | Tiger Global, RTX Ventures, In-Q-Tel | Active | categories/14_quantum_neuromorphic_and_non_von_neumann.md |
+| Enfabrica | 05 Networking | Mountain View, US | 2020 | Standalone post-NVIDIA licence (2025-09) | ~$260M raised; >$900M NVIDIA licence | NVIDIA, Sutter Hill, Atreides | Active | categories/05_networking_and_interconnect.md |
+| Etched | 02 Inference | Cupertino, US | 2022 | Series C (2026-07) | ~$800M+ [TO VERIFY] | Sequoia, a16z, Jane Street, SK hynix | Active | categories/02_inference_accelerators.md |
+| Fabric Cryptography | 09 Security/Crypto | San Francisco, US | 2022 | Series A | ~$33M+ [TO VERIFY] | Blockchain Capital, 1kx | Active | categories/09_security_crypto_and_confidential_compute.md |
+| FuriosaAI | 02 Inference | Seoul, KR | 2017 | Series D / pre-IPO (in market) | ~$200M+ [TO VERIFY] | DSC Investment, Naver | Active | categories/02_inference_accelerators.md |
+| Graphcore | 01 Training | Bristol, UK | 2016 | Acquired (SoftBank, 2024) | ~$700M raised | Sequoia, BMW i Ventures | Acquired | categories/01_training_accelerators.md |
+| Groq | 02 Inference | Mountain View, US | 2016 | Late; post-NVIDIA licence | ~$2.4B [TO VERIFY] | Disruptive, Infinitum, BlackRock | Active | categories/02_inference_accelerators.md |
+| Hailo | 03 Edge Inference | Tel Aviv, IL | 2017 | Acquired (Microchip, 2026) | ~$425M raised | Poalim Equity, Gil Agmon | Acquired | categories/03_edge_inference_chips.md |
+| Lightmatter | 06 Optical/CPO | Mountain View, US | 2017 | Series D | ~$850M+ [TO VERIFY] | GV, T. Rowe Price, Fidelity | Active | categories/06_optical_interconnect_and_cpo.md |
+| MatX | 01 Training | Mountain View, US | 2022 | Series B (2026-02) | ~$500M+ [TO VERIFY] | Jane Street, Situational Awareness LP, Spark Capital | Active | categories/01_training_accelerators.md |
+| Mythic | 14 Analog/Edge | Austin, US | 2012 | Series C (restructured) | ~$165M+ [TO VERIFY] | DCVC, Lux Capital, SoftBank | Active | categories/14_quantum_neuromorphic_and_non_von_neumann.md |
+| OLIX | 06 Optical/CPO | London, UK | 2024 | Series B (2026-08) | ~$350M+ [TO VERIFY] | Hummingbird, Plural, Creandum, Arm | Active | categories/06_optical_interconnect_and_cpo.md |
+| Oriole Networks | 05 Networking/Interconnect | London, UK | 2023 | Series A/B [TO VERIFY] | [TO VERIFY] | [TO VERIFY] | Active | categories/05_networking_and_interconnect.md |
+| Panmnesia | 07 Memory/CXL | Daejeon, KR | 2022 | Seed/A | ~$28M+ [TO VERIFY] | Daekyo Investment, SL Investment | Active | categories/07_memory_and_storage.md |
+| Positron AI | 02 Inference | Reno, US | 2023 | Series B (2026-02) | ~$280M+ [TO VERIFY] | ARENA Private Wealth, Jump Trading, Unless, QIA, Arm | Active | categories/02_inference_accelerators.md |
+| PsiQuantum | 14 Quantum | Palo Alto, US | 2016 | Growth | ~$1.3B+ [TO VERIFY] | BlackRock, Temasek, Baillie Gifford | Active | categories/14_quantum_neuromorphic_and_non_von_neumann.md |
+| Rain AI | 14 Analog/Neuromorphic | San Francisco, US | 2017 | Series B [TO VERIFY] | ~$60M+ [TO VERIFY] | Prosperity7, Sam Altman | Active | categories/14_quantum_neuromorphic_and_non_von_neumann.md |
+| Rebellions | 02 Inference | Seongnam, KR | 2020 | Pre-IPO (2026-03) | ~$725M+ [TO VERIFY] | Korea National Growth Fund, KT, Temasek | Active | categories/02_inference_accelerators.md |
+| Recogni | 15 Automotive/Inference | San Jose, US | 2017 | Series C | ~$150M+ [TO VERIFY] | Celesta, GreatPoint, BMW i Ventures | Active | categories/15_autonomous_robotics_and_automotive_silicon.md |
+| Ricursive Intelligence | 12 EDA/IP (AI for design) | US | 2025 | Series A (2026-01) | ~$300M+ [TO VERIFY] | Lightspeed, DST Global, NVentures, Sequoia | Active | categories/12_eda_ip_and_design_tools.md |
+| Rivos | 04 Custom ASIC/RISC-V | Mountain View, US | 2021 | Acquired (Meta, 2025-10) | ~$250M+ raised; ~$2B exit [ESTIMATED] | Matrix Partners, Intel Capital, MediaTek | Acquired | categories/04_custom_asic_and_chiplets.md |
+| Sagence AI | 14 Analog/In-Memory | Santa Clara, US | 2018 | Series A+ | [TO VERIFY] | [TO VERIFY] | Active | categories/14_quantum_neuromorphic_and_non_von_neumann.md |
+| SambaNova Systems | 01 Training/Inference | Palo Alto, US | 2017 | Series F (2026-07) | ~$2.1B [TO VERIFY] | General Atlantic, SoftBank, BlackRock | Active | categories/01_training_accelerators.md |
+| SiFive | 12 EDA/IP (RISC-V) | Santa Clara, US | 2015 | Series G (2026-04) | ~$970M [TO VERIFY] | Atreides Management, NVIDIA, Apollo | Active | categories/12_eda_ip_and_design_tools.md |
+| SiMa.ai | 03 Edge Inference | San Jose, US | 2018 | Series B+ | ~$270M+ [TO VERIFY] | Maverick, Fidelity, Dell Technologies Capital | Active | categories/03_edge_inference_chips.md |
+| Substrate | 13 Foundry/Packaging (lithography) | US | 2024 | Series A (2025-10) | ~$100M at >$1B [TO VERIFY] | General Catalyst, Founders Fund, In-Q-Tel | Active | categories/13_foundry_packaging_and_chiplet_integration.md |
+| Tenstorrent | 01 Training/Inference | Toronto, CA | 2016 | Late (2025-11) | ~$1.18B [TO VERIFY] | Fidelity, Samsung, AFW Partners | Active | categories/01_training_accelerators.md |
+| UnifabriX | 07 Memory/CXL | Yokneam, IL | 2020 | Seed/A | [TO VERIFY] | [TO VERIFY] | Active | categories/07_memory_and_storage.md |
+| Untether AI | 02 Inference | Toronto, CA | 2018 | Wound down (IP to AMD, 2025) | ~$150M raised | Intel Capital, Tracker, CPPIB | Shut Down | categories/02_inference_accelerators.md |
+| Ventana Micro Systems | 04 Custom ASIC/RISC-V | Cupertino, US | 2018 | Series C [TO VERIFY] | [TO VERIFY] | [TO VERIFY] | Active | categories/04_custom_asic_and_chiplets.md |
+| XConn Technologies | 07 Memory/CXL | San Jose, US | 2020 | Acquired (Marvell, 2026-02) | ~$540M exit [TO VERIFY] | [TO VERIFY] | Acquired | categories/07_memory_and_storage.md |
+| Xscape Photonics | 06 Optical/CPO | New York, US | 2022 | Series A ext. (2026-03) | ~$81M [TO VERIFY] | Addition, IAG Capital, NVIDIA | Active | categories/06_optical_interconnect_and_cpo.md |
 
 > This index lists marquee and representative entries; see individual category files for the full set and lighter-coverage entries. Counts in the dashboard reflect total entries per file.
 
@@ -140,21 +153,32 @@ Supporting docs: [INVESTMENT_THESES.md](INVESTMENT_THESES.md) · [MARKET_MAP.md]
 > Auto-generated from `data/investor_index.yaml`. See [21_vc_investor_tracker.md](deal_tracker/21_vc_investor_tracker.md) and [24_strategic_investor_tracker.md](deal_tracker/24_strategic_investor_tracker.md) for full profiles.
 
 | Investor | Type | Semi Focus | AI Infra Focus | Relevant Portfolio | Stage Pref | Notes |
-|----------|------|-----------|----------------|--------------------|-----------| ------|
-| Sutter Hill Ventures | VC | High | High | Astera Labs, Enfabrica, Empower | Seed–A | Deep silicon track record |
-| Mayfield / Eclipse | VC | High | High | Hardware/deep-tech | Seed–B | Eclipse = factory/industrial+silicon |
-| Lux Capital | VC | High | High | Mythic, hard-tech | Seed–B | Frontier hardware thesis |
-| DCVC (Data Collective) | VC | High | High | Cornelis, Mythic | Seed–B | Deep-tech/compute |
-| Walden Catalyst / Walden Intl | VC | High | Medium | Semiconductors globally | A–Growth | Lip-Bu Tan legacy network |
-| Playground Global | VC | High | High | d-Matrix, EnCharge (adj.) | Seed–A | Hard-tech / silicon |
-| Matrix Partners | VC | High | High | Rivos, Baya Systems | Seed–B | Compute infra |
-| Maverick Silicon / Maverick | VC | High | High | Celestial AI, SiMa.ai | A–Growth | Silicon-focused growth |
-| Atreides Management | Crossover | High | High | Enfabrica, Positron | B–Growth | Public/private crossover |
-| Temasek | Sovereign | High | High | d-Matrix, Rebellions, PsiQuantum | B–Growth | Patient capital |
-| G42 | Strategic/Sovereign | High | High | Cerebras | Growth | UAE AI infra |
-| NVIDIA (NVentures) | Strategic | High | High | Enfabrica, Xscape, many | A–Growth | Ecosystem signal |
-| Intel Capital | Strategic | High | Medium | Rivos, Empower | Seed–Growth | Now independent fund |
-| Samsung Catalyst Fund | Strategic | High | High | Tenstorrent, Groq, Blaize | A–Growth | Memory/foundry strategic |
+|----------|------|-----------|----------------|--------------------|-----------|-------|
+| Arm (strategic) | Strategic | High | High | Positron AI, Eliyan, OLIX | B-Growth | Now an active silicon investor; Physical AI unit launched 2026-01 |
+| Atreides Management | Crossover | High | High | Enfabrica, Positron AI | B-Growth | Public/private crossover |
+| DCVC | VC | High | High | Cornelis Networks, Mythic, Agile Analog | Seed-B | Deep-tech/compute |
+| Eclipse Ventures | VC | High | High | Cerebras | Seed-B | Full-stack hard-tech |
+| Fidelity / BlackRock / T. Rowe Price | Crossover | High | High | Cerebras, Groq, Lightmatter, Celestial AI | Growth/Pre-IPO | Pre-IPO bridge |
+| General Atlantic | Growth | Medium | High | SambaNova | Growth | Led SambaNova $1B Series F at ~$11B (2026-07) |
+| Innovation Industries | VC (NL) | High | High | Axelera AI | A-C | Led Axelera >$250M (2026-02); Europe's key edge-silicon investor |
+| Intel Capital | Strategic | High | Medium | Rivos, Eliyan, Empower Semiconductor, Movellus | Seed-Growth | Now independent fund |
+| Jane Street | Prop/quant | Medium | High | MatX, Etched | B-Growth | Balance-sheet capital; co-led MatX $500M B (2026) |
+| Korea National Growth Fund | Sovereign | High | High | Rebellions | Growth/Pre-IPO | KRW 250B (~$178M) into Rebellions (2026-03); state K-NVIDIA program |
+| Lightspeed Venture Partners | VC | Medium | High | Ricursive Intelligence | A-Growth | Led Ricursive $300M A at ~$4B (2026-01) |
+| Lux Capital | VC | High | High | Mythic | Seed-B | Frontier hardware |
+| Marvell (corp dev) | Strategic | High | High | MatX, Celestial AI (acquired), XConn (acquired) | M&A + growth | Most acquisitive AI-silicon buyer of 2026 (~$3.8B across two deals) |
+| Matrix Partners | VC | High | High | Rivos, Baya Systems | Seed-B | Compute infra/IP |
+| Maverick | VC/Growth | High | High | Celestial AI, SiMa.ai | A-Growth | Silicon-focused |
+| NVIDIA (NVentures) | Strategic | High | High | Enfabrica, Xscape Photonics, Ayar Labs | A-Growth | Ecosystem signal + acquirer |
+| Playground Global | VC | High | High | d-Matrix | Seed-A | Hard-tech silicon |
+| Qatar Investment Authority | Sovereign | Medium | High | Positron AI | B-Growth | Gulf capital entering inference silicon directly |
+| Samsung Catalyst Fund | Strategic | High | High | Tenstorrent, Groq, Blaize, Axelera AI, Eliyan | A-Growth | Memory/foundry adjacency |
+| Seligman Ventures | Growth | High | High | Eliyan, SambaNova | B-Growth | Led Eliyan $145M Series C at ~$1B (2026-07) |
+| Sequoia Capital | VC | Medium | High | Etched, Ricursive Intelligence | A-Growth | Led Etched $300M C at ~$10.3B (2026-07) |
+| Situational Awareness LP | Thesis fund | Medium | High | MatX | B-Growth | AGI-compute thesis fund; co-led MatX B |
+| Sutter Hill Ventures | VC | High | High | Astera Labs, Enfabrica, Empower Semiconductor | Seed-A | Deep silicon incubation track record |
+| Temasek | Sovereign | High | High | d-Matrix, Rebellions, PsiQuantum | B-Growth | Patient capital |
+| Tiger Global | Crossover | Medium | High | EnCharge AI, Eliyan | B-Growth | Growth-stage AI infra |
 
 ---
 
@@ -221,22 +245,25 @@ Supporting docs: [INVESTMENT_THESES.md](INVESTMENT_THESES.md) · [MARKET_MAP.md]
 
 ## Key Stats
 
-> Updated on each full refresh. Initial build 2026-06-09. Counts reflect entries in this database, not the total market.
+> Updated on each full refresh. Initial build 2026-06-09; latest full refresh 2026-08-13. Counts reflect entries in this database, not the total market.
 
-- **Total startups tracked:** 110+ (across all category files; ~40 with full profiles)
-- **Active companies:** ~95
-- **Stealth / semi-stealth companies tracked:** 6
-- **Exited companies — acquired:** 9
+- **Total startups tracked:** 125+ (across all category files; ~45 with full profiles)
+- **Active companies:** ~100
+- **Stealth / semi-stealth companies tracked:** 5
+- **Exited companies — acquired:** 16 (added 2026: Celestial AI, Rivos, Hailo, XConn, Alphawave, SkyWater, GigaIO assets)
+- **Companies taken public:** 2 (Astera Labs 2024; **Cerebras 2026**)
+- **Companies with licence-and-hire outcomes:** 2 (**Groq ~$20B, Enfabrica >$900M — both to NVIDIA**)
 - **Exited companies — shut down:** 4
-- **Total VC investors tracked:** 14 (full) + index
-- **Strategic investors tracked:** 12
-- **M&A deals tracked:** 10
-- **Funding rounds tracked:** 18
+- **Total VC/crossover investors tracked:** 31 profiled rows in [21_vc_investor_tracker.md](deal_tracker/21_vc_investor_tracker.md) (14 original + 17 added in 2026); 25 in the machine-readable `data/investor_index.yaml`
+- **Strategic investors tracked:** 12 profiles + 11 behavior updates
+- **M&A / structural deals tracked:** 22
+- **Funding rounds tracked:** 44
 - **Research labs tracked:** 25 (university + corporate)
 - **Leading researchers tracked:** 52 (across 10 domains)
 - **Papers tracked:** 34 (emphasis on 2023–2026)
 - **Patents tracked:** 22 (clusters/themes)
-- **Total disclosed funding tracked:** ~$10B+ [ESTIMATED — sum of disclosed rounds, double-counting possible]
+- **Research-to-startup conversions recorded:** 2 (**Ricursive Intelligence** from the AI-EDA watch-item; **OLIX** from photonic compute)
+- **Total disclosed funding tracked:** ~$18B+ [ESTIMATED — sum of disclosed rounds, double-counting possible], plus ~$28B of 2025–26 acquisition/licence value and a ~$5.5B IPO
 
 ---
 

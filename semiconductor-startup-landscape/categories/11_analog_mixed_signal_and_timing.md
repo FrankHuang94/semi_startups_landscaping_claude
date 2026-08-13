@@ -3,8 +3,8 @@ category_id: "11"
 category_name: "Analog, Mixed Signal & Timing"
 primary_datacenter_relevance: "Medium"
 vc_relevance: "Medium"
-last_refreshed: "2026-06-09"
-refresh_count: 1
+last_refreshed: "2026-08-13"
+refresh_count: 2
 total_companies: 5
 active_companies: 5
 archived_companies: 0
@@ -32,6 +32,13 @@ key_open_questions: ["Can analog/timing startups reach venture scale beyond M&A?
 - **Drivers:** Clock-tree complexity, jitter budgets, synchronization across large clusters, IP reuse.
 - **Bottlenecks:** Analog design productivity (manual, slow), PVT robustness, IP portability.
 - **Competitive:** Incumbent-heavy; startups win via IP + automation + niche performance. **Risks:** long cycles, incumbent scale.
+
+### 2026 Update (2026-08-13)
+
+- **The AI-EDA wave is the most important development for this category, and it arrives from [12](12_eda_ip_and_design_tools.md).** Analog design productivity has been the structural bottleneck here for two decades; agentic design tools (Ricursive Intelligence, ChipAgents, Astrus) attack exactly that. Whether analog IP startups become *more* investable (automation makes small teams productive) or *less* (automation commoditizes the IP) is the open question — watch which way margins move at the IP vendors first.
+- **Timing and power-integrity content per accelerator keeps rising** with 800VDC racks and chiplet-based designs: more voltage domains, tighter clock distribution across larger multi-die packages, and more on-die telemetry. That is a quiet volume tailwind for the Movellus-style position.
+- **Consolidation continues at the IP layer** (Qualcomm→Alphawave, GlobalFoundries→Synopsys ARC IP), which shortens the acquirer list but confirms that analog/mixed-signal IP is bought, not built, by incumbents entering new markets.
+- **No significant new financing surfaced** for the tracked companies in this refresh cycle [NO PUBLIC DATA] — re-verify at the next refresh. Priority remains **Medium**.
 
 ## 3. Startup Landscape Table
 
@@ -91,3 +98,4 @@ key_open_questions: ["Can analog/timing startups reach venture scale beyond M&A?
 | Date | Refresh Type | Added | Updated | Archived | Key Changes | Sources |
 |------|--------------|-------|---------|----------|-------------|---------|
 | 2026-06-09 | Full (initial) | 5 | 0 | 0 | Initial build; Movellus profile; timing/analog IP coverage | Company sites, public filings |
+| 2026-08-13 | Light review | 0 | 1 (market context) | 0 | Framed the AI-EDA wave as the key swing factor for analog design productivity; noted rising timing/power-integrity content from 800VDC and chiplet designs, and IP-layer consolidation (Qualcomm→Alphawave, GF→Synopsys ARC). No new financing found for tracked companies | Trade press [NO PUBLIC DATA on rounds] |
