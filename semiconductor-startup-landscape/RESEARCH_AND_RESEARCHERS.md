@@ -19,6 +19,26 @@ This file is the entry point to the research-driven sourcing engine: the labs, r
 
 ---
 
+## Snapshot — Refresh #3 (2026-11-04)
+
+> Tracked: **62 researchers** ([data/researcher_index.yaml](data/researcher_index.yaml)), **44 labs** ([data/lab_index.yaml](data/lab_index.yaml)), **38 papers/lines of work** ([data/paper_index.yaml](data/paper_index.yaml)), **30 patent clusters** ([data/patent_index.yaml](data/patent_index.yaml)), **32 founders** ([data/founder_index.yaml](data/founder_index.yaml)), **9 surfaced companies + 6 pattern watch-items** in [STEALTH_STARTUP_DISCOVERY.md](STEALTH_STARTUP_DISCOVERY.md).
+
+**Researcher → company conversions confirmed by public evidence since the last refresh:**
+
+| Researcher(s) | From | Company | Evidence (tagged) | Category |
+|---------------|------|---------|-------------------|----------|
+| Anna Goldie & Azalia Mirhoseini | Google DeepMind (AlphaChip); Mirhoseini also Stanford faculty | Ricursive Intelligence (CEO / CTO) | $35M seed (Sequoia) + $300M Series A at $4B (Lightspeed), Jan 2026 [CONFIRMED] | [12](categories/12_eda_ip_and_design_tools.md) |
+| Naveen Rao, Michael Carbin, Sara Achour | Databricks; MIT; Stanford | Unconventional AI | $475M seed at $4.5B, a16z + Lightspeed, Dec 2025 [CONFIRMED] | [14](categories/14_quantum_neuromorphic_and_non_von_neumann.md) |
+| William Wang | UCSB (on leave) | ChipAgents | $134M cumulative Series A (Oct 2025–Jul 2026) [company-reported] | [12](categories/12_eda_ip_and_design_tools.md) |
+| David R. Smith lab lineage (Patrick Bowen) | Duke | Neurophos | $110M Series A, Jan 2026 [CONFIRMED] | [06](categories/06_optical_interconnect_and_cpo.md) |
+| Danyal Akarca, Jascha Achterberg | Academic neuroscience/ML [affiliations TO VERIFY] | Callosum | $100M seed led by Atomico, Aug 2026 [CONFIRMED] | [02](categories/02_inference_accelerators.md) |
+
+**Status checks on previously tracked names:** Song Han — remains MIT associate professor + NVIDIA research director (Efficient AI team); no new company [CONFIRMED via NVIDIA Research page]. Tri Dao — remains Together AI co-founder/chief scientist; FlashAttention-4 (Mar 2026); Princeton title reported inconsistently [TO VERIFY]. Christopher Ré — no new company found in 2026; scientific adviser to Radical Numerics (bio-AI, Jun 2026) [CONFIRMED, SiliconANGLE]. Kunle Olukotun — SambaNova sale talks with Intel (~$1.6B incl. debt, late 2025) reported stalled Jan 2026; SambaNova sought $300–500M independently [per Bloomberg; final outcome TO VERIFY].
+
+**Pattern:** researcher-founders now raise $100M–$500M at formation (mega-seeds), compressing the traditional seed window. Sourcing edge shifts to (a) the *second-tier* students/postdocs of these labs, (b) tooling wedges around new compute paradigms, and (c) exit diasporas from 2025's licensing/acqui-hire deals.
+
+---
+
 ## What This Engine Tracks
 
 1. Leading academic researchers
@@ -52,6 +72,9 @@ This file is the entry point to the research-driven sourcing engine: the labs, r
 | Quantum hardware / cryogenic CMOS | 14 | Long-horizon moonshot |
 | Datacenter energy efficiency | 16 | Capex/opex pull |
 | Robotics & edge AI silicon | 15/03 | Physical-AI frontier |
+| AI-designed chips / agentic EDA | 12 | Funded at scale in 2025–26 (Ricursive, ChipAgents) |
+| Photonic / metamaterial matrix compute | 06/14 | Neurophos-style optical inference |
+| Model-hardwired & thermodynamic compute | 02/14 | Taalas, Normal Computing, Extropic — architecture bets |
 
 ---
 
@@ -103,6 +126,7 @@ Each profile in [leading_researchers_index.md](researchers/leading_researchers_i
 | Company incorporated by researcher | **Very High** | Possible startup formation |
 | Researcher leaves university/corporate lab for "stealth" role | High | Strong sourcing signal |
 | Seed funding announced | **Very High** | Confirmed company formation |
+| Mega-seed (≥$100M) for researcher-founders | **Very High** | Formation + category validation; entry price already high — pivot sourcing to adjacent teams |
 | Patent assigned to a new entity | High | Possible commercialization |
 | Lab publishes repeated papers in a commercially urgent bottleneck | Medium | Watchlist |
 | Researcher collaborates with hyperscaler or chip company | Medium | Commercial relevance |
@@ -122,3 +146,12 @@ Each profile in [leading_researchers_index.md](researchers/leading_researchers_i
 3. **Watch the leading indicators.** LinkedIn role changes, patent assignees, new domains, stealth job posts, accelerator cohorts.
 4. **Build the first-call list.** Maintain a ranked outreach queue in [researchers/researcher_to_startup_signal_tracker.md](researchers/researcher_to_startup_signal_tracker.md).
 5. **Re-verify.** Signals decay; confirm at each refresh and downgrade stale ones.
+
+---
+
+## Refresh Notes
+
+| Date | Refresh Type | Added | Updated | Key Changes | Sources |
+|------|--------------|-------|---------|-------------|---------|
+| 2026-06-09 | Full (initial) + Expansion #2 | Engine framework | — | Initial build | Public research |
+| 2026-11-04 | Full (Refresh #3) | Snapshot section; 3 research areas; 1 signal type | Researcher status checks | 5 confirmed researcher→company conversions (Ricursive, Unconventional AI, ChipAgents, Neurophos, Callosum); index counts updated | TechCrunch, Bloomberg, Reuters, company PRs, NVIDIA Research, SiliconANGLE |

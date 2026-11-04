@@ -157,3 +157,102 @@ papers:
     bottleneck: "Quantum FT"
     signal: Likely
     vc_relevance: 4
+  # --- Refresh #3 (2026-11-04): 2025-2026 additions (venues TO VERIFY where tagged) ---
+  - title: "FlashAttention-4 (Blackwell-era attention kernels)"
+    authors: ["Tri Dao et al."]
+    year: 2026
+    area: "Inference kernels"
+    bottleneck: "Inference cost"
+    signal: Confirmed
+    vc_relevance: 5
+  - title: "AlphaEvolve (LLM-driven algorithm & Verilog circuit discovery, incl. TPU arithmetic) [TO VERIFY venue]"
+    authors: ["Google DeepMind"]
+    year: 2025
+    area: "AI-EDA"
+    bottleneck: "Design productivity"
+    signal: Likely
+    vc_relevance: 5
+  - title: "Agentic RTL benchmarks (e.g., NVIDIA CVDP) [TO VERIFY]"
+    authors: ["NVIDIA Research / academia"]
+    year: 2025
+    area: "AI-EDA"
+    bottleneck: "Design productivity"
+    signal: Confirmed
+    vc_relevance: 4
+  - title: "Analog optical computer for AI inference & optimization (Nature) [TO VERIFY]"
+    authors: ["Microsoft Research Cambridge"]
+    year: 2025
+    area: "Optical compute"
+    bottleneck: "Compute energy"
+    signal: Watchlist
+    vc_relevance: 4
+  - title: "Metasurface optical processing unit disclosures (company claims)"
+    authors: ["Neurophos (Duke Smith-lab lineage)"]
+    year: 2026
+    area: "Optical compute"
+    bottleneck: "Compute energy"
+    signal: Confirmed
+    vc_relevance: 4
+  - title: "Analog in-memory attention for LLMs (Nature Computational Science) [TO VERIFY]"
+    authors: ["Leroux et al. (Forschungszentrum Juelich)"]
+    year: 2025
+    area: "Analog IMC"
+    bottleneck: "Memory/KV energy"
+    signal: Likely
+    vc_relevance: 4
+  - title: "High-precision RRAM analog matrix-equation solving (Nature Electronics) [TO VERIFY]"
+    authors: ["Peking University (Zhong Sun et al.)"]
+    year: 2025
+    area: "Analog IMC"
+    bottleneck: "Energy/op"
+    signal: Watchlist
+    vc_relevance: 3
+  - title: "HBM4 / custom base-die disclosures (ISSCC 2026) [TO VERIFY]"
+    authors: ["Samsung", "SK hynix"]
+    year: 2026
+    area: "Memory"
+    bottleneck: "Memory bandwidth"
+    signal: Watchlist
+    vc_relevance: 4
+  - title: "Ironwood TPU (inference-first TPU; Hot Chips 2025) [TO VERIFY]"
+    authors: ["Google"]
+    year: 2025
+    area: "Architecture"
+    bottleneck: "Inference cost"
+    signal: Watchlist
+    vc_relevance: 4
+  - title: "Co-packaged optics switch silicon (Spectrum-X / Quantum-X Photonics; OFC/Hot Chips) [TO VERIFY]"
+    authors: ["NVIDIA / TSMC"]
+    year: 2025
+    area: "Photonics"
+    bottleneck: "Interconnect"
+    signal: Watchlist
+    vc_relevance: 5
+  - title: "Model-hardwired inference silicon (Taalas HC1, Llama 3.1 8B) (company disclosure)"
+    authors: ["Taalas"]
+    year: 2026
+    area: "Inference ASIC"
+    bottleneck: "Inference cost"
+    signal: Confirmed
+    vc_relevance: 4
+  - title: "In-chip microfluidic cooling demonstration [TO VERIFY]"
+    authors: ["Microsoft"]
+    year: 2025
+    area: "Thermal"
+    bottleneck: "Power/thermal"
+    signal: Watchlist
+    vc_relevance: 3
+  - title: "Fault-tolerant neutral-atom architecture (Nature) [TO VERIFY]"
+    authors: ["Lukin et al. (Harvard/MIT/QuEra)"]
+    year: 2025
+    area: "Quantum"
+    bottleneck: "Quantum FT"
+    signal: Likely
+    vc_relevance: 4
+  - title: "Verifiable quantum advantage via OTOCs - 'Quantum Echoes' (Nature) [TO VERIFY]"
+    authors: ["Google Quantum AI"]
+    year: 2025
+    area: "Quantum"
+    bottleneck: "Quantum FT"
+    signal: Watchlist
+    vc_relevance: 3

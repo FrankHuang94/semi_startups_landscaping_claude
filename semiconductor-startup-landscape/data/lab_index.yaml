@@ -196,3 +196,117 @@ labs:
     area: "Advanced nodes / CoWoS-SoIC / COUPE photonics"
     formation_potential: Low
     vc_relevance: 4
+  # --- Sync with researchers/corporate_research_labs_index.md (Refresh #3) ---
+  - name: IBM Research
+    type: corporate
+    location: "Yorktown Heights, US / Zurich, CH"
+    pi: ["—"]
+    area: "Analog AI (PCM) / in-memory compute / packaging / quantum (qLDPC)"
+    formation_potential: Medium-High
+    vc_relevance: 4
+  - name: Intel Labs
+    type: corporate
+    location: "US"
+    pi: ["—"]
+    area: "Packaging (EMIB/Foveros) / UCIe / neuromorphic (Loihi) / photonics"
+    formation_potential: Medium-High
+    vc_relevance: 4
+  - name: Microsoft Research / Azure Hardware
+    type: corporate
+    location: "Redmond, US / Cambridge, UK"
+    pi: ["—"]
+    area: "Maia silicon / analog optical computing / microfluidic cooling / hollow-core fiber"
+    formation_potential: Medium
+    vc_relevance: 4
+  - name: Meta Infrastructure / FAIR systems
+    type: corporate
+    location: "Menlo Park, US"
+    pi: ["—"]
+    area: "MTIA inference silicon / DC networking / RISC-V (Rivos team, 2025 [TO VERIFY])"
+    formation_potential: Medium
+    vc_relevance: 4
+  - name: Samsung / SK hynix Research
+    type: corporate
+    location: "KR"
+    pi: ["—"]
+    area: "HBM4 / custom base-die / HBM-PIM / CXL"
+    formation_potential: Medium
+    vc_relevance: 4
+  - name: Apple Silicon Engineering
+    type: corporate
+    location: "Cupertino, US"
+    pi: ["—"]
+    area: "Low-power SoCs / NPUs / packaging"
+    formation_potential: Medium
+    vc_relevance: 3
+  - name: Tesla Dojo / Custom Silicon
+    type: corporate
+    location: "Palo Alto, US"
+    pi: ["—"]
+    area: "Training tiles / FSD inference SoC"
+    formation_potential: Medium
+    vc_relevance: 3
+  - name: Qualcomm AI Research
+    type: corporate
+    location: "San Diego, US / Amsterdam, NL"
+    pi: ["—"]
+    area: "On-device inference / NPU / compression"
+    formation_potential: Medium
+    vc_relevance: 3
+  # --- Refresh #3 (2026-11-04): new labs with confirmed 2025-2026 spinout lineage ---
+  - name: Google DeepMind (AlphaChip / ML-for-systems)
+    type: corporate
+    location: "London, UK / Mountain View, US"
+    pi: ["—"]
+    area: "RL/LLM for chip design (AlphaChip, AlphaEvolve)"
+    formation_potential: High
+    vc_relevance: 5
+  - name: Stanford Scaling Intelligence Lab
+    type: university
+    location: "Stanford, US"
+    pi: ["Azalia Mirhoseini"]
+    area: "AI for chip design / scaling ML systems"
+    formation_potential: High
+    vc_relevance: 5
+  - name: Stanford Achour Group
+    type: university
+    location: "Stanford, US"
+    pi: ["Sara Achour"]
+    area: "Compilers for analog / unconventional hardware"
+    formation_potential: High
+    vc_relevance: 4
+  - name: MIT CSAIL Programming Systems (Carbin)
+    type: university
+    location: "Cambridge, US"
+    pi: ["Michael Carbin"]
+    area: "Approximate / analog computation, ML efficiency"
+    formation_potential: High
+    vc_relevance: 4
+  - name: UCSB NLP Group (W. Wang)
+    type: university
+    location: "Santa Barbara, US"
+    pi: ["William Wang"]
+    area: "LLM agents (ChipAgents origin)"
+    formation_potential: High
+    vc_relevance: 4
+  - name: Duke Metamaterials (Smith Lab)
+    type: university
+    location: "Durham, US"
+    pi: ["David R. Smith"]
+    area: "Metamaterials / metasurface optics (Neurophos origin)"
+    formation_potential: High
+    vc_relevance: 4
+  - name: CMU Gu Group
+    type: university
+    location: "Pittsburgh, US"
+    pi: ["Albert Gu"]
+    area: "State-space / efficient sequence models"
+    formation_potential: Medium-High
+    vc_relevance: 4
+  - name: UC Berkeley Stojanovic Group (BWRC)
+    type: university
+    location: "Berkeley, US"
+    pi: ["Vladimir Stojanovic"]
+    area: "Monolithic silicon photonics / optical I/O (Ayar origin)"
+    formation_potential: High
+    vc_relevance: 5

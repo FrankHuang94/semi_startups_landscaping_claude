@@ -12,7 +12,7 @@ Industrial/corporate research labs that both advance the frontier and seed found
 
 ### Google (TPU / Systems Research)
 - **Areas:** TPU/DSA, datacenter networking (Jupiter/Aquila), ML systems
-- **Why It Matters:** TPU alumni are a top founder source (Groq/Jonathan Ross, MatX). **Key people (public):** Norm Jouppi, Amin Vahdat (networking), David Patterson. **Startup Formation Potential:** High · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-06-09
+- **Why It Matters:** TPU alumni are a top founder source (Groq/Jonathan Ross, MatX). **Key people (public):** Norm Jouppi, Amin Vahdat (networking), David Patterson. **2025–2026:** MatX (Pope/Gunter, ex-TPU) raised $500M Series B (Feb 2026) [CONFIRMED]; Majestic Labs co-founder Sha Rabii previously led Google silicon [CONFIRMED]. **Startup Formation Potential:** High · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-11-04
 
 ### IBM Research
 - **Areas:** Analog AI (PCM), in-memory compute, packaging, HBM-adjacent
@@ -62,8 +62,15 @@ Industrial/corporate research labs that both advance the frontier and seed found
 - **Areas:** Efficient on-device inference, NPU architecture, model compression, edge GenAI
 - **Why It Matters:** Edge/auto inference frontier; acquirer for edge silicon ([03](../categories/03_edge_inference_chips.md)/[15](../categories/15_autonomous_robotics_and_automotive_silicon.md)). **Startup Formation Potential:** Medium (alumni) · **VC Relevance:** 3 · **Confidence:** Medium-High · **Last updated:** 2026-06-09
 
+### Google DeepMind — AlphaChip / ML-for-Systems *(added 2026-11-04)*
+- **Areas:** RL/LLM for chip design (AlphaChip; AlphaEvolve circuit/algorithm discovery [TO VERIFY details]), ML for systems
+- **Why It Matters:** Now a *confirmed founder source*: AlphaChip co-creators Anna Goldie and Azalia Mirhoseini left to found **Ricursive Intelligence** ($300M Series A at $4B, Jan 2026) [CONFIRMED]; Periodic Labs co-founder Ekin Dogus Cubuk also ex-DeepMind materials [TO VERIFY]. **Startup Formation Potential:** High · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-11-04
+
+> **2025–2026 departure/exit notes (corporate & startup-lab talent flows):** NVIDIA absorbed Enfabrica leadership (Sept 2025) and Groq leadership (Dec 2025) via licensing-plus-hiring deals; Marvell agreed to acquire Celestial AI (Dec 2025); Meta acquired Rivos (2025) — all [TO VERIFY terms; see categories 02/04/05/06]. Ex-Google/Meta silicon leads formed Majestic Labs (Nov 2025) and ex-Google TPU engineers' MatX raised a $500M Series B (Feb 2026) [CONFIRMED]. Song Han continues as an NVIDIA research director (Efficient AI) [CONFIRMED, NVIDIA Research].
+
 ## Refresh Notes
 | Date | Refresh Type | Added | Updated | Sources |
 |------|--------------|-------|---------|---------|
 | 2026-06-09 | Full (initial) | 8 | 0 | Public lab/company pages, publications |
 | 2026-06-09 | Expansion #2 | 6 | 0 | Public company/research pages (2023–2025) |
+| 2026-11-04 | Full (Refresh #3) | 1 (Google DeepMind) | 1 (Google TPU/Systems) + talent-flow note | Company PRs, TechCrunch, SiliconANGLE, NVIDIA Research |

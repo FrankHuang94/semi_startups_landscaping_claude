@@ -27,6 +27,15 @@ Patent clusters and assignment signals relevant to AI-semiconductor commercializ
 | RL/LLM for chip design (AI-EDA) | Google / NVIDIA / startups | EDA | AI-for-design method IP (2023–) | Watchlist | AlphaChip / ChipNeMo lineage | 3 | Medium |
 | Reconfigurable atom-array control | QuEra / Harvard | Quantum | Neutral-atom control IP | Watchlist | Lukin / QuEra | 3 | Low-Medium |
 | Cryogenic CMOS control ICs | Intel / SEEQC / EPFL | Quantum control | Qubit-control electronics IP | Watchlist | Charbon / SEEQC | 3 | Low-Medium |
+| Metasurface optical modulators for matrix compute *(2026-11-04)* | Duke / Metacept → Neurophos | Optical compute | Core IP behind a $110M Series A (Jan 2026) | Likely | D. R. Smith / Neurophos | 4 | Medium |
+| Metal-layer-programmable / model-hardwired inference ASIC *(2026-11-04)* | Taalas / individuals | Inference | Per-model silicon with few-mask respins | Likely | Taalas | 4 | Medium |
+| Agentic LLM flows for RTL generation & verification *(2026-11-04)* | ChipAgents / Cognichip / Ricursive / Synopsys / Cadence | EDA | Startups vs. incumbents racing to claim agentic-EDA methods | Likely | W. Wang / Goldie & Mirhoseini | 5 | Medium |
+| Analog-silicon AI compute + analog compilation *(2026-11-04)* | Unconventional AI / MIT / Stanford | Analog compute | Watch first assignments to Unconventional AI (none verified yet) | Watchlist | Rao / Carbin / Achour | 4 | Low-Medium |
+| Thermodynamic / stochastic sampling hardware *(2026-11-04)* | Normal Computing / Extropic | Probabilistic compute | New-paradigm accelerator IP | Weak | Normal Computing / Extropic | 3 | Low-Medium |
+| Memory-pooled rack-scale AI server architecture *(2026-11-04)* | Majestic Labs / hyperscalers | Memory systems | Memory-wall system IP (ship 2027) | Likely | Majestic Labs | 4 | Medium |
+| HBM4 custom base-die / logic-in-base-die *(2026-11-04)* | SK hynix / Samsung / TSMC | Memory | Custom-HBM opens near-memory compute IP licensing | Watchlist | Samsung / SK hynix | 4 | Medium |
+| CPO switch micro-ring modulators & detachable fiber connectors *(2026-11-04)* | NVIDIA / TSMC (COUPE) / Broadcom / startups | Photonics | Production CPO creates component-level IP openings | Watchlist | Ayar / Xscape / incumbents | 5 | Medium |
+| qLDPC / neutral-atom fault-tolerant QEC architectures *(2026-11-04)* | IBM / QuEra / Harvard | Quantum | QEC architecture IP for fault tolerance | Watchlist | Lukin / IBM | 3 | Low-Medium |
 
 ## Monitoring Workflow
 1. Watch assignee changes (university → new LLC) for tracked researchers.
@@ -38,3 +47,4 @@ Patent clusters and assignment signals relevant to AI-semiconductor commercializ
 |------|--------------|-------|---------|---------|
 | 2026-06-09 | Full (initial) | 10 (clusters) | 0 | Public patent databases (themes; numbers TO VERIFY) |
 | 2026-06-09 | Expansion #2 | 12 (clusters) | 0 | Public patent databases; emphasis on 2023– filing activity (numbers TO VERIFY) |
+| 2026-11-04 | Full (Refresh #3) | 9 (clusters) | 0 | Company funding disclosures mapped to IP themes; patent numbers TO VERIFY; data/patent_index.yaml synced to 30 clusters |

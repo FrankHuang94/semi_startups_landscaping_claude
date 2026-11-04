@@ -68,7 +68,7 @@ researchers:
     institution: "Stanford / SambaNova"
     research_area: "Reconfigurable dataflow (RDA)"
     patent_activity: High
-    startup_signal: "Confirmed (SambaNova)"
+    startup_signal: "Confirmed (SambaNova; Intel sale talks stalled Jan 2026 [TO VERIFY outcome])"
     vc_relevance: 5
     file: researchers/leading_researchers_index.md
   - name: Mark Horowitz
@@ -79,10 +79,10 @@ researchers:
     vc_relevance: 4
     file: researchers/leading_researchers_index.md
   - name: Song Han
-    institution: "MIT / NVIDIA"
+    institution: "MIT / NVIDIA (Research Director, Efficient AI)"
     research_area: "Model compression, efficient inference"
     patent_activity: Medium
-    startup_signal: "Likely (OmniML->NVIDIA)"
+    startup_signal: "Watchlist (inside NVIDIA; prior OmniML->NVIDIA, DeePhi->Xilinx/AMD; no new co. as of 2026-11)"
     vc_relevance: 5
     file: researchers/leading_researchers_index.md
   - name: Vivienne Sze
@@ -94,16 +94,16 @@ researchers:
     file: researchers/leading_researchers_index.md
   - name: Tri Dao
     institution: "Princeton / Together AI"
-    research_area: "FlashAttention, SSMs (Mamba), kernels"
+    research_area: "FlashAttention (1-4), SSMs (Mamba), kernels"
     patent_activity: Low
-    startup_signal: "Likely (Together)"
+    startup_signal: "Confirmed (Together AI co-founder/chief scientist)"
     vc_relevance: 5
     file: researchers/leading_researchers_index.md
   - name: Christopher Re
-    institution: "Stanford / SambaNova"
+    institution: "Stanford / SambaNova, Together AI (co-founder)"
     research_area: "ML systems, SSMs, data-centric ML"
     patent_activity: Medium
-    startup_signal: "Confirmed (serial)"
+    startup_signal: "Confirmed (serial; no new co. found 2026)"
     vc_relevance: 5
     file: researchers/leading_researchers_index.md
   - name: Vijay Janapa Reddi
@@ -173,7 +173,7 @@ researchers:
     institution: "Columbia"
     research_area: "Silicon photonics, optical interconnect"
     patent_activity: High
-    startup_signal: "Likely"
+    startup_signal: "Confirmed (Xscape Photonics co-founder) [TO VERIFY]"
     vc_relevance: 5
     file: researchers/leading_researchers_index.md
   - name: John Bowers
@@ -261,11 +261,11 @@ researchers:
     vc_relevance: 4
     file: researchers/leading_researchers_index.md
   - name: Azalia Mirhoseini & Anna Goldie
-    institution: "Stanford / industry (ex-DeepMind)"
+    institution: "Ricursive Intelligence (Goldie CEO / Mirhoseini CTO) / Stanford (Mirhoseini); ex-Google DeepMind"
     research_area: "RL for chip placement (AlphaChip)"
     patent_activity: Medium
-    startup_signal: "Likely"
-    vc_relevance: 4
+    startup_signal: "Confirmed (Ricursive Intelligence; $300M Series A @ $4B, Jan 2026)"
+    vc_relevance: 5
     file: researchers/leading_researchers_index.md
   - name: Jason Cong
     institution: "UCLA"
@@ -363,5 +363,76 @@ researchers:
     research_area: "Cryogenic CMOS, quantum control"
     patent_activity: High
     startup_signal: "Likely"
+    vc_relevance: 3
+    file: researchers/leading_researchers_index.md
+  # --- Refresh #3 (2026-11-04): researcher-founders & new lineages ---
+  - name: Naveen Rao
+    institution: "Unconventional AI (CEO); ex-Databricks, MosaicML, Nervana"
+    research_area: "Analog / energy-efficient AI computers"
+    patent_activity: Medium
+    startup_signal: "Confirmed (serial; Unconventional AI $475M seed, Dec 2025)"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: Michael Carbin
+    institution: "MIT / Unconventional AI (co-founder)"
+    research_area: "Programming systems, approximate & analog computation"
+    patent_activity: Low
+    startup_signal: "Confirmed (Unconventional AI)"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Sara Achour
+    institution: "Stanford / Unconventional AI (co-founder)"
+    research_area: "Compilers for analog & unconventional hardware"
+    patent_activity: Low
+    startup_signal: "Confirmed (Unconventional AI)"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: William Wang
+    institution: "UCSB (on leave) / ChipAgents (founder, CEO)"
+    research_area: "LLM agents for RTL design & verification"
+    patent_activity: Low
+    startup_signal: "Confirmed (ChipAgents; $134M Series A total, company-reported)"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: David R. Smith
+    institution: "Duke University"
+    research_area: "Metamaterials, metasurface optics"
+    patent_activity: High
+    startup_signal: "Confirmed (lab lineage: Neurophos, Kymeta, Metacept)"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Albert Gu
+    institution: "Carnegie Mellon / Cartesia (co-founder)"
+    research_area: "State-space models (S4, Mamba), efficient sequence models"
+    patent_activity: Low
+    startup_signal: "Confirmed (Cartesia)"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Danyal Akarca & Jascha Achterberg
+    institution: "Callosum (co-founders); academic neuroscience/ML background [TO VERIFY affiliations]"
+    research_area: "Brain-inspired heterogeneous compute orchestration"
+    patent_activity: Low
+    startup_signal: "Confirmed (Callosum; $100M seed, Aug 2026)"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Vladimir Stojanovic
+    institution: "UC Berkeley / Ayar Labs (co-founder)"
+    research_area: "Silicon photonics, optical I/O, monolithic photonics in CMOS"
+    patent_activity: High
+    startup_signal: "Confirmed (Ayar Labs)"
+    vc_relevance: 5
+    file: researchers/leading_researchers_index.md
+  - name: Alexander Gaeta
+    institution: "Columbia"
+    research_area: "Nonlinear/quantum photonics, Kerr frequency combs"
+    patent_activity: Medium
+    startup_signal: "Confirmed (Xscape Photonics co-founder) [TO VERIFY]"
+    vc_relevance: 4
+    file: researchers/leading_researchers_index.md
+  - name: Liam Fedus & Ekin Dogus Cubuk
+    institution: "Periodic Labs (co-founders); ex-OpenAI / Google DeepMind"
+    research_area: "AI-driven materials discovery (incl. superconductors)"
+    patent_activity: Low
+    startup_signal: "Confirmed (Periodic Labs, 2025) [TO VERIFY round size]"
     vc_relevance: 3
     file: researchers/leading_researchers_index.md

@@ -6,7 +6,7 @@ University labs most likely to produce AI-semiconductor startups, with spinout h
 
 ### Columbia — Lightwave Research Lab (LRL)
 - **Location:** New York, US · **PIs:** Keren Bergman · **Areas:** Silicon photonics, optical interconnect, photonic fabric
-- **Why It Matters:** Premier optical-interconnect group at the #2 bottleneck; pipeline for [06](../categories/06_optical_interconnect_and_cpo.md). **Spinout History:** photonics ventures incl. Xscape adjacency [TO VERIFY]. **Startup Formation Potential:** High · **People to Track:** Bergman group postdocs/PhDs · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-06-09
+- **Why It Matters:** Premier optical-interconnect group at the #2 bottleneck; pipeline for [06](../categories/06_optical_interconnect_and_cpo.md). **Spinout History:** Xscape Photonics (Bergman, Lipson, Gaeta et al. co-founders) [TO VERIFY]. *(Updated 2026-11-04.)* **Startup Formation Potential:** High · **People to Track:** Bergman group postdocs/PhDs · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-06-09
 
 ### Princeton — Verma Lab / EnCharge origin
 - **Location:** Princeton, US · **PIs:** Naveen Verma · **Areas:** Charge-domain analog IMC, mixed-signal AI
@@ -92,6 +92,30 @@ University labs most likely to produce AI-semiconductor startups, with spinout h
 - **Location:** New York, US · **PIs:** Siddharth Garg · **Areas:** Hardware security, LLMs-for-HDL, trustworthy ASICs
 - **Why It Matters:** AI-assisted design + hardware security crossover ([12](../categories/12_eda_ip_and_design_tools.md)/[09](../categories/09_security_crypto_and_confidential_compute.md)). **Startup Formation Potential:** Medium · **VC Relevance:** 3 · **Confidence:** Medium · **Last updated:** 2026-06-09
 
+### Stanford — Scaling Intelligence Lab (Mirhoseini) *(added 2026-11-04)*
+- **Location:** Stanford, US · **PIs:** Azalia Mirhoseini · **Areas:** AI for chip design, scaling ML systems
+- **Why It Matters:** PI co-founded **Ricursive Intelligence** ($300M Series A at $4B, Jan 2026) [CONFIRMED]; students are the next AI-EDA founder pool ([12](../categories/12_eda_ip_and_design_tools.md)). **Spinout History:** Ricursive (PI co-founder, Confirmed). **Startup Formation Potential:** High · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-11-04
+
+### Stanford — Achour Group / MIT CSAIL — Carbin Group *(added 2026-11-04)*
+- **Location:** Stanford, US / Cambridge, US · **PIs:** Sara Achour, Michael Carbin · **Areas:** Compilers for analog/unconventional hardware; approximate computation
+- **Why It Matters:** Both PIs co-founded **Unconventional AI** ($475M seed, Dec 2025) [CONFIRMED]; analog-tooling spin-offs are the follow-on opportunity ([14](../categories/14_quantum_neuromorphic_and_non_von_neumann.md)). **Startup Formation Potential:** High · **VC Relevance:** 4 · **Confidence:** High · **Last updated:** 2026-11-04
+
+### UC Santa Barbara — NLP Group (William Wang) *(added 2026-11-04)*
+- **Location:** Santa Barbara, US · **PIs:** William Wang · **Areas:** LLM agents; origin of ChipAgents
+- **Why It Matters:** Professor-on-leave model; ChipAgents began in this lab with students and reached $134M Series A total (company-reported) ([12](../categories/12_eda_ip_and_design_tools.md)). **Spinout History:** ChipAgents (Confirmed). **Startup Formation Potential:** High · **VC Relevance:** 4 · **Confidence:** High · **Last updated:** 2026-11-04
+
+### Duke — Metamaterials Lab (David R. Smith) + Metacept *(added 2026-11-04)*
+- **Location:** Durham, US · **PIs:** David R. Smith · **Areas:** Metamaterials, metasurface optics
+- **Why It Matters:** Lineage of **Neurophos** ($110M Series A led by Gates Frontier, Jan 2026) [CONFIRMED, Duke Research/TechCrunch]; repeat spinout engine via Metacept ([06](../categories/06_optical_interconnect_and_cpo.md)/[14](../categories/14_quantum_neuromorphic_and_non_von_neumann.md)). **Spinout History:** Neurophos (Confirmed); Kymeta, Evolv, Echodyne lineage [TO VERIFY]. **Startup Formation Potential:** High · **VC Relevance:** 4 · **Confidence:** Medium-High · **Last updated:** 2026-11-04
+
+### Carnegie Mellon — Gu Group *(added 2026-11-04)*
+- **Location:** Pittsburgh, US · **PIs:** Albert Gu · **Areas:** State-space models, efficient sequence architectures
+- **Why It Matters:** SSM architecture-drift risk to attention-specialized silicon; PI co-founded Cartesia (Confirmed). **Startup Formation Potential:** Medium-High · **VC Relevance:** 4 · **Confidence:** High · **Last updated:** 2026-11-04
+
+### UC Berkeley — Stojanović Group (BWRC) *(added 2026-11-04)*
+- **Location:** Berkeley, US · **PIs:** Vladimir Stojanović · **Areas:** Monolithic silicon photonics, optical I/O
+- **Why It Matters:** Ayar Labs origin; optical-I/O founder pool as CPO ramps ([06](../categories/06_optical_interconnect_and_cpo.md)). **Spinout History:** Ayar Labs (Confirmed). **Startup Formation Potential:** High · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-11-04
+
 > Watch-next (public-awareness only): Cornell (Afridi, power), TU Delft/QuTech & UNSW (qubits, cryo-CMOS), NUS/NTU, Tsinghua (Yu Wang — EDA/accelerators), KU Leuven/imec-affiliated groups, Tokyo/RIKEN (photonics, quantum).
 
 ## Refresh Notes
@@ -99,3 +123,4 @@ University labs most likely to produce AI-semiconductor startups, with spinout h
 |------|--------------|-------|---------|---------|
 | 2026-06-09 | Full (initial) | 9 | 0 | Public lab pages, publications |
 | 2026-06-09 | Expansion #2 | 14 | 1 | Public lab/faculty pages, publications, spinout records (2023–2025) |
+| 2026-11-04 | Full (Refresh #3) | 6 (Stanford Scaling Intelligence; Stanford Achour / MIT Carbin; UCSB W. Wang; Duke Smith; CMU Gu; Berkeley Stojanović) | 1 (Columbia LRL) | Company funding PRs, Duke Research, TechCrunch; data/lab_index.yaml synced to 44 labs (university + corporate) |

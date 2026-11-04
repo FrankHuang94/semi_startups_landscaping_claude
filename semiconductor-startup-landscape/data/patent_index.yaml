@@ -81,3 +81,75 @@ patents:
     area: "Quantum control"
     signal: Watchlist
     vc_relevance: 3
+  # --- Sync with researchers/patent_watchlist.md (Refresh #3) ---
+  - cluster: "Photonic fabric / DWDM links"
+    assignee_type: "Columbia / startups (Xscape)"
+    area: "Photonics"
+    signal: Weak
+    vc_relevance: 4
+  - cluster: "Two-phase / microjet cooling"
+    assignee_type: "Cooling startups / labs"
+    area: "Thermal"
+    signal: Weak
+    vc_relevance: 3
+  - cluster: "GaN integration / vertical power"
+    assignee_type: "Power startups"
+    area: "Power"
+    signal: Watchlist
+    vc_relevance: 4
+  - cluster: "Crypto/ZK-FHE arithmetic units"
+    assignee_type: "Fabric / Cysic / Niobium"
+    area: "Security"
+    signal: Weak
+    vc_relevance: 3
+  - cluster: "Transformer-dataflow ASIC"
+    assignee_type: "Etched / individuals"
+    area: "Inference"
+    signal: Weak
+    vc_relevance: 3
+  # --- Refresh #3 (2026-11-04): new clusters (numbers TO VERIFY) ---
+  - cluster: "Metasurface optical modulators for matrix compute"
+    assignee_type: "Duke / Metacept -> Neurophos"
+    area: "Optical compute"
+    signal: Likely
+    vc_relevance: 4
+  - cluster: "Metal-layer-programmable / model-hardwired inference ASIC"
+    assignee_type: "Taalas / individuals"
+    area: "Inference"
+    signal: Likely
+    vc_relevance: 4
+  - cluster: "Agentic LLM flows for RTL generation & verification"
+    assignee_type: "ChipAgents / Cognichip / Ricursive / Synopsys / Cadence"
+    area: "EDA"
+    signal: Likely
+    vc_relevance: 5
+  - cluster: "Analog-silicon AI compute + analog compilation"
+    assignee_type: "Unconventional AI / MIT / Stanford"
+    area: "Analog compute"
+    signal: Watchlist
+    vc_relevance: 4
+  - cluster: "Thermodynamic / stochastic sampling hardware"
+    assignee_type: "Normal Computing / Extropic"
+    area: "Probabilistic compute"
+    signal: Weak
+    vc_relevance: 3
+  - cluster: "Memory-pooled rack-scale AI server architecture"
+    assignee_type: "Majestic Labs / hyperscalers"
+    area: "Memory systems"
+    signal: Likely
+    vc_relevance: 4
+  - cluster: "HBM4 custom base-die / logic-in-base-die"
+    assignee_type: "SK hynix / Samsung / TSMC"
+    area: "Memory"
+    signal: Watchlist
+    vc_relevance: 4
+  - cluster: "CPO switch micro-ring modulators & detachable fiber connectors"
+    assignee_type: "NVIDIA / TSMC (COUPE) / Broadcom / startups"
+    area: "Photonics"
+    signal: Watchlist
+    vc_relevance: 5
+  - cluster: "qLDPC / neutral-atom fault-tolerant QEC architectures"
+    assignee_type: "IBM / QuEra / Harvard"
+    area: "Quantum"
+    signal: Watchlist
+    vc_relevance: 3

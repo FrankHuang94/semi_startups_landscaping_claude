@@ -85,6 +85,29 @@ Breakthrough and commercially-urgent papers (emphasis on 2023–2026) that point
 | Logical processor on reconfigurable atom arrays | Lukin et al. (Harvard, Nature) | 2023 | Neutral-atom logical-qubit milestone (QuEra) | Quantum FT | Likely (QuEra) | 4 | High |
 | Cryogenic CMOS control ICs | Charbon (EPFL) | 2023–2025 | Scaling layer (picks-and-shovels) for quantum | Quantum control | Likely | 3 | Medium |
 
+## I. 2025–2026 Additions (Refresh #3)
+
+> Venue/date details for 2025–2026 items are tagged `[TO VERIFY]` where they could not be re-checked against the publisher this refresh. Company "papers" are disclosures/claims, not peer-reviewed results.
+
+| Paper / Line of Work | Authors / Lab | Year | Why It Matters for VC | Bottleneck | Signal | VC Rel | Conf |
+|----------------------|---------------|:----:|------------------------|-----------|--------|:------:|------|
+| FlashAttention-4 (Blackwell-targeted attention) | Tri Dao et al. (Princeton/Together) | 2026 | Kernel co-design sets the bar for next-gen inference silicon utilization | Inference cost | Confirmed (Together) | 5 | High |
+| AlphaEvolve — LLM-driven algorithm/circuit discovery incl. Verilog rewrite for TPU arithmetic `[TO VERIFY venue]` | Google DeepMind | 2025 | Evidence that agentic LLMs can improve shipped silicon RTL | Design productivity | Likely | 5 | Medium-High |
+| Agentic RTL / verification benchmarks (e.g., NVIDIA CVDP) `[TO VERIFY]` | NVIDIA Research / academia | 2025 | Yardsticks for ChipAgents/Ricursive/Cognichip-class claims | Design productivity | Confirmed (category funded) | 4 | Medium |
+| Analog optical computer for AI inference & optimization (Nature) `[TO VERIFY]` | Microsoft Research Cambridge | 2025 | Hyperscaler-backed analog-optical compute proof | Compute energy | Watchlist | 4 | Medium |
+| Metasurface optical processing unit (Tulkas T100) disclosures | Neurophos (Duke lineage) | 2026 | Million-element optical matrix compute — claims are simulation-based | Compute energy | Confirmed (Neurophos) | 4 | Medium (company claims) |
+| Analog in-memory attention for LLMs (Nature Computational Science) `[TO VERIFY]` | Leroux et al. (FZ Jülich) | 2025 | Gain-cell IMC for KV/attention — analog IMC moves into LLM serving | Memory/KV energy | Likely | 4 | Medium |
+| High-precision RRAM analog matrix-equation solver (Nature Electronics) `[TO VERIFY]` | Peking University (Zhong Sun et al.) | 2025 | Addresses analog precision — the core objection to analog AI | Energy/op | Watchlist | 3 | Medium |
+| HBM4 / custom base-die disclosures (ISSCC 2026) `[TO VERIFY]` | Samsung, SK hynix | 2026 | Logic-in-base-die opens custom-HBM and near-memory compute IP | Memory bandwidth | Watchlist | 4 | Medium |
+| Ironwood TPU (inference-first TPU) (Hot Chips 2025) `[TO VERIFY]` | Google | 2025 | Hyperscaler inference-silicon bar; OCS scale-up | Inference cost | Watchlist | 4 | Medium |
+| CPO switch silicon — Spectrum-X / Quantum-X Photonics (GTC/Hot Chips/OFC) `[TO VERIFY]` | NVIDIA / TSMC | 2025–2026 | CPO enters production; supply chain (lasers, fiber attach, test) opens to startups | Interconnect | Watchlist | 5 | Medium-High |
+| Model-hardwired inference chip (HC1, Llama 3.1 8B; ~2 of ~100 metal layers per model) | Taalas | 2026 | Mask-programmable per-model silicon; tests the "architecture drift" risk | Inference cost | Confirmed (Taalas) | 4 | Medium (company claims) |
+| In-chip microfluidic cooling demonstration `[TO VERIFY]` | Microsoft | 2025 | Thermal path for >1kW packages | Thermal | Watchlist | 3 | Medium |
+| Fault-tolerant neutral-atom architecture (Nature) `[TO VERIFY]` | Lukin et al. (Harvard/MIT/QuEra) | 2025 | Below-threshold, repeated-QEC neutral-atom milestone | Quantum FT | Likely (QuEra) | 4 | Medium |
+| Verifiable quantum advantage — "Quantum Echoes" OTOC (Nature) `[TO VERIFY]` | Google Quantum AI | 2025 | Useful-advantage claim on Willow hardware | Quantum FT | Watchlist | 3 | Medium |
+
+**Conference programs to scan next (pre-formation signal):** ISSCC 2027 advance program (Nov 2026), MICRO 2026 (Oct 2026), Hot Chips 2026 (Aug 2026), ISCA 2026 (Jun 2026), OFC 2026 (Mar 2026), DAC/ICCAD 2026 AI-EDA tracks — prioritize student first-authors on analog/photonic compute, HBM4/PIM, CPO packaging, and agentic EDA. Specific 2026 program papers were not individually verified this refresh `[TO VERIFY]`.
+
 ## How to Use
 - Track venues: ISSCC, ISCA, MICRO, HotChips, OFC, VLSI Symposia, DAC, ASPLOS, MLSys, SOSP/OSDI, NeurIPS (systems), Nature/Science.
 - For each commercially-urgent paper, check: who are the students/postdocs, are there patents, any new-entity assignees, any role changes? Promote to [researcher_to_startup_signal_tracker.md](researcher_to_startup_signal_tracker.md) when signals converge.
@@ -94,3 +117,4 @@ Breakthrough and commercially-urgent papers (emphasis on 2023–2026) that point
 |------|--------------|-------|---------|---------|
 | 2026-06-09 | Full (initial) | 12 | 0 | Public publications, arXiv, conference programs |
 | 2026-06-09 | Expansion #2 | 22 | 12 | arXiv, ISSCC/ISCA/MICRO/ASPLOS/SOSP/OFC/Hot Chips, Nature/Science (2023–2025); venues tagged [TO VERIFY] where uncertain |
+| 2026-11-04 | Full (Refresh #3) | 14 (section I) | 0 | Company disclosures (Taalas, Neurophos), arXiv (FlashAttention-4), DeepMind/NVIDIA research pages, Nature/Nature-family 2025 [venues TO VERIFY]; data/paper_index.yaml now 38 entries |

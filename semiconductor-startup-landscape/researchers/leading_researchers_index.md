@@ -15,6 +15,7 @@ Profiles of leading academic and industry researchers whose work is most relevan
 - [H. Packaging & 3D Integration](#h-packaging--3d-integration)
 - [I. Power Electronics & Delivery](#i-power-electronics--delivery)
 - [J. Quantum & Cryogenic Hardware](#j-quantum--cryogenic-hardware)
+- [K. New-Paradigm Compute & AI-for-Science Founders (2025–2026)](#k-new-paradigm-compute--ai-for-science-founders-20252026)
 
 ---
 
@@ -79,7 +80,7 @@ Profiles of leading academic and industry researchers whose work is most relevan
 - **Institution / Role:** Stanford (Professor) / SambaNova (co-founder, Chief Technologist)
 - **Research Areas:** Reconfigurable dataflow architectures (Plasticine/RDA), parallel computing
 - **Why VC Should Track:** Confirmed academic→startup (SambaNova); dataflow lineage; group seeds reconfigurable-compute founders.
-- **Prior Startups:** Afara Websystems, SambaNova (Confirmed). **Startup Signal:** Confirmed · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-06-09
+- **Prior Startups:** Afara Websystems, SambaNova (Confirmed). **2025–2026 update:** Intel held talks to acquire SambaNova (~$1.6B incl. debt, per Bloomberg, late 2025); talks reported stalled Jan 2026 with SambaNova seeking $300–500M independently [CONFIRMED reporting; final outcome TO VERIFY — see [01](../categories/01_training_accelerators.md)]. **Startup Signal:** Confirmed · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-11-04
 
 ### Mark Horowitz
 - **Institution / Role:** Stanford (Professor)
@@ -92,10 +93,10 @@ Profiles of leading academic and industry researchers whose work is most relevan
 ## B. Efficient ML / Inference Hardware-Software Co-design
 
 ### Song Han
-- **Institution / Role:** MIT (Associate Professor) / NVIDIA (Distinguished Scientist)
+- **Institution / Role:** MIT (Associate Professor, EECS) / NVIDIA (Research Director, leads Efficient AI team; co-leads NVIDIA Singapore lab per NVIDIA Research page) [CONFIRMED]
 - **Research Areas:** Model compression, quantization (AWQ/SmoothQuant), efficient LLM serving, TinyML
 - **Why VC Should Track:** His techniques define inference-efficiency economics; founded OmniML (acquired by NVIDIA) — the lab→startup→strategic path. A founder factory for [02](../categories/02_inference_accelerators.md).
-- **Recent/Relevant Work:** AWQ (2023), QServe/W4A8KV4 (2024), StreamingLLM (2023), SpAtten. **Prior Startups:** OmniML→NVIDIA (Confirmed); DeePhi (earlier, →Xilinx). **Startup Signal:** Likely · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-06-09
+- **Recent/Relevant Work:** AWQ (2023), QServe/W4A8KV4 (2024), StreamingLLM (2023), SpAtten. **Prior Startups:** OmniML→NVIDIA (Confirmed); DeePhi (earlier, →Xilinx, now AMD). **2026 status:** no new company found in public sources through 2026-11; active in MIT/NVIDIA efficient-AI work (SVDQuant/Nunchaku, SANA lines [TO VERIFY]). Downgraded to Watchlist — he sits inside NVIDIA, so his *students* are the sourcing target. **Startup Signal:** Watchlist (students: Likely) · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-11-04
 
 ### Vivienne Sze
 - **Institution / Role:** MIT (Professor)
@@ -107,13 +108,19 @@ Profiles of leading academic and industry researchers whose work is most relevan
 - **Institution / Role:** Princeton (Assistant Professor) / Together AI (Chief Scientist)
 - **Research Areas:** IO-aware attention (FlashAttention), state-space models (Mamba), efficient inference kernels
 - **Why VC Should Track:** His kernels/architectures define *what inference silicon must optimize for*; FlashAttention is ubiquitous, and Mamba/SSMs are the key architecture-drift risk for transformer-hardwired ASICs ([Etched](../categories/02_inference_accelerators.md)).
-- **Recent/Relevant Work:** FlashAttention-2 (2023), FlashAttention-3 (2024), Mamba (2023), Mamba-2 (2024). **Industry:** Together AI (Confirmed). **Startup Signal:** Likely (Together) · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-06-09
+- **Recent/Relevant Work:** FlashAttention-2 (2023), FlashAttention-3 (2024), Mamba (2023), Mamba-2 (2024), **FlashAttention-4** (Blackwell-targeted, paper Mar 2026) [CONFIRMED]. **Industry:** Together AI co-founder & chief scientist (Confirmed); Together reportedly raised a 2026 round at ~$7.5–8.3B valuation [UNCONFIRMED — aggregator sources]. Princeton title reported inconsistently in 2026 (assistant professor vs. visiting) [TO VERIFY]. **Startup Signal:** Confirmed (Together) · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-11-04
 
 ### Christopher Ré
-- **Institution / Role:** Stanford (Professor) / SambaNova (co-founder)
+- **Institution / Role:** Stanford (Professor) / SambaNova and Together AI (co-founder)
 - **Research Areas:** ML systems, state-space models (S4/H3 lineage), data-centric ML, efficient architectures
 - **Why VC Should Track:** Co-founder of SambaNova and serial company-builder; SSM lineage shapes future inference-hardware targets.
-- **Prior Startups:** SambaNova, Snorkel, Lattice Data (acq. Apple) (Confirmed). **Startup Signal:** Confirmed · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-06-09
+- **Prior Startups:** SambaNova, Snorkel, Together AI, Lattice Data (acq. Apple); Cartesia co-founder lineage via students Albert Gu/Karan Goel (Confirmed). **2026 status:** no new company found; listed as scientific adviser to Radical Numerics (bio-AI, $50M launch, Jun 2026) [CONFIRMED, SiliconANGLE]. **Startup Signal:** Confirmed (serial) · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-11-04
+
+### Albert Gu *(added 2026-11-04)*
+- **Institution / Role:** Carnegie Mellon (Assistant Professor) / Cartesia (co-founder)
+- **Research Areas:** State-space models (S4, Mamba, Mamba-2), efficient long-sequence architectures
+- **Why VC Should Track:** SSMs are the main architecture-drift risk to attention-hardwired silicon; Cartesia productizes SSMs for low-latency/on-device inference — a demand signal for edge/inference silicon ([02](../categories/02_inference_accelerators.md)/[03](../categories/03_edge_inference_chips.md)).
+- **Prior Startups:** Cartesia (co-founder, Confirmed). **Startup Signal:** Confirmed · **VC Relevance:** 4 · **Confidence:** High · **Last updated:** 2026-11-04
 
 ### Vijay Janapa Reddi
 - **Institution / Role:** Harvard (Professor); MLCommons
@@ -184,8 +191,8 @@ Profiles of leading academic and industry researchers whose work is most relevan
 ### Keren Bergman
 - **Institution / Role:** Columbia (Professor, Lightwave Research Lab)
 - **Research Areas:** Silicon photonics, optical interconnect networks, photonic fabric, DWDM links
-- **Why VC Should Track:** Premier academic photonic-interconnect group at the #2 bottleneck; talent and IP source for [06](../categories/06_optical_interconnect_and_cpo.md) (Xscape adjacency).
-- **Recent/Relevant Work:** Energy-efficient DWDM optical interconnect, photonic fabric for AI clusters (2023–2025); leadership in DARPA/photonics programs. **Patents:** High. **Startup Signal:** Likely · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-06-09
+- **Why VC Should Track:** Premier academic photonic-interconnect group at the #2 bottleneck; talent and IP source for [06](../categories/06_optical_interconnect_and_cpo.md); co-founder of Xscape Photonics with Lipson, Gaeta et al. [TO VERIFY founder list].
+- **Recent/Relevant Work:** Energy-efficient DWDM optical interconnect, photonic fabric for AI clusters (2023–2025); leadership in DARPA/photonics programs. **Patents:** High. **Startup Signal:** Confirmed (Xscape) [TO VERIFY]; further spinouts Likely as CPO enters production · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-11-04
 
 ### John Bowers
 - **Institution / Role:** UC Santa Barbara (Professor)
@@ -216,6 +223,24 @@ Profiles of leading academic and industry researchers whose work is most relevan
 - **Research Areas:** Nanophotonics, inverse-designed photonics, quantum photonics
 - **Why VC Should Track:** Inverse-design photonics could compress photonic-device development cycles — relevant to scalable CPO/optical-I/O and quantum photonics.
 - **Recent/Relevant Work:** Inverse-designed photonic devices, integrated quantum photonics (2023–2025). **Startup Signal:** Watchlist · **VC Relevance:** 4 · **Confidence:** Medium · **Last updated:** 2026-06-09
+
+### Vladimir Stojanović *(added 2026-11-04)*
+- **Institution / Role:** UC Berkeley (Professor, BWRC) / Ayar Labs (co-founder)
+- **Research Areas:** Monolithic silicon photonics in CMOS, optical I/O chiplets, energy-efficient links
+- **Why VC Should Track:** Co-originated the "photonics in a standard CMOS process" line that became Ayar Labs; his students are the most direct optical-I/O founder pool ([06](../categories/06_optical_interconnect_and_cpo.md)).
+- **Prior Startups:** Ayar Labs (co-founder, Confirmed). **Startup Signal:** Confirmed · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-11-04
+
+### Alexander Gaeta *(added 2026-11-04)*
+- **Institution / Role:** Columbia (Professor)
+- **Research Areas:** Nonlinear and quantum photonics, Kerr frequency combs (multi-wavelength light sources)
+- **Why VC Should Track:** Comb sources are a key enabler for DWDM optical I/O; listed among Xscape Photonics co-founders [TO VERIFY].
+- **Startup Signal:** Confirmed (Xscape) [TO VERIFY] · **VC Relevance:** 4 · **Confidence:** Medium · **Last updated:** 2026-11-04
+
+### David R. Smith *(added 2026-11-04)*
+- **Institution / Role:** Duke University (Professor, ECE; metamaterials)
+- **Research Areas:** Metamaterials, metasurfaces, computational/optical metamaterial devices
+- **Why VC Should Track:** His lab (with the Metacept incubator) is the lineage of **Neurophos** — $110M Series A led by Gates Frontier (Jan 2026) [CONFIRMED] — and earlier metamaterial spinouts (Kymeta, Evolv, Echodyne lineage [TO VERIFY]). Metasurface modulators are a new route to dense photonic matrix compute ([06](../categories/06_optical_interconnect_and_cpo.md)/[14](../categories/14_quantum_neuromorphic_and_non_von_neumann.md)).
+- **Startup Signal:** Confirmed (lab lineage: Neurophos) · **VC Relevance:** 4 · **Confidence:** Medium-High · **Last updated:** 2026-11-04
 
 ---
 
@@ -257,6 +282,24 @@ Profiles of leading academic and industry researchers whose work is most relevan
 - **Why VC Should Track:** Co-author of the canonical memristor work; analog-IMC device IP source.
 - **Recent/Relevant Work:** Analog neuromorphic and memristor compute (2023–2025). **Startup Signal:** Watchlist · **VC Relevance:** 3 · **Confidence:** Medium · **Last updated:** 2026-06-09
 
+### Naveen Rao *(added 2026-11-04)*
+- **Institution / Role:** Unconventional AI (co-founder, CEO); ex-VP AI Databricks; founder of Nervana (→Intel) and MosaicML (→Databricks)
+- **Research Areas:** Neuromorphic/analog-inspired AI hardware, energy-efficient AI computers
+- **Why VC Should Track:** Serial founder; Unconventional AI raised a **$475M seed at $4.5B** co-led by a16z and Lightspeed (Lux, DCVC participating; Rao ~$10M personally), described as first tranche of up to $1B (Dec 2025) [CONFIRMED, TechCrunch/Bloomberg]. Rao confirmed an analog chip fabbed in silicon and no product for ~2 years ([14](../categories/14_quantum_neuromorphic_and_non_von_neumann.md)).
+- **Startup Signal:** Confirmed (serial) · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-11-04
+
+### Michael Carbin *(added 2026-11-04)*
+- **Institution / Role:** MIT (Associate Professor, CSAIL) / Unconventional AI (co-founder)
+- **Research Areas:** Programming systems for approximate and unreliable computation, ML efficiency (lottery-ticket line)
+- **Why VC Should Track:** Brings the software/numerics layer that analog hardware needs to be programmable; co-founder of Unconventional AI [CONFIRMED].
+- **Startup Signal:** Confirmed · **VC Relevance:** 4 · **Confidence:** High · **Last updated:** 2026-11-04
+
+### Sara Achour *(added 2026-11-04)*
+- **Institution / Role:** Stanford (Assistant Professor) / Unconventional AI (co-founder)
+- **Research Areas:** Compilers and programming abstractions for analog and unconventional hardware
+- **Why VC Should Track:** Analog compilation is the gating problem for analog AI silicon; co-founder of Unconventional AI [CONFIRMED]. Her students are a follow-on founder pool for analog-tooling wedges.
+- **Startup Signal:** Confirmed · **VC Relevance:** 4 · **Confidence:** High · **Last updated:** 2026-11-04
+
 ---
 
 ## G. EDA & AI-for-Chip-Design
@@ -268,10 +311,16 @@ Profiles of leading academic and industry researchers whose work is most relevan
 - **Recent/Relevant Work:** ChipNeMo (domain LLMs for chip design, 2023–2024); ML-driven design-automation (2023–2025). **Startup Signal:** Watchlist (incumbent) · **VC Relevance:** 4 · **Confidence:** High · **Last updated:** 2026-06-09
 
 ### Azalia Mirhoseini & Anna Goldie
-- **Institution / Role:** Stanford / industry research (ex-Google DeepMind)
-- **Research Areas:** RL for chip floorplanning (AlphaChip), ML for systems
-- **Why VC Should Track:** Authors of the Nature chip-placement work (AlphaChip) that catalyzed the AI-for-physical-design wave; their methods underpin a generation of AI-EDA startups.
-- **Recent/Relevant Work:** "A graph placement methodology for fast chip design" (Nature 2021) + AlphaChip extension (2024). **Startup Signal:** Likely · **VC Relevance:** 4 · **Confidence:** Medium-High · **Last updated:** 2026-06-09
+- **Institution / Role:** **Ricursive Intelligence** — Anna Goldie (co-founder, CEO), Azalia Mirhoseini (co-founder, CTO; also Stanford CS faculty, Scaling Intelligence Lab); both ex-Google DeepMind
+- **Research Areas:** RL for chip floorplanning (AlphaChip), ML for systems, AI-designed chips for AI
+- **Why VC Should Track:** Authors of the Nature chip-placement work (AlphaChip) that catalyzed the AI-for-physical-design wave. **Signal converted:** Ricursive launched in 2025 with a Sequoia-led $35M seed (~$750M valuation) and raised a **$300M Series A at $4B post-money led by Lightspeed (Jan 2026)**; reported participants include DST Global, NVentures, Felicis, 49 Palms and Radical AI [CONFIRMED round; participants TO VERIFY]. Positioned as a "frontier AI lab" for recursive AI-designed silicon ([12](../categories/12_eda_ip_and_design_tools.md), [17](../categories/17_emerging_research_to_startup_pipeline.md)).
+- **Recent/Relevant Work:** "A graph placement methodology for fast chip design" (Nature 2021) + AlphaChip extension (2024). **Startup Signal:** Confirmed (Ricursive Intelligence) · **VC Relevance:** 5 · **Confidence:** High · **Last updated:** 2026-11-04
+
+### William Wang *(added 2026-11-04)*
+- **Institution / Role:** UC Santa Barbara (Professor, on leave) / ChipAgents (founder, CEO)
+- **Research Areas:** NLP, LLM agents, agentic RTL design and verification
+- **Why VC Should Track:** Professor-founder who spun ChipAgents out of his UCSB lab with students. Funding: $21M Series A led by Bessemer (Oct 2025), $50M Series A1 (Feb 2026), $60M extension (Jul 2026) → $134M Series A total; company claims 120+ semiconductor-company deployments incl. MediaTek and Micron [company-reported; extension TO VERIFY] ([12](../categories/12_eda_ip_and_design_tools.md)).
+- **Startup Signal:** Confirmed (ChipAgents) · **VC Relevance:** 4 · **Confidence:** High · **Last updated:** 2026-11-04
 
 ### Jason Cong
 - **Institution / Role:** UCLA (Professor)
@@ -371,8 +420,25 @@ Profiles of leading academic and industry researchers whose work is most relevan
 
 ---
 
+## K. New-Paradigm Compute & AI-for-Science Founders (2025–2026)
+
+### Danyal Akarca & Jascha Achterberg *(added 2026-11-04)*
+- **Institution / Role:** Callosum (co-founders); academic neuroscience/ML research backgrounds [affiliations TO VERIFY]
+- **Research Areas:** Brain-inspired, heterogeneous AI-compute orchestration across models and chips
+- **Why VC Should Track:** Callosum emerged from stealth Feb 2026 (~$10.25M) and closed a **$100M seed led by Atomico** with Plural, DCVC and the UK Sovereign AI Fund (its first investment) on Aug 20, 2026 [CONFIRMED]. Compute partners include Cerebras and Rebellions — a demand-aggregation layer for non-NVIDIA silicon ([02](../categories/02_inference_accelerators.md)). Performance claims (4x speed, 70% cost cut) are company-reported.
+- **Startup Signal:** Confirmed (Callosum) · **VC Relevance:** 4 · **Confidence:** Medium-High · **Last updated:** 2026-11-04
+
+### Liam Fedus & Ekin Dogus Cubuk *(added 2026-11-04)*
+- **Institution / Role:** Periodic Labs (co-founders); ex-OpenAI (Fedus) and Google DeepMind materials (Cubuk, GNoME lineage)
+- **Research Areas:** AI-driven autonomous materials discovery, including superconductors and semiconductor-relevant materials
+- **Why VC Should Track:** Large 2025 seed for AI-for-materials [round size TO VERIFY]; a potential upstream source of new device/material IP for [08](../categories/08_power_semiconductors_and_power_delivery.md)/[14](../categories/14_quantum_neuromorphic_and_non_von_neumann.md).
+- **Startup Signal:** Confirmed (Periodic Labs) [TO VERIFY details] · **VC Relevance:** 3 · **Confidence:** Medium · **Last updated:** 2026-11-04
+
+---
+
 ## Refresh Notes
 | Date | Refresh Type | Added | Updated | Sources |
 |------|--------------|-------|---------|---------|
 | 2026-06-09 | Full (initial) | 10 | 0 | Public academic/institutional pages, publications |
 | 2026-06-09 | Expansion #2 | 28 | 10 | Public faculty pages, arXiv, ISSCC/ISCA/MICRO/OFC/Nature (2023–2025); founder histories from public records |
+| 2026-11-04 | Full (Refresh #3) | 10 profiles (Rao, Carbin, Achour, W. Wang, D. R. Smith, A. Gu, Stojanović, Gaeta, Akarca & Achterberg, Fedus & Cubuk) | 6 (Goldie & Mirhoseini → Ricursive; Song Han; Tri Dao; Ré; Olukotun; Bergman) | TechCrunch, Bloomberg, Reuters, company PRs, NVIDIA Research, SiliconANGLE, Duke Research; 62 researchers in data/researcher_index.yaml |

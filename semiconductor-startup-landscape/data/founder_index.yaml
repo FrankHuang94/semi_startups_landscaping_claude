@@ -9,7 +9,7 @@ founders:
     prior: "Oracle (SPARC), Sun"
     category: "01 Training"
   - name: Kunle Olukotun
-    company: SambaNova Systems
+    company: "SambaNova Systems (Intel sale talks reported stalled Jan 2026) [TO VERIFY outcome]"
     prior: "Stanford (Afara/Niagara)"
     category: "01 Training"
   - name: Jim Keller
@@ -17,7 +17,7 @@ founders:
     prior: "AMD, Apple, Tesla, Intel"
     category: "01/02"
   - name: Jonathan Ross
-    company: Groq
+    company: "Groq (joined NVIDIA with Groq leadership under NVIDIA-Groq licensing deal, Dec 2025) [TO VERIFY]"
     prior: "Google TPU"
     category: "02 Inference"
   - name: Sid Sheth
@@ -37,7 +37,7 @@ founders:
     prior: "Aquantia, Marvell"
     category: "04 Chiplets"
   - name: Rochan Sankar
-    company: Enfabrica
+    company: "Enfabrica (joined NVIDIA via licensing + hire, Sept 2025) [TO VERIFY]"
     prior: "Broadcom"
     category: "05 Networking"
   - name: Nicholas Harris
@@ -49,7 +49,7 @@ founders:
     prior: "MIT/UC Berkeley photonics"
     category: "06 Optical"
   - name: Dave Lazovsky
-    company: Celestial AI
+    company: "Celestial AI (Marvell acquisition announced Dec 2025) [TO VERIFY]"
     prior: "Intermolecular"
     category: "06 Optical"
   - name: Myoungsoo Jung
@@ -72,3 +72,60 @@ founders:
     company: Fabric Cryptography
     prior: "—"
     category: "09 Security"
+  # --- Refresh #3 (2026-11-04): researcher-founders and 2025-2026 formations ---
+  - name: Anna Goldie
+    company: "Ricursive Intelligence (CEO)"
+    prior: "Google DeepMind / Google Brain (AlphaChip co-creator)"
+    category: "12 EDA / AI-for-chip-design"
+  - name: Azalia Mirhoseini
+    company: "Ricursive Intelligence (CTO)"
+    prior: "Google DeepMind (AlphaChip co-creator); Stanford faculty"
+    category: "12 EDA / AI-for-chip-design"
+  - name: Naveen Rao
+    company: "Unconventional AI (CEO)"
+    prior: "Nervana (acq. Intel), MosaicML (acq. Databricks), Databricks VP AI"
+    category: "14 Analog / unconventional compute"
+  - name: William Wang
+    company: "ChipAgents (CEO)"
+    prior: "UCSB professor (on leave)"
+    category: "12 EDA / AI-for-chip-design"
+  - name: Patrick Bowen
+    company: "Neurophos (CEO)"
+    prior: "Duke PhD (Smith metamaterials lab)"
+    category: "06/14 Photonic compute"
+  - name: Danyal Akarca
+    company: "Callosum (co-founder)"
+    prior: "Academic neuroscience/ML research [TO VERIFY]"
+    category: "02/12 Heterogeneous AI orchestration"
+  - name: Jascha Achterberg
+    company: "Callosum (co-founder)"
+    prior: "Academic neuroscience/ML research [TO VERIFY]"
+    category: "02/12 Heterogeneous AI orchestration"
+  - name: Ofer Shacham
+    company: "Majestic Labs (co-founder)"
+    prior: "Google / Meta silicon leadership"
+    category: "07 Memory-pooled AI systems"
+  - name: Sha Rabii
+    company: "Majestic Labs (co-founder, President)"
+    prior: "Google silicon lead; Meta"
+    category: "07 Memory-pooled AI systems"
+  - name: Ljubisa Bajic
+    company: "Taalas (CEO)"
+    prior: "Tenstorrent co-founder; AMD, NVIDIA architect"
+    category: "02 Inference"
+  - name: Reiner Pope
+    company: "MatX (CEO)"
+    prior: "Google (TPU AI software lead)"
+    category: "01/02 Training/Inference"
+  - name: Mike Gunter
+    company: "MatX (CTO)"
+    prior: "Google (TPU hardware designer)"
+    category: "01/02 Training/Inference"
+  - name: Faraj Aalaei
+    company: "Cognichip (CEO) [TO VERIFY]"
+    prior: "Aquantia (acq. Marvell)"
+    category: "12 EDA / AI-for-chip-design"
+  - name: Vivek Raghunathan
+    company: "Xscape Photonics (CEO) [TO VERIFY]"
+    prior: "Intel silicon photonics [TO VERIFY]"
+    category: "06 Optical"
