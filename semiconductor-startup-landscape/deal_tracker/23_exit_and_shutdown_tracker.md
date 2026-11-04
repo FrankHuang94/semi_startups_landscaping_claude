@@ -10,6 +10,17 @@ Companies that were acquired, shut down, pivoted, or became inactive. The most i
 
 | Company | Category | Outcome | Date | What Happened | Investor Lesson | Source |
 |---------|----------|---------|------|---------------|-----------------|--------|
+| Akeana | 04 Custom ASIC/RISC-V | Acquired (Qualcomm) | 2026-10 (reported) | RISC-V server CPU IP startup bought ~2 years after >$100M raise; founder joins Qualcomm | RISC-V CPU teams are being bought before volume products ship — price risk for late independents | Dealroom; trade press [reported] |
+| Taalas | 02 Inference | Acquired (AMD) — pending close | Announced 2026-08-06 | Model-hardwired inference silicon; acquired 6 months after emerging from stealth with $169M | Novel inference architectures can exit fast to the #2 GPU vendor seeking differentiation | AMD IR [CONFIRMED] |
+| Rain AI | 14 Analog/IMC | Effectively wound down; patents sold to OpenAI | 2025 (failed $150M Series B, sale process) → patents sold 2026-08 | CEO departure, failed raise and failed sale; OpenAI (earlier non-binding chip LOI) bought selected patents | Celebrity backing and a hyperscale LOI do not substitute for silicon + software execution | The Information / NY Post via secondary [TO VERIFY] |
+| Empower Semiconductor | 08 Power | Acquired (Analog Devices) | Closed 2026-07-07 | $1.5B all-cash for integrated voltage-regulator / vertical power delivery | AI power delivery is a clean strategic-exit category; ~7× capital raised [ESTIMATED] | ADI PR [CONFIRMED] |
+| Quantinuum | 14 Quantum | **Public (Nasdaq: QNT)** | IPO priced 2026-06-03 | Raised ~$1.68B at $60/sh (above range); Honeywell remains majority holder | Quantum IPO window opened for scaled, revenue-generating leaders | Renaissance Capital; IPOScoop [CONFIRMED] |
+| Teramount | 06 Optical/CPO | Acquired (Molex) | Closed 2026-05-07 | Fiber-to-chip coupling for CPO; ~$430M reported [UNCONFIRMED] | CPO supply-chain enablers exit to connector/packaging strategics | Molex PR [CONFIRMED] |
+| Ventana Micro Systems | 04 Custom ASIC/RISC-V | Acquired (Qualcomm) | 2025-12 | RISC-V server CPU team | See Akeana | Qualcomm; DCD [CONFIRMED] |
+| ChipStack | 12 EDA | Acquired (Cadence) | 2025-11-10 | Early AI-verification startup tucked into Cadence | AI-for-EDA startups face early incumbent bids — a floor and a ceiling on outcomes | Cadence [CONFIRMED] |
+| Nubis Communications | 06 Optical/CPO | Acquired (Ciena) | Announced 2025-09-22 | $270M cash | Optical-engine teams have multiple strategic buyers (Ciena, Marvell, Broadcom) | Ciena PR [CONFIRMED] |
+| Blue Cheetah | 04 Chiplets | Acquired (Tenstorrent) | 2025-07-01 | D2D PHY team | Startups with capital now act as acquirers | Tenstorrent PR [CONFIRMED] |
+| Pharrowtech | 10 RF | Shut down (bankruptcy) | ~2025-05 | 60 GHz mmWave RFIC startup could not raise | Non-AI RF is hard to fund in this cycle | Bits&Chips [CONFIRMED] |
 | NeuReality | 02 Inference | Pending acquisition (Unconventional AI) | Announced 2026-10-26; close expected Q4 2026 | Israeli inference-server/NIC-offload startup (~$105M raised [TO VERIFY]) sold for undisclosed cash + stock; ~40 staff join | Sub-scale inference startups now exit to better-funded 2025-vintage peers, not just incumbents | Reuters [CONFIRMED]; CTech (close timing) [TO VERIFY] |
 | Hailo | 03 Edge Inference | Acquired (Microchip) | Announced 2026-07; closed 2026-09-21 | Edge NPU leader (Hailo-8/10/15, 100+ customers) sold for undisclosed, "not material" sum; investor write-downs reported (Calcalist) | Edge-AI standalone scale is hard vs. integrated MCU/SoC vendors; exit ≈ strategic tuck-in | Microchip PR; DCD [CONFIRMED] |
 | GigaIO (data center business) | 05 Interconnect / 16 Systems | Carve-out acquired (d-Matrix) | 2026-04-02 | SuperNODE + FabreX PCIe memory-fabric business and Carlsbad team sold; GigaIO continues as edge company | Systems/fabric assets are valuable to chip startups going rack-scale | d-Matrix PR [CONFIRMED] |
@@ -34,7 +45,7 @@ Companies that were acquired, shut down, pivoted, or became inactive. The most i
 | Esperanto Technologies | 01 | Pivoted / scaled back | ~2024 | Stepped back from broad AI silicon | Many-core RISC-V alone wasn't enough | Press [TO VERIFY] |
 | JetCool | 16 Cooling | Acquired (Flex) | 2024 | DTC cooling tuck-in | Cooling exits to DC/EMS incumbents | Press [TO VERIFY] |
 
-**Watchlist (not yet exits):** Groq post-license shell (independence/strategy under new CEO); Lightmatter (aggregator claims of an S-1 filing in 2026 — unverified [UNCONFIRMED]); Rebellions and FuriosaAI (Korean pre-IPO candidates [TO VERIFY]); Etched (rapid valuation step-ups ahead of published revenue).
+**Watchlist (not yet exits):** Groq post-license shell (independence/strategy under new CEO); Lightmatter (aggregator claims of an S-1 filing in 2026 — unverified [UNCONFIRMED]); SiFive (CEO calls Series G its last private round); PsiQuantum (2027 IPO speculation [UNCONFIRMED]); Codasip (in sale process since Jul 2025; partial divestiture to onsemi reported [UNCONFIRMED]); Rebellions and FuriosaAI (Korean pre-IPO candidates [TO VERIFY]); Etched (rapid valuation step-ups ahead of published revenue).
 
 ## Selected Post-Mortems
 

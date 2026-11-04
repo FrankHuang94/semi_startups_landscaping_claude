@@ -17,7 +17,7 @@ key_open_questions: ["Does physical AI create new venture-scale silicon or is it
 
 # 15 — Autonomous, Robotics & Automotive Silicon
 
-> Physical AI (humanoids, autonomy) is the next compute frontier; automotive is a long, design-win-gated game with OEM/Tier-1 gatekeepers. 2025–26 pattern: OEMs consolidate in-house silicon (Tesla ended Dojo to focus on AI5/AI6 [TO VERIFY]), incumbents buy robotics (Mobileye–Mentee Robotics [UNCONFIRMED]), auto-AI chip startups pivot to datacenter inference (Recogni → Tensordyne [TO VERIFY]), and listed edge/auto vendors explore sales (Ambarella [UNCONFIRMED]). See [03](03_edge_inference_chips.md) for overlap.
+> Physical AI (humanoids, autonomy) is the next compute frontier; automotive is a long, design-win-gated game with OEM/Tier-1 gatekeepers. 2025–26 pattern: OEMs consolidate in-house silicon (Tesla ended Dojo in Aug 2025 to focus on AI5/AI6 [CONFIRMED — Bloomberg; Musk on X]), incumbents buy robotics (Mobileye–Mentee Robotics [UNCONFIRMED]), auto-AI chip startups pivot to datacenter inference (Recogni → Tensordyne, Sept 2025 [CONFIRMED by multiple outlets]), and listed edge/auto vendors explore sales (Ambarella [UNCONFIRMED]). See [03](03_edge_inference_chips.md) for overlap.
 
 > ⚠️ **Verification note (Refresh #3):** the shared web-search budget was exhausted before this category's sub-batch was searched. All 2025–26 events below are carried from prior knowledge and tagged [TO VERIFY] / [UNCONFIRMED]; no new amounts were added without a source. Re-verify next refresh.
 
@@ -31,8 +31,8 @@ key_open_questions: ["Does physical AI create new venture-scale silicon or is it
 ## 2. Market Context
 - **Structure:** Mobileye, NVIDIA (DRIVE Thor, Jetson Thor), Qualcomm (Snapdragon Ride), Tesla (in-house), Ambarella; China: Horizon Robotics, Black Sesame (both HK-listed); startups thin.
 - **2025–26 events (all [TO VERIFY] unless noted):**
-  - Tesla wound down the Dojo supercomputer team (Aug 2025, per Bloomberg) to focus on AI5/AI6 inference chips; AI6 to be fabbed by Samsung under a ~$16.5B agreement (Jul 2025) [TO VERIFY].
-  - Recogni rebranded as **Tensordyne** and refocused on datacenter generative-AI inference using its log-math architecture (2025) [TO VERIFY].
+  - Tesla wound down the Dojo supercomputer team (Aug 2025, per Bloomberg) to focus on AI5/AI6 inference chips; AI6 to be fabbed by Samsung under a ~$16.5B agreement (Jul 2025); AI5 at TSMC, production targeted end-2026 [CONFIRMED — Bloomberg/Engadget; timing per Musk].
+  - Recogni rebranded as **Tensordyne** and refocused on datacenter generative-AI inference using its log-math architecture (Sept 2025); launched the Napier inference platform (Jun 2026) and says it expects >$200M in orders (company claim); preparing a Series D [TO VERIFY].
   - Ambarella reportedly explored a sale (2025 press reports) [UNCONFIRMED]; outcome unknown as of this refresh.
   - Mobileye agreed to acquire humanoid-robotics startup Mentee Robotics (announced around CES, Jan 2026) [UNCONFIRMED].
   - Blaize trades publicly (NASDAQ: BZAI) after its Jan 2025 SPAC close [TO VERIFY].
@@ -45,7 +45,7 @@ key_open_questions: ["Does physical AI create new venture-scale silicon or is it
 
 | Company | HQ | Founded | Stage | Total Funding | Lead Investors | Core Product | Target Market | Differentiation | Traction | VC Relevance | Status |
 |---------|----|---------|-------|---------------|----------------|--------------|---------------|-----------------|----------|--------------|--------|
-| Tensordyne (fka Recogni) | US (San Jose) | 2017 | Series C | ~$150M+ [TO VERIFY] | Celesta, GreatPoint, BMW i | Log-number-system inference systems | DC GenAI inference (pivot from auto) | Multiplication-free log math | Rebrand + DC pivot (2025) [TO VERIFY] | Medium | Active |
+| Tensordyne (fka Recogni) | US (San Jose) | 2017 | Series C | ~$150M+ [TO VERIFY] | Celesta, GreatPoint, BMW i | Log-number-system inference systems | DC GenAI inference (pivot from auto) | Multiplication-free log math | Rebrand + DC pivot (Sept 2025); Napier platform (Jun 2026); >$200M expected orders (company claim) | Medium | Active |
 | Hailo | IL | 2017 | Series C+ | ~$340M+ [TO VERIFY] | Poalim, Gil Agmon | Edge NPUs (auto, GenAI edge) | Automotive/edge | Efficiency (see [03](03_edge_inference_chips.md)) | Auto design wins; Hailo-10H GenAI edge [TO VERIFY] | Medium-High | Active |
 | Blaize | US (El Dorado Hills) | 2010 | Public (NASDAQ: BZAI, SPAC Jan 2025) [TO VERIFY] | ~$330M+ pre-SPAC [TO VERIFY] | Temasek, Samsung, Mercedes | GSP graph processor | Edge/defense/smart-city | Graph-streaming architecture | Public; Asia/defense contracts (company claims) | Medium | Active (Public) |
 | Ambarella | US | 2004 | Public (AMBA) | (public) | (public) | CVflow AI SoCs | Auto/cameras/robotics | Low-power vision AI SoCs | Reported sale exploration 2025 [UNCONFIRMED] | Medium | Active (Public) |

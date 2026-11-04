@@ -23,7 +23,7 @@ key_open_questions: ["When does CPO cross into volume at the XPU (not just switc
 - **Why now:** Scale-up bandwidth (GPU-to-GPU/memory) is outrunning copper's reach and energy budget; CPO and optical I/O move optics into the package. Broadcom began shipping a 102.4 Tb/s CPO switch (Tomahawk 6–Davisson) in Oct 2025 [CONFIRMED — Broadcom PR] and NVIDIA's Quantum-X/Spectrum-X Photonics CPO switches were slated for 2025–2026 [CONFIRMED — NVIDIA GTC 2025 announcement; 2026 volume shipment status TO VERIFY].
 - **Venture-scale:** High for optical I/O chiplets, optical scale-up fabric, optical circuit switching, and wavelength-scaled lasers/links. Capital-intensive but defensible; growth investors now writing $100M–$700M checks.
 - **Inflections:** CPO at switch and XPU, optical I/O chiplets (UCIe-optical), NPO, linear-drive/LPO, DWDM scaling, optical circuit switching (OCS).
-- **Exit evidence (new):** Marvell acquired **Celestial AI** — $3.25B upfront ($1B cash + 27.2M shares) plus earn-out to up to $5.5B total, announced Dec 2 2025, closed Feb 2 2026 [CONFIRMED — Marvell PR]. Ciena agreed to buy **Nubis** for $270M cash (Sept 2025) [CONFIRMED]. Molex agreed to buy **Teramount** (Apr 2026) [TO VERIFY].
+- **Exit evidence (new):** Marvell acquired **Celestial AI** — $3.25B upfront ($1B cash + 27.2M shares) plus earn-out to up to $5.5B total, announced Dec 2 2025, closed Feb 2 2026 [CONFIRMED — Marvell PR]. Ciena agreed to buy **Nubis** for $270M cash (Sept 2025) [CONFIRMED]. Molex acquired **Teramount** (announced Apr 15, closed May 7 2026; ~$430M reported [UNCONFIRMED]) [CONFIRMED — Molex PR].
 - **Acquirers:** NVIDIA, Broadcom, Marvell, Cisco, Ciena, Intel, AMD, Coherent/Lumentum, Molex, Corning. **Exit:** strategic M&A (proven) or IPO (Ayar/Lightmatter/Lumilens scale).
 - **Winning startup:** optical I/O or fabric with a host-silicon design win + packaging/laser supply path. **Non-investable:** sub-scale photonics with no design win or packaging answer.
 
@@ -55,7 +55,7 @@ key_open_questions: ["When does CPO cross into volume at the XPU (not just switc
 | Quintessent | US | 2022 | Seed/A | [TO VERIFY] | [TO VERIFY] | Quantum-dot laser photonics | Integrated lasers/DWDM | QD comb lasers on silicon | No 2026 update verified | Medium | Active |
 | Celestial AI | US | 2020 | Acquired | ~$515M+ raised [TO VERIFY] | Fidelity, BlackRock, Maverick, Tiger | Photonic Fabric optical interconnect | (now Marvell) | Optical memory/XPU fabric | Marvell $3.25B upfront + up to $5.5B; closed Feb 2 2026 [CONFIRMED] | Archived | Acquired (Marvell) |
 | Nubis Communications | US | 2020 | Acquired | ~$120M+ raised [TO VERIFY] | Matrix, MJ Capital | Linear/CPO/NPO optical engines; ACC analog | (now Ciena) | 6.4T optical engines + 200G/lane ACC | Ciena $270M cash, announced Sept 22 2025 [CONFIRMED]; close expected late 2025 [TO VERIFY] | Archived | Acquired (Ciena) |
-| Teramount | IL | 2013 | Acquired [TO VERIFY] | ~$58M raised | AMD, Samsung, Hitachi ($50M, Jul 2025) | Detachable fiber-to-chip (PhotonicPlug) | CPO fiber attach | Self-aligning fiber coupling | Molex agreement to acquire, Apr 2026 [TO VERIFY] | Archived | Acquired (Molex) [TO VERIFY] |
+| Teramount | IL | 2013 | Acquired (Molex, closed 2026-05-07) [CONFIRMED] | ~$58M raised | AMD, Samsung, Hitachi ($50M, Jul 2025) | Detachable fiber-to-chip (PhotonicPlug) | CPO fiber attach | Self-aligning fiber coupling | Molex acquisition closed May 7 2026 [CONFIRMED] | Archived | Acquired (Molex) |
 
 ## 4. Company Profiles
 
@@ -90,7 +90,7 @@ key_open_questions: ["When does CPO cross into volume at the XPU (not just switc
 - **Status:** Acquired by Marvell. Announced Dec 2 2025: $1B cash + 27.2M Marvell shares (~$2.25B) = ~$3.25B upfront; additional earn-out up to ~$5.5B total if Celestial reaches $2B cumulative revenue by end of FY2029; Amazon received a related Marvell warrant [CONFIRMED — Marvell PR / Reuters]. Closed Feb 2 2026; team joins Marvell Data Center Group [CONFIRMED — Marvell PR].
 - **Pre-exit:** ~$515M+ raised [TO VERIFY] (Fidelity, BlackRock, Maverick, Tiger, Temasek, Porsche). **Why it matters:** largest photonics-startup exit to date; validates optical scale-up fabric as a strategic must-have for custom-XPU vendors. **Last updated:** 2026-11-04.
 
-> Xscape, nEye, OpenLight, Avicena, Oriole, Scintil, iPronics, Lightelligence, Quintessent at table level. Nubis (Ciena) and Teramount (Molex [TO VERIFY]) archived. Exits are logged in [../deal_tracker/23_exit_and_shutdown_tracker.md](../deal_tracker/23_exit_and_shutdown_tracker.md).
+> Xscape, nEye, OpenLight, Avicena, Oriole, Scintil, iPronics, Lightelligence, Quintessent at table level. Nubis (Ciena) and Teramount (Molex, closed May 2026) archived. Exits are logged in [../deal_tracker/23_exit_and_shutdown_tracker.md](../deal_tracker/23_exit_and_shutdown_tracker.md).
 
 ## 5. Category-Level Investment Heatmap
 

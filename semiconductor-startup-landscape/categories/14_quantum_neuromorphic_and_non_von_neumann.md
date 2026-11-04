@@ -6,8 +6,8 @@ vc_relevance: "Medium-High"
 last_refreshed: "2026-11-04"
 refresh_count: 2
 total_companies: 15
-active_companies: 15
-archived_companies: 0
+active_companies: 14
+archived_companies: 1
 stealth_or_semi_stealth_companies: 0
 total_disclosed_funding: "~$6B+ [ESTIMATED]"
 top_investors: ["BlackRock", "Temasek", "Baillie Gifford", "NVentures", "a16z", "Lightspeed", "Samsung Catalyst", "Tiger Global", "In-Q-Tel", "RTX Ventures"]
@@ -17,7 +17,7 @@ key_open_questions: ["Does analog IMC cross the accuracy/software chasm?", "Do t
 
 # 14 — Quantum, Neuromorphic & Non-Von-Neumann
 
-> Long-horizon, binary-outcome, category-defining upside. 2025–26 changed the capital picture: quantum raised at record valuations (PsiQuantum ~$1B at ~$7B; Quantinuum ~$600M at ~$10B; SPAC/IPO activity) [TO VERIFY]; "new physics of compute" got mega-seeds (Unconventional AI, Naveen Rao — reported $475M) [UNCONFIRMED]; thermodynamic computing taped out first silicon (Normal Computing CN101) and raised strategic money (Samsung Catalyst). Analog IMC still has the nearest commercial path; some first-wave analog players (Rain AI) struggled. See [../INVESTMENT_THESES.md](../INVESTMENT_THESES.md).
+> Long-horizon, binary-outcome, category-defining upside. 2025–26 changed the capital picture: quantum raised at record valuations (PsiQuantum ~$1B at ~$7B; Quantinuum ~$600M at ~$10B; SPAC/IPO activity) [TO VERIFY]; "new physics of compute" got mega-seeds (Unconventional AI, Naveen Rao — reported $475M) [UNCONFIRMED]; thermodynamic computing taped out first silicon (Normal Computing CN101) and raised strategic money (Samsung Catalyst). Analog IMC still has the nearest commercial path; some first-wave analog players failed (Rain AI wound down; patents sold to OpenAI, Aug 2026 [TO VERIFY]). Quantinuum's Jun 2026 Nasdaq IPO (~$1.68B raised) [CONFIRMED] opened the quantum IPO window. See [../INVESTMENT_THESES.md](../INVESTMENT_THESES.md).
 
 > ⚠️ **Verification note (Refresh #3):** the shared web-search budget was exhausted before the quantum/analog-IMC sub-batch was searched. Items tagged [TO VERIFY]/[UNCONFIRMED] below are carried from prior knowledge and must be re-checked next refresh. Normal Computing and EnCharge figures were verified via search.
 
@@ -26,13 +26,15 @@ key_open_questions: ["Does analog IMC cross the accuracy/software chasm?", "Do t
 - **Venture-scale:** Medium-High but binary — IMC can produce near-term efficiency wins; thermodynamic/physics-native labs are new high-variance bets; quantum is moonshot/strategic with public-market exits now available (IonQ, Rigetti, D-Wave, SPACs).
 - **Inflections:** Analog IMC inference (EnCharge EN100 [TO VERIFY]), thermodynamic sampling chips (CN101), neuromorphic/sparse, logical-qubit demonstrations, cryo-CMOS control, quantum consolidation by public players (IonQ roll-up).
 - **Acquirers:** NVIDIA, Intel, hyperscalers, defense, Samsung, quantum strategics (IonQ, Honeywell/Quantinuum). **Exit:** strategic M&A, IPO/SPAC (quantum), or long-hold.
-- **Winning startup:** analog IMC with energy/token leadership + working software; or physics-native compute with a credible path to beat GPUs on a real workload; or quantum with a credible fault-tolerance roadmap. **Non-investable:** neuromorphic without a killer app; quantum without error-correction credibility; analog without a software stack (Rain AI lesson [UNCONFIRMED]).
+- **Winning startup:** analog IMC with energy/token leadership + working software; or physics-native compute with a credible path to beat GPUs on a real workload; or quantum with a credible fault-tolerance roadmap. **Non-investable:** neuromorphic without a killer app; quantum without error-correction credibility; analog without a software stack (Rain AI lesson).
 
 ## 2. Market Context
 - **Structure:** Analog/IMC startups; thermodynamic/probabilistic compute (Normal Computing, Extropic); new physics-native AI labs (Unconventional AI); neuromorphic (BrainChip, Innatera); quantum hardware (PsiQuantum, Quantinuum, QuEra, Infleqtion, Alice & Bob, Atom Computing, Pasqal; public IonQ, Rigetti, D-Wave) + control layer (Quantum Machines, SEEQC).
 - **Key 2025–26 events:**
   - PsiQuantum ~$1B Series E at ~$7B valuation (Sept 2025; BlackRock, Temasek, Baillie Gifford; NVentures participation) [TO VERIFY].
-  - Quantinuum ~$600M raise at ~$10B pre-money (Sept 2025) [TO VERIFY]; IPO preparation reported in 2026 [UNCONFIRMED].
+  - Quantinuum ~$600M raise at ~$10B pre-money (Sept 2025) [TO VERIFY]; **IPO on Nasdaq (QNT) priced 2026-06-03 at $60/share, raising ~$1.68B — the largest quantum listing to date** [CONFIRMED].
+  - PsiQuantum $1B Series E at ~$7B (Sept 2025) [CONFIRMED by multiple outlets]; 2027 IPO speculation [UNCONFIRMED].
+  - Rain AI: Series B collapse and failed sale; OpenAI bought selected patents (Aug 2026) [TO VERIFY].
   - IonQ acquisition spree (Oxford Ionics ~$1.08B, 2025 [TO VERIFY]; further deals incl. reported SkyWater Technology acquisition announced early 2026 [UNCONFIRMED]).
   - Infleqtion business combination with Churchill Capital Corp X (announced Sept 2025) [TO VERIFY]; listing status in 2026 [UNCONFIRMED].
   - Normal Computing $50M led by Samsung Catalyst (Mar 2026), total >$85M; CN101 thermodynamic chip taped out mid-2025 [CONFIRMED].
@@ -53,9 +55,9 @@ key_open_questions: ["Does analog IMC cross the accuracy/software chasm?", "Do t
 | Extropic | US | 2022 | Seed | ~$14M+ [TO VERIFY] | Kindred Ventures [TO VERIFY] | Thermodynamic sampling units (probabilistic bits) | Generative AI sampling | All-transistor probabilistic computing | Dev hardware/Z1 announced 2025 [UNCONFIRMED] | Medium | Active |
 | Sagence AI | US | 2018 | Series A+ | [TO VERIFY] | [TO VERIFY] | Analog in-memory inference | DC inference | Analog compute for LLM efficiency | No 2025–26 update found | Medium | Active |
 | Mythic | US (Austin) | 2012 | Growth (recapitalized) | ~$165M+ prior + reported ~$125M (Dec 2025) [UNCONFIRMED] | DCVC, Lux, SoftBank; [TO VERIFY] | Analog matrix processor (flash IMC) | Edge + DC inference | Flash-based analog compute | Relaunch under new leadership; new round reported [UNCONFIRMED] | Medium | Active |
-| Rain AI | US | 2017 | Series B [TO VERIFY] | ~$60M+ [TO VERIFY] | Prosperity7, S. Altman | Compute-in-memory NPU | Edge/DC inference | Analog/digital IMC | Reported 2025 funding failure, talent departures and sale exploration [UNCONFIRMED] | Low | Active (distressed) [UNCONFIRMED] |
+| Rain AI | US | 2017 | Wound down / asset sale | ~$60M+ [TO VERIFY] | Prosperity7, S. Altman | Compute-in-memory NPU | Edge/DC inference | Analog/digital IMC | $150M Series B collapsed (2025), sale process failed; OpenAI bought selected patents (Aug 2026) [TO VERIFY — The Information via secondary] | Archived | Effectively shut down |
 | PsiQuantum | US (Palo Alto) | 2016 | Growth (Series E) | ~$2.3B+ [ESTIMATED] (incl. ~$1B Sept 2025 at ~$7B [TO VERIFY]) | BlackRock, Temasek, Baillie Gifford; NVentures [TO VERIFY] | Photonic fault-tolerant quantum | Quantum computing | Silicon-photonic FT quantum (GlobalFoundries) | Brisbane & Chicago utility-scale sites (gov-backed) | Medium | Active |
-| Quantinuum | US/UK | 2021 | Late-stage (pre-IPO) | ~$1.6B+ [ESTIMATED] (incl. ~$600M Sept 2025 at ~$10B pre [TO VERIFY]) | Honeywell (majority), NVentures, Quanta [TO VERIFY] | Trapped-ion quantum (H-series, Helios) | Quantum computing | Highest-fidelity trapped ions; logical-qubit leadership | IPO preparation reported 2026 [UNCONFIRMED] | Medium | Active |
+| Quantinuum | US/UK | 2021 | **Public (Nasdaq: QNT, IPO Jun 2026)** [CONFIRMED] | ~$1.6B+ [ESTIMATED] (incl. ~$600M Sept 2025 at ~$10B pre [TO VERIFY]) | Honeywell (majority), NVentures, Quanta [TO VERIFY] | Trapped-ion quantum (H-series, Helios) | Quantum computing | Highest-fidelity trapped ions; logical-qubit leadership | IPO priced 2026-06-03 at $60/sh, raising ~$1.68B [CONFIRMED] | Medium | Public |
 | QuEra | US (Boston) | 2018 | Growth | ~$300M+ [TO VERIFY] (>$230M Feb 2025) | Google, SoftBank Vision Fund [TO VERIFY] | Neutral-atom quantum | Quantum computing | Harvard/MIT neutral-atom error correction | AIST Japan system [TO VERIFY] | Medium | Active |
 | Infleqtion | US (Boulder) | 2007 | SPAC (2025–26) | [TO VERIFY] | Churchill Capital Corp X (SPAC) [TO VERIFY] | Neutral-atom quantum + quantum sensors/clocks | Quantum computing, defense PNT | Revenue from sensing/timing products | SPAC listing status [UNCONFIRMED] | Medium | Active |
 | Alice & Bob | FR (Paris) | 2020 | Series B | ~€130M+ [TO VERIFY] (€100M B Jan 2025) | Future French Champions, AVP, Bpifrance [TO VERIFY] | Cat-qubit superconducting quantum | Quantum computing | Bosonic cat qubits (hardware-efficient QEC) | Roadmap to FT by ~2030 (company claim) | Medium | Active |

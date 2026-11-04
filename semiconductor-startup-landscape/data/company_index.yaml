@@ -1,160 +1,297 @@
 # Master company index. Machine-readable source for README Master Company Index.
 # Confidence tags belong in the category files; financials here are point-in-time.
 # Schema per entry: name, category, hq, founded, stage, total_funding, lead_investors, status, primary_file
+# Status vocabulary: Active | Public | Acquired | Acquired (pending) | Licensed/Acqui-hired | Shut Down
+# Last rebuilt: 2026-11-04 (Refresh #3).
 # Build with: python scripts/build_index.py companies
 
 companies:
+  - name: Accelsius
+    category: "16 DC Infra"
+    hq: "Austin, US"
+    founded: 2022
+    stage: "Series B"
+    total_funding: "~$65M [TO VERIFY]"
+    lead_investors: ["[TO VERIFY]"]
+    status: Active
+    primary_file: categories/16_datacenter_infrastructure_enablers.md
+  - name: Akeana
+    category: "04 Custom ASIC/RISC-V"
+    hq: "Santa Clara, US"
+    founded: 2021
+    stage: "Acquired by Qualcomm (Oct 2026) [reported]"
+    total_funding: "~$100M+"
+    lead_investors: ["Kleiner Perkins", "Mayfield", "Fidelity"]
+    status: Acquired
+    primary_file: categories/04_custom_asic_and_chiplets.md
   - name: Astera Labs
     category: "05 Networking/Interconnect"
     hq: "Santa Clara, US"
     founded: 2017
-    stage: "Public (NASDAQ: ALAB)"
+    stage: "Public (NASDAQ: ALAB); Q2'26 revenue $392.4M [CONFIRMED]"
     total_funding: "IPO 2024"
     lead_investors: ["Sutter Hill", "Fidelity"]
+    status: Public
+    primary_file: categories/05_networking_and_interconnect.md
+  - name: Auradine
+    category: "05 Networking/Interconnect"
+    hq: "Santa Clara, US"
+    founded: 2022
+    stage: "Series C ($153M, Apr 2025) [CONFIRMED]"
+    total_funding: "~$314M [TO VERIFY]"
+    lead_investors: ["StepStone", "Samsung Catalyst", "Qualcomm Ventures", "Mayfield"]
     status: Active
     primary_file: categories/05_networking_and_interconnect.md
   - name: Axelera AI
     category: "03 Edge Inference"
     hq: "Eindhoven, NL"
     founded: 2021
-    stage: "Series B"
-    total_funding: "~$220M [TO VERIFY]"
-    lead_investors: ["Innovation Industries", "EIC Fund"]
+    stage: "Growth (>$250M, Feb 2026) [CONFIRMED]"
+    total_funding: "~$450M+ incl. grants [CONFIRMED]"
+    lead_investors: ["Innovation Industries", "BlackRock", "EIC Fund"]
     status: Active
     primary_file: categories/03_edge_inference_chips.md
   - name: Ayar Labs
     category: "06 Optical/CPO"
-    hq: "Santa Clara, US"
+    hq: "San Jose, US"
     founded: 2015
-    stage: "Series D"
-    total_funding: "~$370M+ [TO VERIFY]"
-    lead_investors: ["Advent", "Light Street"]
+    stage: "Series E ($500M at ~$3.75B, Mar 2026) [CONFIRMED] + $150M ext. (Sep 2026) [TO VERIFY]"
+    total_funding: "~$870M-1.0B+ [TO VERIFY]"
+    lead_investors: ["Neuberger Berman", "NVIDIA", "AMD", "Intel Capital"]
     status: Active
     primary_file: categories/06_optical_interconnect_and_cpo.md
   - name: Baya Systems
     category: "04 Custom ASIC/Chiplets"
     hq: "Santa Clara, US"
     founded: 2022
-    stage: "Series B"
-    total_funding: "~$57M+ [TO VERIFY]"
-    lead_investors: ["Matrix Partners", "Maverick"]
+    stage: "Series B ($36M, Jan 2025) [CONFIRMED]"
+    total_funding: "~$47M+ [TO VERIFY]"
+    lead_investors: ["Maverick Silicon", "Matrix Partners", "Intel Capital"]
     status: Active
     primary_file: categories/04_custom_asic_and_chiplets.md
   - name: Blaize
     category: "15 Automotive/Edge"
     hq: "El Dorado Hills, US"
     founded: 2010
-    stage: "Public (SPAC 2025)"
-    total_funding: "~$330M+ [TO VERIFY]"
+    stage: "Public (NASDAQ: BZAI, SPAC Jan 2025)"
+    total_funding: "~$330M+ pre-SPAC [TO VERIFY]"
     lead_investors: ["Temasek", "Samsung"]
-    status: Active
+    status: Public
     primary_file: categories/15_autonomous_robotics_and_automotive_silicon.md
+  - name: Blue Cheetah
+    category: "04 Custom ASIC/Chiplets"
+    hq: "Sunnyvale, US"
+    founded: 2018
+    stage: "Acquired by Tenstorrent (Jul 2025) [CONFIRMED]"
+    total_funding: "[TO VERIFY]"
+    lead_investors: ["[TO VERIFY]"]
+    status: Acquired
+    primary_file: categories/04_custom_asic_and_chiplets.md
+  - name: C2i Semiconductors
+    category: "08 Power"
+    hq: "Bangalore, IN"
+    founded: 2024
+    stage: "Series A"
+    total_funding: "~$16.7M [CONFIRMED]"
+    lead_investors: ["TDK Ventures", "Peak XV"]
+    status: Active
+    primary_file: categories/08_power_semiconductors_and_power_delivery.md
+  - name: Callosum
+    category: "02 Inference (orchestration)"
+    hq: "London, UK"
+    founded: 2025
+    stage: "Seed ($100M, Aug 2026) [CONFIRMED]"
+    total_funding: "~$110M [CONFIRMED]"
+    lead_investors: ["Atomico", "Plural", "UK Sovereign AI Fund"]
+    status: Active
+    primary_file: categories/17_emerging_research_to_startup_pipeline.md
+  - name: Cambridge GaN Devices
+    category: "08 Power"
+    hq: "Cambridge, UK"
+    founded: 2016
+    stage: "Series C ($32M, Feb 2025) [CONFIRMED]"
+    total_funding: "~$60M [TO VERIFY]"
+    lead_investors: ["Foresight"]
+    status: Active
+    primary_file: categories/08_power_semiconductors_and_power_delivery.md
   - name: Celestial AI
     category: "06 Optical/CPO"
     hq: "Santa Clara, US"
     founded: 2020
-    stage: "Series C"
+    stage: "Acquired by Marvell ($3.25B upfront, up to $5.5B w/ earn-out; closed 2026-02-02) [CONFIRMED]"
     total_funding: "~$515M+ [TO VERIFY]"
     lead_investors: ["Fidelity", "BlackRock", "Maverick"]
-    status: Active
+    status: Acquired
     primary_file: categories/06_optical_interconnect_and_cpo.md
   - name: Cerebras Systems
     category: "01 Training"
     hq: "Sunnyvale, US"
     founded: 2015
-    stage: "Pre-IPO"
-    total_funding: "~$720M+ [TO VERIFY]"
-    lead_investors: ["Benchmark", "Foundation Capital", "G42"]
-    status: Active
+    stage: "Public (Nasdaq: CBRS, IPO 2026-05-14, ~$5.55B raised at $185/sh) [CONFIRMED]"
+    total_funding: "~$2.8B private [ESTIMATED] + IPO"
+    lead_investors: ["Benchmark", "Fidelity", "Atreides", "Tiger Global"]
+    status: Public
     primary_file: categories/01_training_accelerators.md
+  - name: ChipAgents
+    category: "12 EDA/IP"
+    hq: "Santa Clara, US"
+    founded: 2023
+    stage: "Series A (A2, Jul 2026) [CONFIRMED]"
+    total_funding: "~$134M Series A total [CONFIRMED]"
+    lead_investors: ["Bessemer", "Matter Venture Partners", "B Capital"]
+    status: Active
+    primary_file: categories/12_eda_ip_and_design_tools.md
+  - name: ChipStack
+    category: "12 EDA/IP"
+    hq: "Seattle, US"
+    founded: 2023
+    stage: "Acquired by Cadence (Nov 2025) [CONFIRMED]"
+    total_funding: "[TO VERIFY]"
+    lead_investors: ["[TO VERIFY]"]
+    status: Acquired
+    primary_file: categories/12_eda_ip_and_design_tools.md
   - name: Codasip
     category: "12 EDA/IP"
     hq: "Brno, CZ"
     founded: 2014
-    stage: "Series A+"
-    total_funding: "~$60M+ [TO VERIFY]"
+    stage: "In sale process since Jul 2025 [CONFIRMED]; partial divestiture reported [UNCONFIRMED]"
+    total_funding: "~EUR119M grants+equity [CONFIRMED]"
     lead_investors: ["Smart Eureka", "Eurazeo"]
     status: Active
     primary_file: categories/12_eda_ip_and_design_tools.md
+  - name: Cognichip
+    category: "12 EDA/IP"
+    hq: "Redwood City, US"
+    founded: 2024
+    stage: "Series A ($60M, Apr 2026) [CONFIRMED]"
+    total_funding: "~$93M [CONFIRMED]"
+    lead_investors: ["Seligman Ventures", "Mayfield", "Lux Capital"]
+    status: Active
+    primary_file: categories/12_eda_ip_and_design_tools.md
+  - name: Corintis
+    category: "16 DC Infra"
+    hq: "Lausanne, CH"
+    founded: 2022
+    stage: "Series A"
+    total_funding: "~$24M [TO VERIFY]"
+    lead_investors: ["[TO VERIFY]"]
+    status: Active
+    primary_file: categories/16_datacenter_infrastructure_enablers.md
   - name: Cornelis Networks
-    category: "05 Networking"
-    hq: "Wayne, US"
+    category: "05 Networking/Interconnect"
+    hq: "Chesterbrook, US"
     founded: 2020
-    stage: "Series B/C"
-    total_funding: "~$130M+ [TO VERIFY]"
-    lead_investors: ["Chevron Technology Ventures", "DCVC"]
+    stage: "Growth ($205M, Sep 2026) [CONFIRMED]"
+    total_funding: "~$335M [TO VERIFY]"
+    lead_investors: ["IAG Capital Partners", "Chevron Technology Ventures", "DCVC"]
     status: Active
     primary_file: categories/05_networking_and_interconnect.md
   - name: d-Matrix
     category: "02 Inference"
     hq: "Santa Clara, US"
     founded: 2019
-    stage: "Series B"
-    total_funding: "~$160M+ [TO VERIFY]"
-    lead_investors: ["Temasek", "M12", "Playground Global"]
+    stage: "Series C ($275M at ~$2B, Nov 2025) [CONFIRMED]; bought GigaIO DC unit (Apr 2026)"
+    total_funding: "~$450M [CONFIRMED]"
+    lead_investors: ["Bullhound Capital", "Triatomic Capital", "Temasek"]
     status: Active
     primary_file: categories/02_inference_accelerators.md
   - name: DeepX
     category: "03 Edge Inference"
     hq: "Seongnam, KR"
     founded: 2018
-    stage: "Series C"
-    total_funding: "~$120M+ [TO VERIFY]"
+    stage: "Series D / pre-IPO [TO VERIFY]"
+    total_funding: "~$150M+ [ESTIMATED]"
     lead_investors: ["SkyLake", "BNW"]
     status: Active
     primary_file: categories/03_edge_inference_chips.md
-  - name: EnCharge AI
-    category: "14 Analog/In-Memory"
+  - name: DreamBig Semiconductor
+    category: "05 Networking/Interconnect"
+    hq: "San Jose, US"
+    founded: 2019
+    stage: "Acquired by Arm (~$265M, agreed Oct 2025) [CONFIRMED agreement]"
+    total_funding: "~$75-92M [TO VERIFY]"
+    lead_investors: ["Samsung"]
+    status: Acquired
+    primary_file: categories/05_networking_and_interconnect.md
+  - name: Eliyan
+    category: "04 Custom ASIC/Chiplets"
     hq: "Santa Clara, US"
-    founded: 2022
-    stage: "Series B"
-    total_funding: "~$144M+ [TO VERIFY]"
-    lead_investors: ["Tiger Global", "RTX Ventures", "In-Q-Tel"]
+    founded: 2021
+    stage: "Series B + strategic (Jan 2026) [TO VERIFY]"
+    total_funding: "~$150M [TO VERIFY]"
+    lead_investors: ["Samsung Catalyst", "Tiger Global", "Intel Capital"]
     status: Active
-    primary_file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
+    primary_file: categories/04_custom_asic_and_chiplets.md
   - name: Empower Semiconductor
     category: "08 Power"
     hq: "San Jose, US"
     founded: 2014
-    stage: "Growth"
-    total_funding: "[TO VERIFY]"
-    lead_investors: ["Sutter Hill", "Intel Capital"]
-    status: Active
+    stage: "Acquired by Analog Devices ($1.5B cash, closed 2026-07-07) [CONFIRMED]"
+    total_funding: "~$200M+ [ESTIMATED]"
+    lead_investors: ["Fidelity", "CapitalG", "Sutter Hill", "Intel Capital"]
+    status: Acquired
     primary_file: categories/08_power_semiconductors_and_power_delivery.md
+  - name: EnCharge AI
+    category: "14 Analog/In-Memory"
+    hq: "Santa Clara, US"
+    founded: 2022
+    stage: "Series B ($100M, Feb 2025) [CONFIRMED]"
+    total_funding: "~$144M+ [CONFIRMED]"
+    lead_investors: ["Tiger Global", "RTX Ventures", "In-Q-Tel"]
+    status: Active
+    primary_file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
   - name: Enfabrica
-    category: "05 Networking"
+    category: "05 Networking/Interconnect"
     hq: "Mountain View, US"
     founded: 2020
-    stage: "Series C"
-    total_funding: "~$290M+ [TO VERIFY]"
-    lead_investors: ["NVIDIA", "Sutter Hill", "Atreides"]
-    status: Active
+    stage: "NVIDIA tech licence + CEO/team hire (>$900M, Sep 2025) [CONFIRMED structure]"
+    total_funding: "~$260M"
+    lead_investors: ["Atreides", "Sutter Hill", "NVIDIA"]
+    status: Licensed/Acqui-hired
     primary_file: categories/05_networking_and_interconnect.md
   - name: Etched
     category: "02 Inference"
-    hq: "Cupertino, US"
+    hq: "San Jose, US"
     founded: 2022
-    stage: "Series A"
-    total_funding: "~$125M+ [TO VERIFY]"
-    lead_investors: ["Primary Venture Partners", "Positive Sum"]
+    stage: "Growth ($500M at $5B Jan 2026 [CONFIRMED]; $300M at $10.3B Jul 2026 and $700M at ~$21B Aug 2026 [TO VERIFY])"
+    total_funding: "~$1.1B-1.8B [ESTIMATED]"
+    lead_investors: ["Stripes", "Sequoia", "Jane Street", "Primary Venture Partners"]
     status: Active
     primary_file: categories/02_inference_accelerators.md
+  - name: Fab2 (formerly Atomic Semi)
+    category: "13 Foundry/Packaging"
+    hq: "Austin, US [TO VERIFY]"
+    founded: 2022
+    stage: "Series A (~$500M at ~$3.7B reported) [UNCONFIRMED]"
+    total_funding: "[UNCONFIRMED]"
+    lead_investors: ["Founders Fund"]
+    status: Active
+    primary_file: categories/13_foundry_packaging_and_chiplet_integration.md
   - name: Fabric Cryptography
     category: "09 Security/Crypto"
     hq: "San Francisco, US"
     founded: 2022
     stage: "Series A"
-    total_funding: "~$33M+ [TO VERIFY]"
+    total_funding: "~$39M [CONFIRMED]"
     lead_investors: ["Blockchain Capital", "1kx"]
     status: Active
     primary_file: categories/09_security_crypto_and_confidential_compute.md
+  - name: Fractile
+    category: "02 Inference"
+    hq: "London, UK"
+    founded: 2022
+    stage: "Series B ($220M, May 2026) [CONFIRMED]"
+    total_funding: "~$240M [ESTIMATED]"
+    lead_investors: ["Accel", "Founders Fund", "Factorial Funds"]
+    status: Active
+    primary_file: categories/02_inference_accelerators.md
   - name: FuriosaAI
     category: "02 Inference"
     hq: "Seoul, KR"
     founded: 2017
-    stage: "Series C"
-    total_funding: "~$200M+ [TO VERIFY]"
-    lead_investors: ["DSC Investment", "Naver"]
+    stage: "Series D ($620M at ~$2.9B, Oct 2026) [CONFIRMED]"
+    total_funding: "~$0.9-1B [ESTIMATED]"
+    lead_investors: ["Korea National Growth Fund", "DSC Investment", "Naver"]
     status: Active
     primary_file: categories/02_inference_accelerators.md
   - name: Graphcore
@@ -170,53 +307,170 @@ companies:
     category: "02 Inference"
     hq: "Mountain View, US"
     founded: 2016
-    stage: "Late"
-    total_funding: "~$1B+ [TO VERIFY]"
-    lead_investors: ["BlackRock", "Samsung Catalyst", "Cisco Investments"]
-    status: Active
+    stage: "NVIDIA non-exclusive licence + leadership hire (~$20B reported, Dec 2025); GroqCloud continues under CEO Simon Edwards"
+    total_funding: "~$2.5-3B [ESTIMATED]"
+    lead_investors: ["Disruptive", "BlackRock", "Samsung Catalyst", "Cisco"]
+    status: Licensed/Acqui-hired
     primary_file: categories/02_inference_accelerators.md
   - name: Hailo
     category: "03 Edge Inference"
     hq: "Tel Aviv, IL"
     founded: 2017
-    stage: "Series C+"
+    stage: "Acquired by Microchip (agreed Jul 2026; closed 2026-09-21) [CONFIRMED]"
     total_funding: "~$340M+ [TO VERIFY]"
     lead_investors: ["Poalim Equity", "Gil Agmon"]
-    status: Active
+    status: Acquired
     primary_file: categories/03_edge_inference_chips.md
+  - name: Kinara
+    category: "03 Edge Inference"
+    hq: "Los Altos, US"
+    founded: 2013
+    stage: "Acquired by NXP ($307M, closed 2025-10-27) [CONFIRMED]"
+    total_funding: "[TO VERIFY]"
+    lead_investors: ["[TO VERIFY]"]
+    status: Acquired
+    primary_file: categories/03_edge_inference_chips.md
+  - name: Lace Lithography
+    category: "13 Foundry/Packaging"
+    hq: "Bergen, NO"
+    founded: 2023
+    stage: "Series A ($40M, Mar 2026) [CONFIRMED]"
+    total_funding: "~$60M"
+    lead_investors: ["Atomico", "M12", "Nysno"]
+    status: Active
+    primary_file: categories/13_foundry_packaging_and_chiplet_integration.md
   - name: Lightmatter
     category: "06 Optical/CPO"
     hq: "Mountain View, US"
     founded: 2017
-    stage: "Series D"
-    total_funding: "~$850M+ [TO VERIFY]"
-    lead_investors: ["GV", "T. Rowe Price", "Fidelity"]
+    stage: "Series D ($400M at $4.4B, Oct 2024) [CONFIRMED]; no confirmed 2026 round"
+    total_funding: "~$850M"
+    lead_investors: ["T. Rowe Price", "GV", "Fidelity"]
     status: Active
     primary_file: categories/06_optical_interconnect_and_cpo.md
+  - name: Lumilens
+    category: "06 Optical/CPO"
+    hq: "[TO VERIFY]"
+    founded: 2024
+    stage: "Series C ($700M+ at $5.51B, Aug 2026) [CONFIRMED]"
+    total_funding: "~$900M+ [TO VERIFY]"
+    lead_investors: ["Atreides", "Bain Capital Ventures", "Meritech", "Spark Capital"]
+    status: Active
+    primary_file: categories/06_optical_interconnect_and_cpo.md
+  - name: Majestic Labs
+    category: "07 Memory/CXL"
+    hq: "US / IL"
+    founded: 2023
+    stage: "Series A (~$100M total, Nov 2025) [CONFIRMED]"
+    total_funding: "~$100M"
+    lead_investors: ["Bow Wave Capital", "Grove Ventures"]
+    status: Active
+    primary_file: categories/07_memory_and_storage.md
   - name: MatX
     category: "01 Training"
     hq: "Mountain View, US"
     founded: 2022
-    stage: "Series A"
-    total_funding: "[TO VERIFY]"
-    lead_investors: ["Spark Capital", "Homebrew"]
+    stage: "Series B ($500M, Feb 2026) [CONFIRMED]"
+    total_funding: "~$600M+ [ESTIMATED]"
+    lead_investors: ["Jane Street", "Situational Awareness", "Spark Capital"]
     status: Active
     primary_file: categories/01_training_accelerators.md
   - name: Mythic
     category: "14 Analog/Edge"
     hq: "Austin, US"
     founded: 2012
-    stage: "Series C (restructured)"
-    total_funding: "~$165M+ [TO VERIFY]"
+    stage: "Growth (recapitalized; ~$125M Dec 2025 [UNCONFIRMED])"
+    total_funding: "~$165M+ prior [TO VERIFY]"
     lead_investors: ["DCVC", "Lux Capital", "SoftBank"]
     status: Active
     primary_file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
+  - name: nEye
+    category: "06 Optical/CPO"
+    hq: "Santa Clara, US"
+    founded: 2021
+    stage: "Series C ($80M, Apr 2026) [CONFIRMED]"
+    total_funding: "~$152M [CONFIRMED]"
+    lead_investors: ["Sutter Hill", "CapitalG"]
+    status: Active
+    primary_file: categories/06_optical_interconnect_and_cpo.md
+  - name: NEO Semiconductor
+    category: "07 Memory/CXL"
+    hq: "San Jose, US"
+    founded: 2012
+    stage: "Strategic round (Apr 2026) [CONFIRMED]"
+    total_funding: "Undisclosed"
+    lead_investors: ["Stan Shih-led consortium"]
+    status: Active
+    primary_file: categories/07_memory_and_storage.md
+  - name: NeuReality
+    category: "02 Inference"
+    hq: "Caesarea, IL"
+    founded: 2019
+    stage: "Being acquired by Unconventional AI (announced 2026-10-26) [CONFIRMED]"
+    total_funding: "~$105M [TO VERIFY]"
+    lead_investors: ["[TO VERIFY]"]
+    status: Acquired (pending)
+    primary_file: categories/02_inference_accelerators.md
+  - name: Neurophos
+    category: "06 Optical/CPO (photonic compute)"
+    hq: "Austin, US [TO VERIFY]"
+    founded: 2020
+    stage: "Series A ($110M, Jan 2026) [CONFIRMED]"
+    total_funding: "~$118M"
+    lead_investors: ["Gates Frontier", "M12"]
+    status: Active
+    primary_file: categories/17_emerging_research_to_startup_pipeline.md
+  - name: Niobium
+    category: "09 Security/Crypto"
+    hq: "Dayton, US"
+    founded: 2023
+    stage: "Seed+ ($23M+ follow-on, Dec 2025) [CONFIRMED]"
+    total_funding: "~$28M+ [CONFIRMED]"
+    lead_investors: ["Fusion Fund", "Morgan Creek", "Rev1 Ventures"]
+    status: Active
+    primary_file: categories/09_security_crypto_and_confidential_compute.md
+  - name: Normal Computing
+    category: "14 Thermodynamic/AI-EDA"
+    hq: "New York, US"
+    founded: 2022
+    stage: "Growth ($50M, Mar 2026) [CONFIRMED]"
+    total_funding: "~$85M+ [CONFIRMED]"
+    lead_investors: ["Samsung Catalyst"]
+    status: Active
+    primary_file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
+  - name: Nubis Communications
+    category: "06 Optical/CPO"
+    hq: "New Providence, US"
+    founded: 2020
+    stage: "Acquired by Ciena ($270M cash, announced Sep 2025) [CONFIRMED]"
+    total_funding: "~$120M+ [TO VERIFY]"
+    lead_investors: ["Matrix Partners"]
+    status: Acquired
+    primary_file: categories/06_optical_interconnect_and_cpo.md
+  - name: OpenLight
+    category: "06 Optical/CPO"
+    hq: "Goleta, US"
+    founded: 2022
+    stage: "Series A-1 ($50M, Apr 2026) [CONFIRMED]"
+    total_funding: "~$84M [CONFIRMED]"
+    lead_investors: ["Xora Innovation", "Capricorn"]
+    status: Active
+    primary_file: categories/06_optical_interconnect_and_cpo.md
+  - name: Optalysys
+    category: "09 Security/Crypto"
+    hq: "Leeds, UK"
+    founded: 2013
+    stage: "Series A ext. (GBP23M, Jan 2026) [CONFIRMED]"
+    total_funding: "~$59M [ESTIMATED]"
+    lead_investors: ["Northern Gritstone", "imec.xpand", "NSSIF"]
+    status: Active
+    primary_file: categories/09_security_crypto_and_confidential_compute.md
   - name: Panmnesia
     category: "07 Memory/CXL"
     hq: "Daejeon, KR"
     founded: 2022
-    stage: "Seed/A"
-    total_funding: "~$28M+ [TO VERIFY]"
+    stage: "Series A+"
+    total_funding: "~$80-100M [TO VERIFY]"
     lead_investors: ["Daekyo Investment", "SL Investment"]
     status: Active
     primary_file: categories/07_memory_and_storage.md
@@ -224,125 +478,260 @@ companies:
     category: "02 Inference"
     hq: "Reno, US"
     founded: 2023
-    stage: "Seed/A"
-    total_funding: "~$75M+ [TO VERIFY]"
-    lead_investors: ["Valor Equity", "Atreides", "DFJ Growth"]
+    stage: "Series B ($230M at >$1B, Feb 2026) [CONFIRMED]"
+    total_funding: "~$300M+ [ESTIMATED]"
+    lead_investors: ["ARENA Private Wealth", "Jump Trading", "Unless", "Valor"]
     status: Active
     primary_file: categories/02_inference_accelerators.md
+  - name: PowerLattice
+    category: "08 Power"
+    hq: "Vancouver WA, US"
+    founded: 2023
+    stage: "Growth (Form D: $86M of $111M, Oct 2026) [CONFIRMED]"
+    total_funding: "~$86M+"
+    lead_investors: ["[TO VERIFY]"]
+    status: Active
+    primary_file: categories/08_power_semiconductors_and_power_delivery.md
   - name: PsiQuantum
     category: "14 Quantum"
     hq: "Palo Alto, US"
     founded: 2016
-    stage: "Growth"
-    total_funding: "~$1.3B+ [TO VERIFY]"
+    stage: "Series E ($1B at ~$7B, Sep 2025) [CONFIRMED]"
+    total_funding: "~$2.3B+ [ESTIMATED]"
     lead_investors: ["BlackRock", "Temasek", "Baillie Gifford"]
     status: Active
+    primary_file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
+  - name: Quadric
+    category: "03 Edge Inference"
+    hq: "Burlingame, US"
+    founded: 2016
+    stage: "Series C"
+    total_funding: "~$72-90M [TO VERIFY]"
+    lead_investors: ["Accelerate Fund", "Volta"]
+    status: Active
+    primary_file: categories/03_edge_inference_chips.md
+  - name: Quantinuum
+    category: "14 Quantum"
+    hq: "Broomfield, US / Cambridge, UK"
+    founded: 2021
+    stage: "Public (Nasdaq: QNT, IPO Jun 2026, ~$1.68B raised) [CONFIRMED]"
+    total_funding: "~$1.6B+ private [ESTIMATED] + IPO"
+    lead_investors: ["Honeywell"]
+    status: Public
     primary_file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
   - name: Rain AI
     category: "14 Analog/Neuromorphic"
     hq: "San Francisco, US"
     founded: 2017
-    stage: "Series B [TO VERIFY]"
+    stage: "Wound down; patents sold to OpenAI (Aug 2026) [TO VERIFY]"
     total_funding: "~$60M+ [TO VERIFY]"
     lead_investors: ["Prosperity7", "Sam Altman"]
-    status: Active
+    status: Shut Down
     primary_file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
   - name: Rebellions
     category: "02 Inference"
     hq: "Seongnam, KR"
     founded: 2020
-    stage: "Series C / Unicorn"
-    total_funding: "~$325M+ [TO VERIFY]"
-    lead_investors: ["KT", "Temasek"]
+    stage: "Pre-IPO ($400M at ~$2.34B, Mar 2026) [CONFIRMED]"
+    total_funding: "~$850M [ESTIMATED]"
+    lead_investors: ["Mirae Asset", "Korea National Growth Fund", "KT", "Arm"]
     status: Active
     primary_file: categories/02_inference_accelerators.md
-  - name: Recogni
-    category: "15 Automotive/Inference"
-    hq: "San Jose, US"
-    founded: 2017
-    stage: "Series C"
-    total_funding: "~$150M+ [TO VERIFY]"
-    lead_investors: ["Celesta", "GreatPoint", "BMW i Ventures"]
+  - name: Ricursive Intelligence
+    category: "12 EDA/IP"
+    hq: "SF Bay Area, US [TO VERIFY]"
+    founded: 2025
+    stage: "Series A ($300M at ~$4B, Jan 2026) [CONFIRMED]"
+    total_funding: "~$335M [CONFIRMED]"
+    lead_investors: ["Lightspeed", "Sequoia"]
     status: Active
-    primary_file: categories/15_autonomous_robotics_and_automotive_silicon.md
+    primary_file: categories/12_eda_ip_and_design_tools.md
   - name: Rivos
     category: "04 Custom ASIC/RISC-V"
-    hq: "Mountain View, US"
+    hq: "Santa Clara, US"
     founded: 2021
-    stage: "Series A+"
+    stage: "Acquired by Meta (2025, terms undisclosed) [CONFIRMED]"
     total_funding: "~$250M+ [TO VERIFY]"
     lead_investors: ["Matrix Partners", "Intel Capital", "MediaTek"]
-    status: Active
+    status: Acquired
     primary_file: categories/04_custom_asic_and_chiplets.md
-  - name: SambaNova Systems
-    category: "01 Training/Inference"
-    hq: "Palo Alto, US"
-    founded: 2017
-    stage: "Series D"
-    total_funding: "~$1.1B [TO VERIFY]"
-    lead_investors: ["SoftBank", "BlackRock", "Intel Capital"]
-    status: Active
-    primary_file: categories/01_training_accelerators.md
   - name: Sagence AI
     category: "14 Analog/In-Memory"
     hq: "Santa Clara, US"
     founded: 2018
-    stage: "Series A+"
+    stage: "Series A+ (not re-verified)"
     total_funding: "[TO VERIFY]"
     lead_investors: ["[TO VERIFY]"]
     status: Active
     primary_file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
+  - name: Salience Labs
+    category: "06 Optical/CPO"
+    hq: "Oxford, UK"
+    founded: 2021
+    stage: "Series B ($125M, Oct 2026) [CONFIRMED]"
+    total_funding: "~$165M+ [ESTIMATED]"
+    lead_investors: ["Bullhound Capital", "AMD Ventures", "Intel Capital"]
+    status: Active
+    primary_file: categories/06_optical_interconnect_and_cpo.md
+  - name: SambaNova Systems
+    category: "01 Training/Inference"
+    hq: "Palo Alto, US"
+    founded: 2017
+    stage: "Series E ($350M, Feb 2026) after Intel acquisition talks stalled; Intel stake ~8.2% [CONFIRMED]"
+    total_funding: "~$1.5B+ [ESTIMATED]"
+    lead_investors: ["SoftBank", "BlackRock", "Intel Capital"]
+    status: Active
+    primary_file: categories/01_training_accelerators.md
+  - name: SiFive
+    category: "04 Custom ASIC/Chiplets"
+    hq: "Santa Clara, US"
+    founded: 2015
+    stage: "Series G ($400M at $3.65B, Apr 2026; pre-IPO) [CONFIRMED]"
+    total_funding: "~$766M [ESTIMATED]"
+    lead_investors: ["Atreides", "NVIDIA", "Apollo", "Sutter Hill"]
+    status: Active
+    primary_file: categories/04_custom_asic_and_chiplets.md
   - name: SiMa.ai
     category: "03 Edge Inference"
     hq: "San Jose, US"
     founded: 2018
-    stage: "Series B+"
-    total_funding: "~$270M+ [TO VERIFY]"
-    lead_investors: ["Maverick", "Fidelity", "Dell Technologies Capital"]
+    stage: "Series C (~$150M at ~$1.45B, 2026) [TO VERIFY]"
+    total_funding: "~$500M+ [TO VERIFY]"
+    lead_investors: ["Fidelity", "Maverick", "Amplify Partners"]
     status: Active
     primary_file: categories/03_edge_inference_chips.md
+  - name: SiTime
+    category: "11 Analog/Timing"
+    hq: "Santa Clara, US"
+    founded: 2005
+    stage: "Public (NASDAQ: SITM); acquired Renesas timing business (closed 2026-07-01) [CONFIRMED]"
+    total_funding: "(public)"
+    lead_investors: ["(public)"]
+    status: Public
+    primary_file: categories/11_analog_mixed_signal_and_timing.md
+  - name: Substrate
+    category: "13 Foundry/Packaging"
+    hq: "San Francisco, US"
+    founded: 2022
+    stage: "~$100M at >$1B (Oct 2025) [CONFIRMED]"
+    total_funding: ">$100M"
+    lead_investors: ["Founders Fund", "General Catalyst", "Valor", "In-Q-Tel"]
+    status: Active
+    primary_file: categories/13_foundry_packaging_and_chiplet_integration.md
+  - name: Taalas
+    category: "02 Inference"
+    hq: "Toronto, CA"
+    founded: 2023
+    stage: "Being acquired by AMD (announced 2026-08-06) [CONFIRMED]"
+    total_funding: "~$219M [CONFIRMED]"
+    lead_investors: ["Quiet Capital", "Fidelity", "Pierre Lamond"]
+    status: Acquired (pending)
+    primary_file: categories/02_inference_accelerators.md
   - name: Tenstorrent
     category: "01 Training/Inference"
     hq: "Toronto, CA"
     founded: 2016
-    stage: "Series D"
-    total_funding: "~$700M+ [TO VERIFY]"
-    lead_investors: ["Samsung Securities", "AFW Partners", "Hyundai"]
+    stage: "Series E ($1.5B at ~$6.2B, Oct 2026) [CONFIRMED]"
+    total_funding: "~$2.5B+ [ESTIMATED]"
+    lead_investors: ["Trace Capital", "Innovation X", "Samsung", "AFW Partners"]
     status: Active
     primary_file: categories/01_training_accelerators.md
+  - name: Tensordyne (formerly Recogni)
+    category: "15 Automotive/Inference"
+    hq: "San Jose, US"
+    founded: 2017
+    stage: "Series C; renamed Sept 2025; Series D in preparation [TO VERIFY]"
+    total_funding: "~$175M+ [TO VERIFY]"
+    lead_investors: ["Celesta", "GreatPoint", "BMW i Ventures"]
+    status: Active
+    primary_file: categories/15_autonomous_robotics_and_automotive_silicon.md
+  - name: Teramount
+    category: "06 Optical/CPO"
+    hq: "Jerusalem, IL"
+    founded: 2013
+    stage: "Acquired by Molex (closed 2026-05-07) [CONFIRMED]"
+    total_funding: "~$58M"
+    lead_investors: ["Koch Disruptive Technologies", "AMD", "Samsung"]
+    status: Acquired
+    primary_file: categories/06_optical_interconnect_and_cpo.md
+  - name: Unconventional AI
+    category: "14 Non-von-Neumann"
+    hq: "Bay Area, US [TO VERIFY]"
+    founded: 2025
+    stage: "Seed (~$475M at ~$4.5B, Dec 2025) [CONFIRMED]; acquiring NeuReality (Oct 2026)"
+    total_funding: "~$475M [CONFIRMED]"
+    lead_investors: ["Andreessen Horowitz", "Lightspeed"]
+    status: Active
+    primary_file: categories/14_quantum_neuromorphic_and_non_von_neumann.md
   - name: UnifabriX
     category: "07 Memory/CXL"
     hq: "Yokneam, IL"
     founded: 2020
     stage: "Seed/A"
-    total_funding: "[TO VERIFY]"
-    lead_investors: ["[TO VERIFY]"]
+    total_funding: "~$11M [TO VERIFY]"
+    lead_investors: ["Grove Ventures", "Harel"]
     status: Active
     primary_file: categories/07_memory_and_storage.md
   - name: Untether AI
     category: "02 Inference"
     hq: "Toronto, CA"
     founded: 2018
-    stage: "Wound down (IP to AMD, 2025)"
+    stage: "Wound down; engineering team hired by AMD (Jun 2025) [CONFIRMED]"
     total_funding: "~$150M raised"
-    lead_investors: ["Intel Capital", "Tracker", "CPPIB"]
+    lead_investors: ["Intel Capital", "Tracker Capital", "CPPIB"]
     status: Shut Down
     primary_file: categories/02_inference_accelerators.md
+  - name: Upscale AI
+    category: "05 Networking/Interconnect"
+    hq: "Santa Clara, US [TO VERIFY]"
+    founded: 2024
+    stage: "Series A ($200M, Jan 2026) [CONFIRMED] + A-1 ($190M at ~$2B, Jun 2026) [TO VERIFY]"
+    total_funding: "~$500M [TO VERIFY]"
+    lead_investors: ["Tiger Global", "Mayfield", "NVIDIA", "Intel Capital", "Qualcomm Ventures"]
+    status: Active
+    primary_file: categories/05_networking_and_interconnect.md
   - name: Ventana Micro Systems
     category: "04 Custom ASIC/RISC-V"
     hq: "Cupertino, US"
     founded: 2018
-    stage: "Series C [TO VERIFY]"
+    stage: "Acquired by Qualcomm (Dec 2025) [CONFIRMED]"
     total_funding: "[TO VERIFY]"
     lead_investors: ["[TO VERIFY]"]
-    status: Active
+    status: Acquired
     primary_file: categories/04_custom_asic_and_chiplets.md
+  - name: XCENA
+    category: "07 Memory/CXL"
+    hq: "KR"
+    founded: 2021
+    stage: "Series B ($135M at ~$570M, May 2026) [CONFIRMED]"
+    total_funding: "~$185M"
+    lead_investors: ["Atinum Investment", "IMM Investment"]
+    status: Active
+    primary_file: categories/07_memory_and_storage.md
   - name: Xscape Photonics
     category: "06 Optical/CPO"
     hq: "New York, US"
     founded: 2022
-    stage: "Series A"
-    total_funding: "~$57M+ [TO VERIFY]"
-    lead_investors: ["IAG Capital", "Karman Ventures", "NVIDIA"]
+    stage: "Series A ext. ($37M, Mar 2026) [CONFIRMED]"
+    total_funding: "~$95M [TO VERIFY]"
+    lead_investors: ["Addition", "IAG Capital Partners", "NVIDIA"]
     status: Active
     primary_file: categories/06_optical_interconnect_and_cpo.md
+  - name: xLight
+    category: "13 Foundry/Packaging"
+    hq: "Palo Alto, US [TO VERIFY]"
+    founded: 2021
+    stage: "Series B + up to $150M US CHIPS equity [CONFIRMED]"
+    total_funding: "$40M + gov. equity"
+    lead_investors: ["Playground Global", "US Dept. of Commerce"]
+    status: Active
+    primary_file: categories/13_foundry_packaging_and_chiplet_integration.md
+  - name: Xsight Labs
+    category: "05 Networking/Interconnect"
+    hq: "Kiryat Gat, IL"
+    founded: 2017
+    stage: "Growth (>$300M at $2.8B, Jul 2026) [CONFIRMED]"
+    total_funding: "~$530M+ [ESTIMATED]"
+    lead_investors: ["Fidelity", "Intel Capital", "Atreides", "Valor"]
+    status: Active
+    primary_file: categories/05_networking_and_interconnect.md

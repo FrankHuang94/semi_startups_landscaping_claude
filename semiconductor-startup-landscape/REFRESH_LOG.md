@@ -7,6 +7,82 @@ Chronological log of all database refreshes. Newest entries on top. Each entry s
 
 ---
 
+## 2026-11-04 — Full Database Refresh (Refresh #3)
+
+- **Type:** Full refresh (all categories, deal trackers, investors, research pipeline, theses, market map, indexes).
+- **Scope:** Public developments from mid-2025 through 2026-11-04. The initial build had missed several major late-2025 events, which this refresh corrects (NVIDIA–Groq, NVIDIA–Enfabrica, Marvell–Celestial AI, Meta–Rivos, the Intel–SambaNova outcome, the Cerebras IPO path).
+- **Method:** Seven parallel research passes (compute 01–03; ASIC/networking/optical 04–06; memory/power/packaging/DC infra 07/08/13/16; security/RF/analog/EDA/quantum/auto 09–12/14/15; M&A/funding/exits 20/22/23; investors 21/24; research pipeline 17 + researchers). A coordinator then verified the conflicting or unconfirmed items (Etched rounds, Rain AI, Quantinuum IPO, Tensordyne, Qualcomm–Akeana, Molex–Teramount, ADI–Empower close, AMD–Taalas, Tesla Dojo).
+- **Key changes:**
+  - **Exits:**
+    - NVIDIA–Groq: ~$20B reported licence + leadership hire, Dec 2025.
+    - NVIDIA–Enfabrica: >$900M, Sep 2025.
+    - Marvell–Celestial AI: closed 2026-02-02.
+    - Meta–Rivos.
+    - Qualcomm–Ventana, Qualcomm–Alphawave and Qualcomm–Akeana.
+    - AMD–Taalas.
+    - Microchip–Hailo.
+    - NXP–Kinara.
+    - ADI–Empower: $1.5B, closed 2026-07-07.
+    - Molex–Teramount: closed 2026-05-07.
+    - Ciena–Nubis.
+    - Tenstorrent–Blue Cheetah.
+    - Cadence–ChipStack.
+    - SiTime–Renesas timing.
+    - SoftBank–Ampere.
+    - Unconventional AI–NeuReality: pending.
+    - Rain AI: wound down; patents sold to OpenAI [TO VERIFY].
+    - Pharrowtech: shut down.
+  - **IPOs:** Cerebras (CBRS, 2026-05-14) and Quantinuum (QNT, 2026-06-03).
+  - **Funding:** 2025H2–2026 rounds added across all categories. Highlights:
+    - Tenstorrent $1.5B at $6.2B
+    - FuriosaAI $620M at $2.9B
+    - MatX $500M
+    - Etched $500M at $5B, then later reported rounds [TO VERIFY]
+    - Ayar Labs $500M
+    - Lumilens $700M+
+    - Xsight >$300M
+    - Upscale AI ~$390M
+    - SiFive $400M
+    - Ricursive $300M
+    - Unconventional AI ~$475M seed
+    - Positron, Fractile, Rebellions, d-Matrix, Cornelis, Salience, nEye, XCENA, Majestic Labs, Substrate, Lace, ChipAgents, Cognichip, Normal Computing
+  - **New companies added**, including: Fractile, Taalas, Quadric, SiFive, Upscale AI, Lumilens, Salience Labs, nEye, OpenLight, XCENA, Majestic Labs, PowerLattice, C2i, xLight, Lace Lithography, Fab2, Ricursive, ChipAgents, Cognichip, Bronco AI, Unconventional AI, Normal Computing, Extropic, Quantinuum, QuEra, Neurophos and Callosum.
+  - **Corrections:**
+    - Intel Capital's spin-out was reversed in Apr 2025; it is not independent.
+    - Recogni was renamed Tensordyne (Sept 2025).
+    - Blaize is public.
+    - Funding figures corrected for Movellus, Agile Analog, Cysic, Fabric Cryptography and Baya.
+    - Bogus "Anlogic" analog row removed.
+  - **Theses re-rated:** [INVESTMENT_THESES.md](INVESTMENT_THESES.md) gained a "What Changed" section and a Change column. Interconnect/optics, memory, power and EDA were upgraded, and new cross-cutting theses were added on licence + acqui-hire exits, the memory shortage and valuation discipline.
+  - **Market map:** [MARKET_MAP.md](MARKET_MAP.md) gained a 2026 State of the Stack section, refreshed bottleneck notes and a rebuilt acquirer map.
+- **Index/count changes:**
+  - Company index: 38 → **81** (rebuilt; status vocabulary now includes Public, Acquired (pending), Licensed/Acqui-hired).
+  - Investors: 14 → **48**.
+  - Researchers: 52 → **62**.
+  - Labs: → **44**.
+  - Papers: → **38**.
+  - Patent clusters: → **30**.
+  - Founders: → **32**.
+  - Trackers: M&A 10 → **36**; exits 8 → **34**; funding rounds 18 → **56**; strategic investors 12 → **20**.
+  - README: Latest Developments section added; dashboard, master indexes and Key Stats regenerated.
+  - `data/refresh_status.yaml`: all files current as of 2026-11-04.
+- **Scripts:** `scripts/build_index.py` now emits README-ready links (category-number links for companies, `[profile]` links for researchers).
+- **Data confidence posture:** Major deals and rounds are `[CONFIRMED]` against company press releases, SEC filings, Reuters, Bloomberg or TechCrunch where possible. Aggregator-only items are tagged `[TO VERIFY]` or `[UNCONFIRMED]`. Examples: Etched's Jul/Aug 2026 valuations, Fab2's round, Lightmatter IPO claims (treated as not having happened), the Ayar Labs extension valuation, Groq's residual valuation and a reported DOJ inquiry.
+- **Known gaps (prioritize next refresh):**
+  - Web-search quotas cut the research passes short, so these areas were only partly re-verified:
+    - Liquid-cooling vendors and thermal M&A (16)
+    - IonQ deals, the Infleqtion SPAC, QuEra and Alice & Bob rounds (14)
+    - Ambarella and Mobileye items (15)
+    - Rapidus, CoWoS capacity and glass substrates (13)
+  - Venues for some 2025–2026 papers.
+  - No confirmed 2025–26 rounds were found for Fabric Cryptography, EdgeQ, Pivotal Commware, Movellus, Agile Analog, Silimate or Bronco AI; this is a runway-risk flag.
+- **Validation:** `scripts/validate_database.py` PASSED (0 errors, 0 warnings); all relative links resolve.
+- **Sources:** Company press releases and IR pages (Marvell, Qualcomm, AMD, ADI, Molex, Microchip, NXP, SiTime, Synopsys, Cadence, Tenstorrent), SEC filings (Form D, 8-K), Reuters, Bloomberg, CNBC, TechCrunch, SiliconANGLE, DatacenterDynamics, HPCwire, The Next Platform, TrendForce, Renaissance Capital, Sifted, TNW, Business Wire/PR Newswire. Aggregators (aiweekly, pulse.bot, dealroom) were used only as leads and are tagged accordingly.
+
+> Note on numbering: `refresh_count` inside individual files counts that file's own refreshes (most categories are now at 2). The log-level number (#3) counts database-wide refresh events.
+
+---
+
 ## 2026-06-09 — Initial Full Build (Refresh #1)
 
 - **Type:** Full initial build

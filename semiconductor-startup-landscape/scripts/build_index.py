@@ -26,6 +26,16 @@ def _fmt_list(v):
     return str(v) if v is not None else ""
 
 
+def _link(path, label=None):
+    """Render a repo-relative path as a Markdown link (README-ready)."""
+    if not path:
+        return ""
+    if label is None:
+        base = os.path.basename(str(path))
+        label = base.split("_", 1)[0] if base[:2].isdigit() else "profile"
+    return f"[{label}]({path})"
+
+
 def companies_table():
     data = load(os.path.join(DATA, "company_index.yaml")) or {}
     rows = sorted(data.get("companies", []), key=lambda c: str(c.get("name", "")).lower())
@@ -35,7 +45,7 @@ def companies_table():
         out.append("| {name} | {category} | {hq} | {founded} | {stage} | {tf} | {li} | {status} | {pf} |".format(
             name=c.get("name", ""), category=c.get("category", ""), hq=c.get("hq", ""),
             founded=c.get("founded", ""), stage=c.get("stage", ""), tf=c.get("total_funding", ""),
-            li=_fmt_list(c.get("lead_investors")), status=c.get("status", ""), pf=c.get("primary_file", "")))
+            li=_fmt_list(c.get("lead_investors")), status=c.get("status", ""), pf=_link(c.get("primary_file", ""))))
     return "\n".join(out), len(rows)
 
 
@@ -61,7 +71,7 @@ def researchers_table():
         out.append("| {name} | {inst} | {area} | {pa} | {ss} | {vc} | {file} |".format(
             name=r.get("name", ""), inst=r.get("institution", ""), area=r.get("research_area", ""),
             pa=r.get("patent_activity", ""), ss=r.get("startup_signal", ""),
-            vc=r.get("vc_relevance", ""), file=r.get("file", "")))
+            vc=r.get("vc_relevance", ""), file=_link(r.get("file", ""), "profile")))
     return "\n".join(out), len(rows)
 
 
