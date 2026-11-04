@@ -1,4 +1,5 @@
 # Master investor index. Source for README Master Investor Index.
+# Last refreshed: 2026-11-04 (Refresh #3). Tags in notes follow the database confidence convention.
 investors:
   - name: Sutter Hill Ventures
     type: VC
@@ -6,15 +7,15 @@ investors:
     ai_infra_focus: High
     portfolio: ["Astera Labs", "Enfabrica", "Empower Semiconductor"]
     stage_pref: "Seed-A"
-    notes: "Deep silicon incubation track record"
+    notes: "Deep silicon incubation track record; Enfabrica team to NVIDIA and Empower to ADI reported [TO VERIFY]"
     file: deal_tracker/21_vc_investor_tracker.md
   - name: Eclipse Ventures
     type: VC
     semi_focus: High
     ai_infra_focus: High
     portfolio: ["Cerebras"]
-    stage_pref: "Seed-B"
-    notes: "Full-stack hard-tech"
+    stage_pref: "Seed-Growth"
+    notes: "Raised $1.3B Fund VI + Early Growth III Apr 2026 [CONFIRMED]; Cerebras IPO May 2026"
     file: deal_tracker/21_vc_investor_tracker.md
   - name: Lux Capital
     type: VC
@@ -22,7 +23,7 @@ investors:
     ai_infra_focus: High
     portfolio: ["Mythic"]
     stage_pref: "Seed-B"
-    notes: "Frontier hardware"
+    notes: "Frontier hardware; no verified new AI-chip lead in Refresh #3"
     file: deal_tracker/21_vc_investor_tracker.md
   - name: DCVC
     type: VC
@@ -30,7 +31,7 @@ investors:
     ai_infra_focus: High
     portfolio: ["Cornelis Networks", "Mythic", "Agile Analog"]
     stage_pref: "Seed-B"
-    notes: "Deep-tech/compute"
+    notes: "Deep-tech/compute; no verified new AI-chip lead in Refresh #3"
     file: deal_tracker/21_vc_investor_tracker.md
   - name: Playground Global
     type: VC
@@ -44,25 +45,25 @@ investors:
     type: VC
     semi_focus: High
     ai_infra_focus: High
-    portfolio: ["Rivos", "Baya Systems"]
+    portfolio: ["Rivos", "Baya Systems", "Lightmatter"]
     stage_pref: "Seed-B"
-    notes: "Compute infra/IP"
+    notes: "Compute infra/IP; Rivos acquired by Meta 2025 [TO VERIFY]"
     file: deal_tracker/21_vc_investor_tracker.md
-  - name: Maverick
+  - name: Maverick Silicon
     type: VC/Growth
     semi_focus: High
     ai_infra_focus: High
-    portfolio: ["Celestial AI", "SiMa.ai"]
+    portfolio: ["Celestial AI", "SiMa.ai", "Ethernovia", "Kandou AI", "Upscale AI", "Point2 Technology", "Stathera", "TensorWave"]
     stage_pref: "A-Growth"
-    notes: "Silicon-focused"
+    notes: "Maverick Capital semi division; most active 2026 specialist (interconnect/networking); Celestial exit to Marvell Feb 2026"
     file: deal_tracker/21_vc_investor_tracker.md
   - name: Atreides Management
     type: Crossover
     semi_focus: High
     ai_infra_focus: High
-    portfolio: ["Enfabrica", "Positron AI"]
+    portfolio: ["Cerebras", "Enfabrica", "Positron AI"]
     stage_pref: "B-Growth"
-    notes: "Public/private crossover"
+    notes: "Public/private crossover; Positron B Feb 2026; Cerebras IPO May 2026"
     file: deal_tracker/21_vc_investor_tracker.md
   - name: Temasek
     type: Sovereign
@@ -70,45 +71,317 @@ investors:
     ai_infra_focus: High
     portfolio: ["d-Matrix", "Rebellions", "PsiQuantum"]
     stage_pref: "B-Growth"
-    notes: "Patient capital"
+    notes: "Co-led d-Matrix $275M Series C at ~$2B Nov 2025 [CONFIRMED]"
     file: deal_tracker/21_vc_investor_tracker.md
   - name: Tiger Global
     type: Crossover
     semi_focus: Medium
     ai_infra_focus: High
-    portfolio: ["EnCharge AI", "Eliyan"]
+    portfolio: ["Cerebras", "EnCharge AI", "Eliyan"]
     stage_pref: "B-Growth"
-    notes: "Growth-stage AI infra"
+    notes: "Reportedly led Cerebras ~$1B at ~$23B Feb 2026 [TO VERIFY]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Fidelity / BlackRock / T. Rowe Price
+    type: Crossover
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Cerebras", "Groq", "Lightmatter", "Celestial AI", "Tenstorrent"]
+    stage_pref: "Growth/Pre-IPO"
+    notes: "Pre-IPO bridge; Fidelity and T. Rowe in Tenstorrent $1.5B E Oct 2026; BlackRock in Groq (NVIDIA licence payout)"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Benchmark
+    type: VC
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Cerebras", "Quilter"]
+    stage_pref: "Early-Growth"
+    notes: "~$225M into Cerebras via special infrastructure vehicles [TO VERIFY]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Valor Equity Partners
+    type: Growth
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Positron AI", "Cerebras"]
+    stage_pref: "A-Growth"
+    notes: "Co-led Positron A 2025; in Positron B Feb 2026 [CONFIRMED]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: 1789 Capital
+    type: Growth
+    semi_focus: Low
+    ai_infra_focus: High
+    portfolio: ["Cerebras"]
+    stage_pref: "Growth"
+    notes: "Listed pre-IPO Cerebras backer [TO VERIFY]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Jane Street
+    type: Crossover
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["MatX", "Etched"]
+    stage_pref: "B-Growth"
+    notes: "Led MatX $500M B Feb 2026 [CONFIRMED]; led Etched D ~$700M at ~$21B Aug 2026 [TO VERIFY]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Situational Awareness LP
+    type: Crossover
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["MatX"]
+    stage_pref: "B-Growth"
+    notes: "Co-led MatX $500M B Feb 2026 [CONFIRMED]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Sequoia Capital
+    type: VC/Growth
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Etched", "Ayar Labs"]
+    stage_pref: "A-Growth"
+    notes: "Reportedly led Etched $300M C at ~$10.3B Jul 2026 [TO VERIFY]; Ayar E via Sequoia Global Equities"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Andreessen Horowitz (a16z)
+    type: VC/Growth
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Etched", "Unconventional AI"]
+    stage_pref: "Seed-Growth"
+    notes: "Etched C participant [TO VERIFY]; co-led Unconventional AI mega-seed Dec 2025 [TO VERIFY]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Lightspeed Venture Partners
+    type: VC/Growth
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Unconventional AI"]
+    stage_pref: "Seed-Growth"
+    notes: "Co-led Unconventional AI mega-seed Dec 2025 [TO VERIFY]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Neuberger Berman
+    type: Crossover
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Ayar Labs"]
+    stage_pref: "Growth/Pre-IPO"
+    notes: "Led Ayar Labs $500M E at ~$3.75B Mar 2026 [CONFIRMED]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: ARK Invest
+    type: Crossover
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Ayar Labs", "Tenstorrent"]
+    stage_pref: "Growth"
+    notes: "Ayar E Mar 2026 [CONFIRMED]; Tenstorrent E Oct 2026 [TO VERIFY]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Trace Capital
+    type: Growth
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Tenstorrent"]
+    stage_pref: "Growth"
+    notes: "New 2026 firm; co-led Tenstorrent $1.5B E at $6.2B Oct 2026 with Innovation X Advisors"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Accel
+    type: VC/Growth
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Fractile"]
+    stage_pref: "A-Growth"
+    notes: "Co-led Fractile $220M B at ~$1B May 2026 [CONFIRMED]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Founders Fund
+    type: VC/Growth
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Fractile"]
+    stage_pref: "A-Growth"
+    notes: "Co-led Fractile $220M B May 2026 [CONFIRMED]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Factorial Funds
+    type: VC
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Fractile"]
+    stage_pref: "A-B"
+    notes: "Co-led Fractile $220M B May 2026 [CONFIRMED]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Bullhound Capital
+    type: VC/Growth
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["d-Matrix"]
+    stage_pref: "B-C"
+    notes: "Co-led d-Matrix $275M C Nov 2025 with Triatomic and Temasek [CONFIRMED]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Disruptive
+    type: Growth
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Groq"]
+    stage_pref: "Growth"
+    notes: "Led Groq $750M Sep 2025; >$500M invested; NVIDIA licence payout Dec 2025 [CONFIRMED]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Mirae Asset
+    type: Growth
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Rebellions", "d-Matrix"]
+    stage_pref: "B-Pre-IPO"
+    notes: "Co-led Rebellions ~$400M pre-IPO at ~$2.34B Mar 2026 [CONFIRMED]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Korea National Growth Fund
+    type: Sovereign
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Rebellions", "FuriosaAI"]
+    stage_pref: "Growth/Pre-IPO"
+    notes: "Rebellions pre-IPO Mar 2026; ~$280M of FuriosaAI $620M D Oct 2026 [TO VERIFY amount]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Qatar Investment Authority
+    type: Sovereign
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["d-Matrix", "Ayar Labs", "Positron AI"]
+    stage_pref: "B-Growth"
+    notes: "d-Matrix C Nov 2025, Positron B Feb 2026, Ayar E Mar 2026 [CONFIRMED]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Spark Capital
+    type: VC
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["MatX"]
+    stage_pref: "A-B"
+    notes: "Led MatX A; in MatX B Feb 2026"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Magnetar
+    type: Crossover
+    semi_focus: Low
+    ai_infra_focus: High
+    portfolio: ["TensorWave"]
+    stage_pref: "Growth"
+    notes: "Co-led TensorWave $350M B with AMD Ventures Jun 2026 [CONFIRMED]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Jump Trading
+    type: Crossover
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Positron AI"]
+    stage_pref: "B-Growth"
+    notes: "Co-led Positron $230M B with ARENA Private Wealth and Unless Feb 2026 [CONFIRMED]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Celesta Capital
+    type: VC
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Recogni", "Auradine", "Stathera", "Normal Computing"]
+    stage_pref: "A-C"
+    notes: "India deep-tech fund planned Mar 2026 [UNCONFIRMED]"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Walden Catalyst
+    type: VC
+    semi_focus: High
+    ai_infra_focus: Medium
+    portfolio: ["SambaNova"]
+    stage_pref: "A-Growth"
+    notes: "Lip-Bu Tan network; founder now Intel CEO - conflict-of-interest diligence"
+    file: deal_tracker/21_vc_investor_tracker.md
+  - name: Cloudberry VC
+    type: VC
+    semi_focus: High
+    ai_infra_focus: Medium
+    portfolio: []
+    stage_pref: "Pre-seed-A"
+    notes: "EUR 30M European semiconductor fund May 2026, GlobalFoundries strategic LP [TO VERIFY]"
     file: deal_tracker/21_vc_investor_tracker.md
   - name: NVIDIA (NVentures)
     type: Strategic
     semi_focus: High
     ai_infra_focus: High
-    portfolio: ["Enfabrica", "Xscape Photonics", "Ayar Labs"]
+    portfolio: ["Enfabrica", "Xscape Photonics", "Ayar Labs", "Groq", "Intel"]
     stage_pref: "A-Growth"
-    notes: "Ecosystem signal + acquirer"
+    notes: "Ecosystem signal + acquirer; Groq ~$20B licence Dec 2025; direct stakes Intel $5B, Synopsys $2B, Nokia, Anthropic, OpenAI"
     file: deal_tracker/24_strategic_investor_tracker.md
   - name: Intel Capital
     type: Strategic
     semi_focus: High
     ai_infra_focus: Medium
-    portfolio: ["Rivos", "Eliyan", "Empower Semiconductor", "Movellus"]
+    portfolio: ["Rivos", "Eliyan", "Empower Semiconductor", "Movellus", "SambaNova"]
     stage_pref: "Seed-Growth"
-    notes: "Now independent fund"
+    notes: "Spin-out reversed Apr 2025 - remains in-house, monetising portfolio [CONFIRMED]"
     file: deal_tracker/24_strategic_investor_tracker.md
   - name: Samsung Catalyst Fund
     type: Strategic
     semi_focus: High
     ai_infra_focus: High
-    portfolio: ["Tenstorrent", "Groq", "Blaize", "Axelera AI", "Eliyan"]
+    portfolio: ["Tenstorrent", "Groq", "Blaize", "Axelera AI", "Eliyan", "Normal Computing", "Rebellions"]
     stage_pref: "A-Growth"
-    notes: "Memory/foundry adjacency"
+    notes: "Memory/foundry adjacency; led Normal Computing $50M Mar 2026 [TO VERIFY]"
     file: deal_tracker/24_strategic_investor_tracker.md
-  - name: Fidelity / BlackRock / T. Rowe Price
-    type: Crossover
+  - name: AMD Ventures
+    type: Strategic
     semi_focus: High
     ai_infra_focus: High
-    portfolio: ["Cerebras", "Groq", "Lightmatter", "Celestial AI"]
-    stage_pref: "Growth/Pre-IPO"
-    notes: "Pre-IPO bridge"
-    file: deal_tracker/21_vc_investor_tracker.md
+    portfolio: ["TensorWave", "Ayar Labs", "Liquid AI"]
+    stage_pref: "A-Growth"
+    notes: "Co-led TensorWave $350M B Jun 2026; AMD up to $5B in Anthropic Jul 2026 [CONFIRMED]"
+    file: deal_tracker/24_strategic_investor_tracker.md
+  - name: Qualcomm Ventures
+    type: Strategic
+    semi_focus: High
+    ai_infra_focus: Medium
+    portfolio: ["Upscale AI", "Auradine"]
+    stage_pref: "Seed-Growth"
+    notes: "Qualcomm closed Alphawave ~$2.4B Dec 2025; $150M India AI fund Feb 2026 [CONFIRMED]"
+    file: deal_tracker/24_strategic_investor_tracker.md
+  - name: SK hynix
+    type: Strategic
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Rebellions", "Etched"]
+    stage_pref: "B-Growth"
+    notes: "HBM/CXL; Rebellions pre-IPO Mar 2026; Etched C Jul 2026 [TO VERIFY]"
+    file: deal_tracker/24_strategic_investor_tracker.md
+  - name: Marvell
+    type: Strategic
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Celestial AI", "MatX"]
+    stage_pref: "Growth/M&A"
+    notes: "Closed Celestial AI acquisition 2 Feb 2026 [CONFIRMED]; MatX B participant [TO VERIFY]"
+    file: deal_tracker/24_strategic_investor_tracker.md
+  - name: Arm
+    type: Strategic
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Rebellions", "Positron AI"]
+    stage_pref: "B-Growth"
+    notes: "Anchored Rebellions ~$250M Sep 2025; Positron B Feb 2026 [CONFIRMED]"
+    file: deal_tracker/24_strategic_investor_tracker.md
+  - name: SoftBank Group
+    type: Strategic
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Ampere", "Graphcore", "SambaNova"]
+    stage_pref: "Growth/M&A"
+    notes: "Closed Ampere $6.5B Nov 2025 [CONFIRMED]; Vision Fund 2 led SambaNova 2021"
+    file: deal_tracker/24_strategic_investor_tracker.md
+  - name: Cisco Investments
+    type: Strategic
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["Groq", "FuriosaAI"]
+    stage_pref: "B-Growth"
+    notes: "FuriosaAI $620M D Oct 2026 participant [TO VERIFY]"
+    file: deal_tracker/24_strategic_investor_tracker.md
+  - name: M12 (Microsoft)
+    type: Strategic
+    semi_focus: Medium
+    ai_infra_focus: High
+    portfolio: ["d-Matrix"]
+    stage_pref: "A-Growth"
+    notes: "Follow-on in d-Matrix $275M C Nov 2025 [CONFIRMED]"
+    file: deal_tracker/24_strategic_investor_tracker.md
+  - name: MediaTek
+    type: Strategic
+    semi_focus: High
+    ai_infra_focus: High
+    portfolio: ["Ayar Labs", "Stathera"]
+    stage_pref: "A-Growth"
+    notes: "Ayar Labs E Mar 2026 with Alchip, AMD, NVIDIA [CONFIRMED]"
+    file: deal_tracker/24_strategic_investor_tracker.md
